@@ -1,19 +1,333 @@
 <?php
-$ooo00oo00='o0o0';$o0o=40;$ooo00o='base64_decode';$oo0=54;$oom='cmseasy';$ooo000='gzinflate';$o00=50;$ooo0000='file_get_contents';$o0o0=$o0o*$o00+$oo0;$ooo000o0='str_replace';$o00o=$ooo0000(__FILE__);$ooo0o0o0='substr';$o00o=$ooo0o0o0($ooo000o0($ooo0o0o0($o00o,0,$$ooo00oo00),'',$o00o),0,-2);eval($ooo000($ooo00o($o00o)));
-/*@Zend;
-3272;
-print "<html><body>\n";
-print "<a href=\"http://www.zend.com/store/products/zend-safeguard-suite.php\"><img border=\"0\" src=\"http://www.zend.com/images/store/safeguard_icon_nover_64.jpg\" align=\"right\"></a>\n";
-print "<center><h1>Zend Optimizer not installed</h1></center>";
-print "<p>This file was encoded by the <a href=\"http://www.zend.com/store/products/zend-encoder.php\">Zend Encoder</a> / <a href=\"http://www.zend.com/store/products/zend-safeguard-suite.php\">Zend SafeGuard Suite</a></p>\n";
-print "<p>In order to run it, please install the freely available <a href=\"http://www.zend.com/store/products/zend-optimizer.php\">Zend Optimizer</a>, version 2.1.0 or later.</p>\n";
-print "<h2>What is the Zend Optimizer?</h2>
-";
-print <<<EOM
-<p>The Zend Optimizer is one of the most popular PHP plugins for performance-improvement, and has been freely available since the early days of PHP 4.  It improves performance by taking PHP's intermediate code through multiple Optimization Passes, which replace inefficient code patterns with efficient code blocks.  The replacement code blocks perform exactly the same operations as the original code, only faster.</p>
-<p>In addition to performance-improvement, the Zend Optimizer also enables PHP to transparently load files encoded by the Zend Encoder or Zend SafeGuard Suite.</p>
-<p>The Zend Optimizer is a freely-available product from <a href="http://www.zend.com">Zend Technologies</a>.  Zend Technologies is the company that develops the scripting engine of PHP, also known as the <a href="http://www.zend.com/store/products/zend-engine.php">Zend Engine</a>.</p>
-EOM;
-print "</body></html>\n";
-exit();
-?>2003120701 1 6690 25523 x??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*/
+
+if (!defined('ROOT'))
+    exit('Can\'t Access !');
+
+class ueditor_act extends act {
+
+    function init() {
+        set_time_limit(0);
+        include ROOT."/lib/plugins/Uploader.class.php";
+    }
+
+    function config(){
+        $arr['imageActionName'] = 'uploadimage';
+        $arr['imageFieldName'] = 'upfile';
+        $arr['imageMaxSize'] = 2048000;
+        $arr['imageAllowFiles'] = array('.png','.jpg','.jpeg','.gif','.bmp');
+        $arr['imageCompressEnable'] = true;
+        $arr['imageCompressBorder'] = 1600;
+        $arr['imageInsertAlign'] = 'none';
+        $arr['imageUrlPrefix'] = '';
+        $arr['imagePathFormat'] = $this->base_url. rtrim(config::get('html_prefix'),'/').'/upload/images/{yyyy}{mm}/{time}{rand:4}';
+
+        /* 涂鸦图片上传配置项 */
+        $arr['scrawlActionName'] =  'uploadscrawl'; /* 执行上传涂鸦的action名称 */
+        $arr['scrawlFieldName'] = 'upfile'; /* 提交的图片表单名称 */
+        $arr['scrawlPathFormat'] = $this->base_url. rtrim(config::get('html_prefix'),'/').'/upload/images/{yyyy}{mm}/{time}{rand:4}'; /* 上传保存路径,可以自定义保存路径和文件名格式 */
+        $arr['scrawlMaxSize'] = 2048000; /* 上传大小限制，单位B */
+        $arr['scrawlUrlPrefix'] = ''; /* 图片访问路径前缀 */
+        $arr['scrawlInsertAlign'] = 'none';
+
+        /* 截图工具上传 */
+        $arr['snapscreenActionName'] = 'uploadimage'; /* 执行上传截图的action名称 */
+        $arr['snapscreenPathFormat'] = $this->base_url. rtrim(config::get('html_prefix'),'/').'/upload/images/{yyyy}{mm}/{time}{rand:4}'; /* 上传保存路径,可以自定义保存路径和文件名格式 */
+        $arr['snapscreenUrlPrefix'] = ''; /* 图片访问路径前缀 */
+        $arr['snapscreenInsertAlign'] = 'none'; /* 插入的图片浮动方式 */
+
+        /* 抓取远程图片配置 */
+        $arr['catcherLocalDomain'] = array("127.0.0.1", "localhost", "img.baidu.com");
+        $arr['catcherActionName'] = 'catchimage'; /* 执行抓取远程图片的action名称 */
+        $arr['catcherFieldName'] = 'source'; /* 提交的图片列表表单名称 */
+        $arr['catcherPathFormat'] = $this->base_url. rtrim(config::get('html_prefix'),'/').'/upload/images/{yyyy}{mm}/{time}{rand:4}'; /* 上传保存路径,可以自定义保存路径和文件名格式 */
+        $arr['catcherUrlPrefix'] = ''; /* 图片访问路径前缀 */
+        $arr['catcherMaxSize'] = 2048000; /* 上传大小限制，单位B */
+        $arr['catcherAllowFiles'] = array(".png", ".jpg", ".jpeg", ".gif", ".bmp"); /* 抓取图片格式显示 */
+
+        /* 上传视频配置 */
+        $arr['videoActionName'] = 'uploadvideo'; /* 执行上传视频的action名称 */
+        $arr['videoFieldName'] = 'upfile'; /* 提交的视频表单名称 */
+        $arr['videoPathFormat'] = $this->base_url. rtrim(config::get('html_prefix'),'/').'/upload/videos/{yyyy}{mm}/{time}{rand:4}'; /* 上传保存路径,可以自定义保存路径和文件名格式 */
+        $arr['videoUrlPrefix'] = ''; /* 视频访问路径前缀 */
+        $arr['videoMaxSize'] = 102400000; /* 上传大小限制，单位B，默认100MB */
+        $arr['videoAllowFiles'] = array(
+            ".flv", ".swf", ".mkv", ".avi", ".rm", ".rmvb", ".mpeg", ".mpg",
+            ".ogg", ".ogv", ".mov", ".wmv", ".mp4", ".webm", ".mp3", ".wav", ".mid"
+        ); /* 上传视频格式显示 */
+
+        /* 上传文件配置 */
+        $arr['fileActionName'] = 'uploadfile'; /* controller里,执行上传视频的action名称 */
+        $arr['fileFieldName'] = 'upfile'; /* 提交的文件表单名称 */
+        $arr['filePathFormat'] = $this->base_url. rtrim(config::get('html_prefix'),'/').'/upload/files/{yyyy}{mm}/{time}{rand:4}'; /* 上传保存路径,可以自定义保存路径和文件名格式 */
+        $arr['fileUrlPrefix'] = ''; /* 文件访问路径前缀 */
+        $arr['fileMaxSize'] = 512000000; /* 上传大小限制，单位B，默认50MB */
+        $arr['fileAllowFiles'] = array(
+                ".png", ".jpg", ".jpeg", ".gif", ".bmp",
+                ".flv", ".swf", ".mkv", ".avi", ".rm", ".rmvb", ".mpeg", ".mpg",
+                ".ogg", ".ogv", ".mov", ".wmv", ".mp4", ".webm", ".mp3", ".wav", ".mid",
+                ".rar", ".zip", ".tar", ".gz", ".7z", ".bz2", ".cab", ".iso",
+                ".doc", ".docx", ".xls", ".xlsx", ".ppt", ".pptx", ".pdf", ".txt", ".md", ".xml"
+        ); /* 上传文件格式显示 */
+
+        /* 列出指定目录下的图片 */
+        $arr['imageManagerActionName'] = 'listimage'; /* 执行图片管理的action名称 */
+        $arr['imageManagerListPath'] = $this->base_url. rtrim(config::get('html_prefix'),'/').'/upload/images/'; /* 指定要列出图片的目录 */
+        $arr['imageManagerListSize'] = 20; /* 每次列出文件数量 */
+        $arr['imageManagerUrlPrefix'] = ''; /* 图片访问路径前缀 */
+        $arr['imageManagerInsertAlign'] = 'none'; /* 插入的图片浮动方式 */
+        $arr['imageManagerAllowFiles'] = array(".png", ".jpg", ".jpeg", ".gif", ".bmp"); /* 列出的文件类型 */
+
+        /* 列出指定目录下的文件 */
+        $arr['fileManagerActionName'] = 'listfile'; /* 执行文件管理的action名称 */
+        $arr['fileManagerListPath'] = $this->base_url. rtrim(config::get('html_prefix'),'/').'/upload/files/'; /* 指定要列出文件的目录 */
+        $arr['fileManagerUrlPrefix'] = ''; /* 文件访问路径前缀 */
+        $arr['fileManagerListSize'] = 20; /* 每次列出文件数量 */
+        $arr['fileManagerAllowFiles'] = array(
+                ".png", ".jpg", ".jpeg", ".gif", ".bmp",
+                ".flv", ".swf", ".mkv", ".avi", ".rm", ".rmvb", ".mpeg", ".mpg",
+                ".ogg", ".ogv", ".mov", ".wmv", ".mp4", ".webm", ".mp3", ".wav", ".mid",
+                ".rar", ".zip", ".tar", ".gz", ".7z", ".bz2", ".cab", ".iso",
+                ".doc", ".docx", ".xls", ".xlsx", ".ppt", ".pptx", ".pdf", ".txt", ".md", ".xml"
+        );
+        return json_encode($arr);
+    }
+
+    function upload(){
+        $CONFIG = json_decode($this->config(),true);
+        /* 上传配置 */
+        $base64 = "upload";
+        switch (htmlspecialchars($_GET['action'])) {
+            case 'uploadimage':
+                $config = array(
+                    "pathFormat" => $CONFIG['imagePathFormat'],
+                    "maxSize" => $CONFIG['imageMaxSize'],
+                    "allowFiles" => $CONFIG['imageAllowFiles']
+                );
+                $fieldName = $CONFIG['imageFieldName'];
+                break;
+            case 'uploadscrawl':
+                $config = array(
+                    "pathFormat" => $CONFIG['scrawlPathFormat'],
+                    "maxSize" => $CONFIG['scrawlMaxSize'],
+                    "allowFiles" => $CONFIG['scrawlAllowFiles'],
+                    "oriName" => "scrawl.png"
+                );
+                $fieldName = $CONFIG['scrawlFieldName'];
+                $base64 = "base64";
+                break;
+            case 'uploadvideo':
+                $config = array(
+                    "pathFormat" => $CONFIG['videoPathFormat'],
+                    "maxSize" => $CONFIG['videoMaxSize'],
+                    "allowFiles" => $CONFIG['videoAllowFiles']
+                );
+                $fieldName = $CONFIG['videoFieldName'];
+                break;
+            case 'uploadfile':
+            default:
+                $config = array(
+                    "pathFormat" => $CONFIG['filePathFormat'],
+                    "maxSize" => $CONFIG['fileMaxSize'],
+                    "allowFiles" => $CONFIG['fileAllowFiles']
+                );
+                $fieldName = $CONFIG['fileFieldName'];
+                break;
+        }
+
+        /* 生成上传实例对象并完成上传 */
+        $up = new Uploader($fieldName, $config, $base64);
+
+        /**
+         * 得到上传文件所对应的各个参数,数组结构
+         * array(
+         *     "state" => "",          //上传状态，上传成功时必须返回"SUCCESS"
+         *     "url" => "",            //返回的地址
+         *     "title" => "",          //新文件名
+         *     "original" => "",       //原始文件名
+         *     "type" => ""            //文件类型
+         *     "size" => "",           //文件大小
+         * )
+         */
+
+        /* 返回数据 */
+        return json_encode($up->getFileInfo());
+
+    }
+
+    function actList(){
+        $CONFIG = json_decode($this->config(),true);
+        /* 判断类型 */
+        switch ($_GET['action']) {
+            /* 列出文件 */
+            case 'listfile':
+                $allowFiles = $CONFIG['fileManagerAllowFiles'];
+                $listSize = $CONFIG['fileManagerListSize'];
+                $path = $CONFIG['fileManagerListPath'];
+                break;
+            /* 列出图片 */
+            case 'listimage':
+            default:
+                $allowFiles = $CONFIG['imageManagerAllowFiles'];
+                $listSize = $CONFIG['imageManagerListSize'];
+                $path = $CONFIG['imageManagerListPath'];
+        }
+        $allowFiles = substr(str_replace(".", "|", join("", $allowFiles)), 1);
+
+        /* 获取参数 */
+        $size = isset($_GET['size']) ? htmlspecialchars($_GET['size']) : $listSize;
+        $start = isset($_GET['start']) ? htmlspecialchars($_GET['start']) : 0;
+        $end = $start + $size;
+
+        /* 获取文件列表 */
+        $path = $_SERVER['DOCUMENT_ROOT'] . (substr($path, 0, 1) == "/" ? "":"/") . $path;
+        $files = $this->getfiles($path, $allowFiles);
+        if (!count($files)) {
+            return json_encode(array(
+                "state" => "no match file",
+                "list" => array(),
+                "start" => $start,
+                "total" => count($files)
+            ));
+        }
+
+        /* 获取指定范围的列表 */
+        $len = count($files);
+        for ($i = min($end, $len) - 1, $list = array(); $i < $len && $i >= 0 && $i >= $start; $i--){
+            $list[] = $files[$i];
+        }
+        //倒序
+        //for ($i = $end, $list = array(); $i < $len && $i < $end; $i++){
+        //    $list[] = $files[$i];
+        //}
+
+        /* 返回数据 */
+        $result = json_encode(array(
+            "state" => "SUCCESS",
+            "list" => $list,
+            "start" => $start,
+            "total" => count($files)
+        ));
+
+        return $result;
+    }
+
+    /**
+     * 遍历获取目录下的指定类型的文件
+     * @param $path
+     * @param array $files
+     * @return array
+     */
+    function getfiles($path, $allowFiles, &$files = array())
+    {
+        if (!is_dir($path)) return null;
+        if(substr($path, strlen($path) - 1) != '/') $path .= '/';
+        $handle = opendir($path);
+        while (false !== ($file = readdir($handle))) {
+            if ($file != '.' && $file != '..') {
+                $path2 = $path . $file;
+                if (is_dir($path2)) {
+                    $this->getfiles($path2, $allowFiles, $files);
+                } else {
+                    if (preg_match("/\.(".$allowFiles.")$/i", $file)) {
+                        $files[] = array(
+                            'url'=> substr($path2, strlen($_SERVER['DOCUMENT_ROOT'])),
+                            'mtime'=> filemtime($path2)
+                        );
+                    }
+                }
+            }
+        }
+        return $files;
+    }
+
+    function crawler(){
+        $CONFIG = json_decode($this->config(),true);
+        /* 上传配置 */
+        $config = array(
+            "pathFormat" => $CONFIG['catcherPathFormat'],
+            "maxSize" => $CONFIG['catcherMaxSize'],
+            "allowFiles" => $CONFIG['catcherAllowFiles'],
+            "oriName" => "remote.png"
+        );
+        $fieldName = $CONFIG['catcherFieldName'];
+
+        /* 抓取远程图片 */
+        $list = array();
+        if (isset($_POST[$fieldName])) {
+            $source = $_POST[$fieldName];
+        } else {
+            $source = $_GET[$fieldName];
+        }
+        foreach ($source as $imgUrl) {
+            $item = new Uploader($imgUrl, $config, "remote");
+            $info = $item->getFileInfo();
+            array_push($list, array(
+                "state" => $info["state"],
+                "url" => $info["url"],
+                "size" => $info["size"],
+                "title" => htmlspecialchars($info["title"]),
+                "original" => htmlspecialchars($info["original"]),
+                "source" => htmlspecialchars($imgUrl)
+            ));
+        }
+
+        /* 返回抓取数据 */
+        return json_encode(array(
+            'state'=> count($list) ? 'SUCCESS':'ERROR',
+            'list'=> $list
+        ));
+    }
+
+    function index_action() {
+        $action = $_GET['action'];
+        switch ($action) {
+            case 'config':
+                $result =  $this->config();
+                break;
+
+            /* 上传图片 */
+            case 'uploadimage':
+                /* 上传涂鸦 */
+            case 'uploadscrawl':
+                /* 上传视频 */
+            case 'uploadvideo':
+                /* 上传文件 */
+            case 'uploadfile':
+                $result = $this->upload();
+                break;
+
+            /* 列出图片 */
+            case 'listimage':
+                $result = $this->actList();
+                break;
+            /* 列出文件 */
+            case 'listfile':
+                $result = $this->actList();
+                break;
+
+            /* 抓取远程文件 */
+            case 'catchimage':
+                $result = $this->crawler();
+                break;
+
+            default:
+                $result = json_encode(array(
+                    'state'=> '请求地址出错'
+                ));
+                break;
+        }
+
+        /* 输出结果 */
+        if (isset($_GET["callback"])) {
+            if (preg_match("/^[\w_]+$/", $_GET["callback"])) {
+                echo htmlspecialchars($_GET["callback"]) . '(' . $result . ')';
+            } else {
+                echo json_encode(array(
+                    'state'=> 'callback参数不合法'
+                ));
+            }
+        } else {
+            echo $result;
+        }
+    }
+}

@@ -1,19 +1,286 @@
 <?php
-$ooo00oo00='o0o0';$o0o=40;$ooo00o='base64_decode';$oo0=54;$oom='cmseasy';$ooo000='gzinflate';$o00=50;$ooo0000='file_get_contents';$o0o0=$o0o*$o00+$oo0;$ooo000o0='str_replace';$o00o=$ooo0000(__FILE__);$ooo0o0o0='substr';$o00o=$ooo0o0o0($ooo000o0($ooo0o0o0($o00o,0,$$ooo00oo00),'',$o00o),0,-2);eval($ooo000($ooo00o($o00o)));
-/*@Zend;
-3272;
-print "<html><body>\n";
-print "<a href=\"http://www.zend.com/store/products/zend-safeguard-suite.php\"><img border=\"0\" src=\"http://www.zend.com/images/store/safeguard_icon_nover_64.jpg\" align=\"right\"></a>\n";
-print "<center><h1>Zend Optimizer not installed</h1></center>";
-print "<p>This file was encoded by the <a href=\"http://www.zend.com/store/products/zend-encoder.php\">Zend Encoder</a> / <a href=\"http://www.zend.com/store/products/zend-safeguard-suite.php\">Zend SafeGuard Suite</a></p>\n";
-print "<p>In order to run it, please install the freely available <a href=\"http://www.zend.com/store/products/zend-optimizer.php\">Zend Optimizer</a>, version 2.1.0 or later.</p>\n";
-print "<h2>What is the Zend Optimizer?</h2>
-";
-print <<<EOM
-<p>The Zend Optimizer is one of the most popular PHP plugins for performance-improvement, and has been freely available since the early days of PHP 4.  It improves performance by taking PHP's intermediate code through multiple Optimization Passes, which replace inefficient code patterns with efficient code blocks.  The replacement code blocks perform exactly the same operations as the original code, only faster.</p>
-<p>In addition to performance-improvement, the Zend Optimizer also enables PHP to transparently load files encoded by the Zend Encoder or Zend SafeGuard Suite.</p>
-<p>The Zend Optimizer is a freely-available product from <a href="http://www.zend.com">Zend Technologies</a>.  Zend Technologies is the company that develops the scripting engine of PHP, also known as the <a href="http://www.zend.com/store/products/zend-engine.php">Zend Engine</a>.</p>
-EOM;
-print "</body></html>\n";
-exit();
-?>2003120701 1 6690 25523 x??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*/
+
+if (!defined('ROOT')) exit('Can\'t Access !');
+class ologin_admin extends admin {
+    protected $_table;
+    function init() {
+        $this->table=front::get('table');
+        chkpw('user_ologin');
+        if (preg_match('/^my_/',$this->table)) {
+            form_admin::init();
+            $this->_table=new defind($this->table);
+        }
+        else $this->_table=new $this->table;
+        $this->_table->getFields();
+        $this->view->form=$this->_table->get_form();
+        $this->tname=lang($this->table);
+        if($this->table=='ologin')
+            $this->tname='登录模块';
+        $this->_pagesize=config::get('manage_pagesize');
+        $this->view->table=$this->table;
+        $this->view->primary_key=$this->_table->primary_key;
+        if (!front::get('page')) front::$get['page']=1;
+        $this->Exc=$this->table == 'templatetag'?true : false;
+        $manage='table_'.$this->table;
+        if (preg_match('/^my_/',$this->table)) $manage='table_form';
+        $this->manage=new $manage;
+    }
+    function list_action() {
+        $set1=settings::getInstance();
+        $sets1=$set1->getrow(array('tag'=>'table-'.$this->table));
+        $setsdata1=unserialize($sets1['value']);
+        $this->view->settings=$setsdata1;
+        $where = $ologin_list = array();
+        $where['enabled'] = 1;
+        $ordre='`ologin_id` DESC';
+        $limit=((front::get('page') -1) * $this->_pagesize).','.$this->_pagesize;
+        $this->_view_table=$this->_table->getrows($where,$limit,$ordre,'*');
+        $ologin_list = $this->_view_table;
+        foreach($ologin_list as $key=>$value) {
+            $ologin_list[$value['ologin_code']] = $value;
+            unset($ologin_list[$key]);
+        }
+        $modules = read_modules(ROOT.'/lib/plugins/ologin/');
+        global $_LANG;
+        for ($i = 0;$i <count($modules);$i++) {
+            $code = $modules[$i]['code'];
+            $modules[$i]['ologin_code'] = $modules[$i]['code'];
+            if (isset($ologin_list[$code])) {
+                $modules[$i]['id'] = $ologin_list[$code]['ologin_id'];
+                $modules[$i]['name'] = $ologin_list[$code]['ologin_name'];
+                $modules[$i]['is_cod'] = $ologin_list[$code]['is_cod'];
+                $modules[$i]['desc'] = $ologin_list[$code]['ologin_desc'];
+                $modules[$i]['install'] = '1';
+            }
+            else {
+                $modules[$i]['name'] = $_LANG[$modules[$i]['code']];
+                $modules[$i]['desc'] = $_LANG[$modules[$i]['desc']];
+                $modules[$i]['install'] = '0';
+            }
+        }
+        $this->_view_table = $modules;
+    }
+    function install_action() {
+
+        if (front::post('submit') &&$this->manage->vaild()) {
+            $this->manage->filter($this->Exc);
+            $this->manage->add_before($this);
+            $this->manage->save_before();
+            front::$post['ologin_config'] = array();
+            if (isset(front::$post['cfg_value']) &&is_array(front::$post['cfg_value'])) {
+                for ($i = 0;$i <count(front::$post['cfg_value']);$i++) {
+                    $ologin_config[] = array('name'=>trim(front::$post['cfg_name'][$i]),
+                            'type'=>trim(front::$post['cfg_type'][$i]),
+                            'value'=>trim(front::$post['cfg_value'][$i])
+                    );
+                }
+            }
+            front::$post['ologin_config'] = serialize($ologin_config);
+            front::$post['enabled'] = 1;
+
+            $insert=$this->_table->rec_insert(front::$post);
+            $_insertid = $this->_table->insert_id();
+            if ($insert <1) {
+                front::flash("{$this->tname}添加失败！");
+            }
+            else {
+                $this->manage->save_after($_insertid);
+                $info='';
+                front::flash("{$this->tname}添加成功！$info");
+                front::refresh(url::modify('act/list',true));
+            }
+        }
+        $set_modules = true;
+        global $_LANG;
+        include_once(ROOT.'/lib/plugins/ologin/'.front::get('name').'.php');
+        $data = $modules[0];
+        $ologin['ologin_code']    = $data['code'];
+        $ologin['ologin_name']    = $_LANG[$data['code']];
+        $ologin['ologin_desc']    = $_LANG[$data['desc']];
+        $ologin['is_cod']      = $data['is_cod'];
+        $ologin['is_online']   = $data['is_online'];
+        $ologin['ologin_config']  = array();
+        foreach ($data['config'] as $key =>$value) {
+            $config_desc = (isset($_LANG[$value['name'] .'_desc'])) ?$_LANG[$value['name'] .'_desc'] : '';
+            $ologin['ologin_config'][$key] = $value +
+                    array('label'=>$_LANG[$value['name']],'value'=>$value['value'],'desc'=>$config_desc);
+            if ($ologin['ologin_config'][$key]['type'] == 'select'||
+                    $ologin['ologin_config'][$key]['type'] == 'radiobox') {
+                $ologin['ologin_config'][$key]['range'] = $_LANG[$ologin['ologin_config'][$key]['name'] .'_range'];
+            }
+        }
+        $this->_view_table['ologin'] = $ologin;
+    }
+    function edit_action() {
+        if (front::post('submit') &&$this->manage->vaild()) {
+            $this->manage->filter($this->Exc);
+            $this->manage->edit_before();
+            $this->manage->save_before();
+            front::$post['ologin_config'] = array();
+            if (isset(front::$post['cfg_value']) &&is_array(front::$post['cfg_value'])) {
+                for ($i = 0;$i <count(front::$post['cfg_value']);$i++) {
+                    $ologin_config[] = array('name'=>trim(front::$post['cfg_name'][$i]),
+                            'type'=>trim(front::$post['cfg_type'][$i]),
+                            'value'=>trim(front::$post['cfg_value'][$i])
+                    );
+                }
+            }
+            front::$post['ologin_config'] = serialize($ologin_config);
+            front::$post['enabled'] = 1;
+            $update=$this->_table->rec_update(front::$post,front::get('id'));
+            if ($update <1) {
+                front::flash("{$this->tname}修改失败！");
+            }
+            else {
+                $this->manage->save_after(front::get('id'));
+                $info='';
+                front::flash("{$this->tname}修改成功！$info");
+                $from=session::get('from');
+                session::del('from');
+                if (!front::post('onlymodify')) front::redirect(url::modify('act/list',true));
+            }
+        }
+        if (!session::get('from')) session::set('from',front::$from);
+        if (!front::get('id')) exit("PAGE_NOT FOUND!");
+        $this->_view_table=$this->_table->getrow(front::get('id'),'1','*');
+        $set_modules = true;
+        global $_LANG;
+        include_once(ROOT.'/lib/plugins/ologin/'.$this->_view_table['ologin_code'].'.php');
+        $data = $modules[0];
+        $ologin = $this->_view_table;
+        if (is_string($ologin['ologin_config'])) {
+            $store = unserialize($ologin['ologin_config']);
+            $code_list = array();
+            foreach ($store as $key=>$value) {
+                $code_list[$value['name']] = $value['value'];
+            }
+            $ologin['ologin_config'] = array();
+            foreach ($data['config'] as $key =>$value) {
+                $ologin['ologin_config'][$key]['desc'] = (isset($_LANG[$value['name'] .'_desc'])) ?$_LANG[$value['name'] .'_desc'] : '';
+                $ologin['ologin_config'][$key]['label'] = $_LANG[$value['name']];
+                $ologin['ologin_config'][$key]['name'] = $value['name'];
+                $ologin['ologin_config'][$key]['type'] = $value['type'];
+                if (isset($code_list[$value['name']])) {
+                    $ologin['ologin_config'][$key]['value'] = $code_list[$value['name']];
+                }
+                else {
+                    $ologin['ologin_config'][$key]['value'] = $value['value'];
+                }
+                if ($ologin['ologin_config'][$key]['type'] == 'select'||
+                        $ologin['ologin_config'][$key]['type'] == 'radiobox') {
+                    $ologin['ologin_config'][$key]['range'] = $_LANG[$ologin['ologin_config'][$key]['name'] .'_range'];
+                }
+            }
+        }
+        if (!is_array($this->_view_table)) exit("PAGE_NOT FOUND!");
+        $this->_view_table['ologincfg'] = unserialize($this->_view_table['ologincfg']);
+        $this->_view_table['ologin'] = $ologin;
+        $this->manage->view_before($this->_view_table);
+    }
+    function show_action() {
+        front::check_type(front::$get['id']);
+        $this->_view_table=$this->_table->getrow(front::$get['id'],1,'1 desc',$this->_table->getcols('modify'));
+    }
+    function batch_action() {
+        if (front::post('batch') &&front::post('select')) {
+            $select=implode(',',front::post('select'));
+            $select=$this->_table->primary_key.' in ('.$select.')';
+            if (front::post('batch') == 'check') {
+                $check=$this->_table->rec_update(array('checked'=>1),$select);
+                if ($check >0) front::flash("{$this->tname}审核完成！");
+                else front::flash("没有{$this->tname}被审核！");
+            }
+            elseif (front::post('batch') == 'move'&&front::post('typeid')) {
+                if (in_array(front::post('typeid'),front::post('select'))) front::flash("不能移动到本分类下！");
+                else {
+                    $check=$this->_table->rec_update(array('parentid'=>front::post('typeid')),$select);
+                    if ($check >0) front::flash("分类移动成功！");
+                    else front::flash("没有分类被移动！");
+                }
+            }
+            elseif (front::post('batch') == 'move'&&front::post('catid')) {
+                if (in_array(front::post('catid'),front::post('select'))) front::flash("不能移动到本栏目下！");
+                else {
+                    $check=$this->_table->rec_update(array('parentid'=>front::post('catid')),$select);
+                    if ($check >0) front::flash("栏目移动成功！");
+                    else front::flash("没有栏目被移动！");
+                }
+            }
+            elseif (front::post('batch') == 'movelist'&&front::post('catid')) {
+                $check=$this->_table->rec_update(array('catid'=>front::post('catid')),$select);
+                if ($check >0) front::flash("移动成功！");
+                else front::flash("没有内容被移动！");
+            }
+            elseif (front::post('batch') == 'recommend'&&front::post('attr1')) {
+                $check=$this->_table->rec_update(array('attr1'=>front::post('attr1')),$select);
+                if ($check >0) front::flash("设置推荐成功！");
+                else front::flash("没有内容被设置！");
+            }
+            elseif (front::post('batch') == 'deletestate') {
+                $deletestate=$this->_table->rec_update(array('state'=>-1),$select);
+                if ($deletestate >0) front::flash("{$this->tname}已被移到回收站！");
+                else front::flash("没有{$this->tname}被移到回收站！");
+            }
+            elseif (front::post('batch') == 'restore') {
+                $deletestate=$this->_table->rec_update(array('state'=>0),$select);
+                if ($deletestate >0) front::flash("{$this->tname}已被还原！");
+                else front::flash("没有{$this->tname}被还原！");
+            }
+            elseif (front::post('batch') == 'delete') {
+                foreach (front::post('select') as $id) {
+                    $this->manage->delete_before($id);
+                }
+                $delete=$this->_table->rec_delete($select);
+                if ($delete >0) front::flash("成功删除{$this->tname}！");
+                else front::flash("没有{$this->tname}被删除！");
+            }
+            elseif (front::post('batch') == 'addtospecial') {
+                $add=$this->_table->rec_update(array('spid'=>front::post('spid')),$select);
+            }
+            elseif (front::post('batch') == 'removefromspecial') {
+                $add=$this->_table->rec_update(array('spid'=>null),$select);
+            }
+        }
+        if (front::post('batch') == 'listorder') {
+            $orders=front::post('listorder');
+            if (is_array($orders)) foreach ($orders as $id=>$order) {
+                    $this->_table->rec_update(array('listorder'=>$order),$id);
+                }
+        }
+        front::redirect(front::$from);
+    }
+    function delete_action() {
+        $this->manage->delete_before(front::get('id'));
+        $delete=$this->_table->rec_delete(front::get('id'));
+        if ($delete) front::flash("删除{$this->tname}成功！");
+        front::redirect(url::modify('act/list/table/'.$this->table.'/bid/'.session::get('bid')));
+    }
+    function setting_action() {
+        $this->_view_table=false;
+        $set=settings::getInstance();
+        $sets=$set->getrow(array('tag'=>'table-'.$this->table));
+        $data=unserialize($sets['value']);
+        if (front::post('submit')) {
+            $var=front::$post;
+            unset($var['submit']);
+            $set->rec_replace(array('value'=>serialize($var),'tag'=>'table-'.$this->table,'array'=>var_export($var,true)));
+            front::flash("{$this->tname}配置成功！");
+        }
+        $this->view->settings=$data;
+    }
+    function view($table) {
+        $this->view->data=$table['data'];
+        $this->view->field=$table['field'];
+    }
+    function end() {
+        if (!isset($this->_view_table)) return;
+        if (!isset($this->_view_table['data'])) $this->_view_table['data']=$this->_view_table;
+        $this->_view_table['field']=$this->_table->getFields();
+        $this->view->fieldlimit=$this->_table->getcols(front::$act == 'list'?'manage': 'modify');
+        $this->view($this->_view_table);
+        if (front::post('onlymodify')) $this->render();
+        else
+        if (front::get('main')) $this->render();
+        else $this->render('index.php');
+    }
+}

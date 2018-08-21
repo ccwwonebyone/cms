@@ -1,19 +1,139 @@
 <?php
-$ooo00oo00='o0o0';$o0o=40;$ooo00o='base64_decode';$oo0=54;$oom='cmseasy';$ooo000='gzinflate';$o00=50;$ooo0000='file_get_contents';$o0o0=$o0o*$o00+$oo0;$ooo000o0='str_replace';$o00o=$ooo0000(__FILE__);$ooo0o0o0='substr';$o00o=$ooo0o0o0($ooo000o0($ooo0o0o0($o00o,0,$$ooo00oo00),'',$o00o),0,-2);eval($ooo000($ooo00o($o00o)));
-/*@Zend;
-3272;
-print "<html><body>\n";
-print "<a href=\"http://www.zend.com/store/products/zend-safeguard-suite.php\"><img border=\"0\" src=\"http://www.zend.com/images/store/safeguard_icon_nover_64.jpg\" align=\"right\"></a>\n";
-print "<center><h1>Zend Optimizer not installed</h1></center>";
-print "<p>This file was encoded by the <a href=\"http://www.zend.com/store/products/zend-encoder.php\">Zend Encoder</a> / <a href=\"http://www.zend.com/store/products/zend-safeguard-suite.php\">Zend SafeGuard Suite</a></p>\n";
-print "<p>In order to run it, please install the freely available <a href=\"http://www.zend.com/store/products/zend-optimizer.php\">Zend Optimizer</a>, version 2.1.0 or later.</p>\n";
-print "<h2>What is the Zend Optimizer?</h2>
-";
-print <<<EOM
-<p>The Zend Optimizer is one of the most popular PHP plugins for performance-improvement, and has been freely available since the early days of PHP 4.  It improves performance by taking PHP's intermediate code through multiple Optimization Passes, which replace inefficient code patterns with efficient code blocks.  The replacement code blocks perform exactly the same operations as the original code, only faster.</p>
-<p>In addition to performance-improvement, the Zend Optimizer also enables PHP to transparently load files encoded by the Zend Encoder or Zend SafeGuard Suite.</p>
-<p>The Zend Optimizer is a freely-available product from <a href="http://www.zend.com">Zend Technologies</a>.  Zend Technologies is the company that develops the scripting engine of PHP, also known as the <a href="http://www.zend.com/store/products/zend-engine.php">Zend Engine</a>.</p>
-EOM;
-print "</body></html>\n";
-exit();
-?>2003120701 1 6690 25523 x??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*/
+
+if (!defined('ROOT')) exit('Can\'t Access !');
+
+/**
+ * 远程连接类
+ * @param string $host  主机名
+ * @param string $file 	远程连接文件地址
+ */
+class curl{
+    public $host;
+    public $file;
+    public $curlerror;
+    public function __construct(){
+        $this->set('host', 'http://service.cmseasy.cn');
+    }
+
+    /**
+     * 为字段赋值
+     * @param  string  $name    字段名称
+     * @param  mixed   $value   要赋给字段的值
+     * @return boolean  		属性名不正确或值没有返回false
+     */
+    public function set($name, $value){
+        if($value === NULL){
+            return false;
+        }
+        switch($name){
+            case 'host':
+                $value = trim($value);
+                if(substr($value, 0, 8) == 'https://'){
+                    $this->set('ssl', 1);
+                }
+                $value = trim(str_replace('https://', '', $value), '/');
+                $this->host = trim(str_replace('http://', '', $value), '/');
+                break;
+            case 'file':
+                $this->file = trim($value, '/');
+                break;
+            case 'ignore':
+                $this->ignore = $value;
+                break;
+            case 'ssl':
+                $this->ssl = $value;
+                break;
+            default:
+                return false;
+                break;
+        }
+    }
+
+    /**
+     * 远程连接发送post
+     * @param  array  $host 	发送的POST信息
+     * @param  string $timeout	超时时间，默认30秒
+     * @return string			返回请求信息
+     */
+    public function curl_post($post, $timeout = 30){
+        if(get_extension_funcs('curl') && function_exists('curl_init') && function_exists('curl_setopt') && function_exists('curl_exec') && function_exists('curl_close')){
+            $curlHandle = curl_init();
+            if($this->ssl == 1){
+                curl_setopt($curlHandle, CURLOPT_URL, 'https://'.$this->host.'/'.$this->file);
+            }else{
+                curl_setopt($curlHandle, CURLOPT_URL, 'http://'.$this->host.'/'.$this->file);
+            }
+            curl_setopt($curlHandle, CURLOPT_HTTP_VERSION, CURL_HTTP_VERSION_1_0);
+            curl_setopt($curlHandle, CURLOPT_REFERER, config::get('site_url'));
+            curl_setopt($curlHandle, CURLOPT_RETURNTRANSFER, 1);
+            curl_setopt($curlHandle, CURLOPT_CONNECTTIMEOUT, $timeout);
+            curl_setopt($curlHandle, CURLOPT_TIMEOUT, $timeout);
+            curl_setopt($curlHandle, CURLOPT_POST, 1);
+            curl_setopt($curlHandle, CURLOPT_POSTFIELDS, $post);
+            if($this->ssl == 1){
+                curl_setopt($curlHandle, CURLOPT_SSL_VERIFYPEER, false);
+                curl_setopt($curlHandle, CURLOPT_SSL_VERIFYPEER, FALSE);
+                curl_setopt($curlHandle, CURLOPT_SSL_VERIFYHOST, FALSE);
+            }
+            $result = curl_exec($curlHandle);
+            curl_close($curlHandle);
+        }else{
+            if(function_exists('fsockopen') || function_exists('pfsockopen')){
+                $post_data = $post;
+                $post = '';
+                @ini_set("default_socket_timeout", $timeout);
+                if(is_array($post_data) && !empty($post_data)) {
+                    foreach ($post_data as $k => $v) {
+                        $post .= rawurlencode($k) . "=" . rawurlencode($v) . "&";
+                    }
+                }
+                $post = substr($post , 0 , -1);
+                $len = strlen($post);
+                if(function_exists(fsockopen)){
+                    $fp = @fsockopen($this->host, 80, $errno, $errstr, $timeout);
+                }
+                else{
+                    $fp = @pfsockopen($this->host, 80, $errno, $errstr, $timeout);
+                }
+                if (!$fp) {
+                    $result='';
+                }
+                else {
+                    $result = '';
+                    $out = "POST /{$this->file} HTTP/1.0\r\n";
+                    $out .= "Host: {$this->host}\r\n";
+                    $out .= "Referer: ".config::get('site_url')."\r\n";
+                    $out .= "Content-type: application/x-www-form-urlencoded\r\n";
+                    $out .= "Connection: Close\r\n";
+                    $out .= "Content-Length: {$len}\r\n";
+                    $out .="\r\n";
+                    $out .= $post."\r\n";
+                    fwrite($fp, $out);
+                    $inheader = 1;
+                    while(!feof($fp)){
+                        $line = fgets($fp, 1024);
+                        if ($inheader == 0) {
+                            $result .= $line;
+                        }
+                        if ($inheader && ($line == "\n" || $line == "\r\n")) {
+                            $inheader = 0;
+                        }
+
+                    }
+
+                    while(!feof($fp)){
+                        $result .= fgets($fp, 1024);
+                    }
+                    fclose($fp);
+                    str_replace($out, '', $result);
+                }
+            }
+            else{
+                $result = '';
+            }
+        }
+        $result = trim($result);
+
+        return $result;
+    }
+}

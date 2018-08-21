@@ -1,19 +1,263 @@
 <?php
-$ooo00oo00='o0o0';$o0o=40;$ooo00o='base64_decode';$oo0=54;$oom='cmseasy';$ooo000='gzinflate';$o00=50;$ooo0000='file_get_contents';$o0o0=$o0o*$o00+$oo0;$ooo000o0='str_replace';$o00o=$ooo0000(__FILE__);$ooo0o0o0='substr';$o00o=$ooo0o0o0($ooo000o0($ooo0o0o0($o00o,0,$$ooo00oo00),'',$o00o),0,-2);eval($ooo000($ooo00o($o00o)));
-/*@Zend;
-3272;
-print "<html><body>\n";
-print "<a href=\"http://www.zend.com/store/products/zend-safeguard-suite.php\"><img border=\"0\" src=\"http://www.zend.com/images/store/safeguard_icon_nover_64.jpg\" align=\"right\"></a>\n";
-print "<center><h1>Zend Optimizer not installed</h1></center>";
-print "<p>This file was encoded by the <a href=\"http://www.zend.com/store/products/zend-encoder.php\">Zend Encoder</a> / <a href=\"http://www.zend.com/store/products/zend-safeguard-suite.php\">Zend SafeGuard Suite</a></p>\n";
-print "<p>In order to run it, please install the freely available <a href=\"http://www.zend.com/store/products/zend-optimizer.php\">Zend Optimizer</a>, version 2.1.0 or later.</p>\n";
-print "<h2>What is the Zend Optimizer?</h2>
-";
-print <<<EOM
-<p>The Zend Optimizer is one of the most popular PHP plugins for performance-improvement, and has been freely available since the early days of PHP 4.  It improves performance by taking PHP's intermediate code through multiple Optimization Passes, which replace inefficient code patterns with efficient code blocks.  The replacement code blocks perform exactly the same operations as the original code, only faster.</p>
-<p>In addition to performance-improvement, the Zend Optimizer also enables PHP to transparently load files encoded by the Zend Encoder or Zend SafeGuard Suite.</p>
-<p>The Zend Optimizer is a freely-available product from <a href="http://www.zend.com">Zend Technologies</a>.  Zend Technologies is the company that develops the scripting engine of PHP, also known as the <a href="http://www.zend.com/store/products/zend-engine.php">Zend Engine</a>.</p>
-EOM;
-print "</body></html>\n";
-exit();
-?>2003120701 1 6690 25523 x??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*/
+
+if (!defined('ROOT')) exit('Can\'t Access !');
+
+class form_act extends act
+{
+    protected $_table;
+
+    function init()
+    {
+        if (front::$act == 'message' || front::$act == 'list') return;
+        $this->table = front::get('form');
+        if (!preg_match('/^my_\w+/', $this->table)){
+            throw new HttpErrorException(404,'页面不存在',404);
+        }
+        $this->_table = new defind($this->table);
+        $field = $this->_table->getFields();
+        if (!$field){
+            throw new HttpErrorException(404,'页面不存在',404);
+        }
+        $this->view->form = $this->_table->get_form();
+        $this->_pagesize = config::get('manage_pagesize');
+        $this->view->manage = $this->table;
+        $this->view->primary_key = $this->_table->primary_key;
+        $fieldlimit = $this->_table->getcols(front::$act == 'list' ? 'user_manage' : 'user_modify');
+        //var_dump($fieldlimit);
+        //$field = $this->_table->getFields();
+        //var_dump($field);
+
+        helper::filterField($field, $fieldlimit);
+        //var_dump($field);
+        $this->view->field = $field;
+        //var_dump($field);
+        if (!front::get('page')) front::$get['page'] = 1;
+    }
+
+    private function sendmail($smtpemailto, $title, $mailbody)
+    {
+
+        include_once(ROOT . '/lib/plugins/smtp.php');
+        $mailsubject = mb_convert_encoding($title, 'GB2312', 'UTF-8');
+        $mailtype = "HTML";
+        $smtp = new include_smtp(config::get('smtp_mail_host'), config::get('smtp_mail_port'), config::get('smtp_mail_auth'), config::get('smtp_mail_username'), config::get('smtp_mail_password'));
+        $smtp->debug = false;
+        $smtp->sendmail($smtpemailto, config::get('smtp_user_add'), $mailsubject, $mailbody, $mailtype);
+    }
+
+    function add_action()
+    {
+        if (front::$post['submit']) {
+
+            if (config::get('verifycode') == 1) {
+                if (!session::get('verify') || front::post('verify') <> session::get('verify')) {
+                    alerterror(lang('verification_code'));
+                    //$this->render(@setting::$var[$this->table]['myform']['template']);
+                    //$this->end=false;
+                    return;
+                }
+            } else if (config::get('verifycode') == 2) {
+                if (!verify::checkGee()) {
+                    alerterror(lang('verification_code'));
+                    //$this->render(@setting::$var[$this->table]['myform']['template']);
+                    //$this->end=false;
+                    return;
+                }
+            }
+
+            if (config::get('mobilechk_enable') && config::get('mobilechk_form')) {
+                $mobilenum = front::$post['mobilenum'];
+                $smsCode = new SmsCode();
+                if (!$smsCode->chkcode($mobilenum)) {
+                    alerterror(lang('cell_phone_parity_error'));
+                    $this->render(@setting::$var[$this->table]['myform']['template']);
+                    $this->end = false;
+                    return;
+                }
+            }
+
+            front::$post['checked'] = 0;
+            front::$post['userid'] = $this->view->user['userid'];
+            front::$post['username'] = $this->view->user['username'];
+            front::$post['author'] = $this->view->user['username'];
+            front::$post['adddate'] = date('Y-m-d H:i:s');
+            front::$post['ip'] = front::ip();
+            foreach (front::$post as $k => $p) {
+                if (is_array($p)) {
+                    front::$post[$k] = implode(',', $p);
+                } else {
+                    if (preg_match('/^my_/is', $k)) {
+                        front::$post[$k] = htmlspecialchars_decode(front::$post[$k]);
+                    }
+                }
+            }
+            $data = front::$post;
+            $insert = $this->_table->rec_insert($data);
+            if ($insert < 1) {
+                front::flash(lang('form_submission_failure'));
+            } else {
+                if (is_array(front::$post) && !empty(front::$post)) {
+                    foreach (front::$post as $k => $v) {
+                        if (preg_match('/^my_.*?mail$/i', $k) && strstr($v, '@')) {
+                            $email = front::$post[$k];
+                            break;
+                        }
+                    }
+                    foreach (front::$post as $k => $v) {
+                        if (preg_match('/^my_.*?(tel|dianhua|mobile)$/i', $k)) {
+                            $tel = front::$post[$k];
+                            break;
+                        }
+                    }
+                }
+                $code = '';
+                foreach ($this->view->field as $k => $v) {
+                    $cname = setting::$var[$this->table][$k]['cname'];
+                    $val = front::$post[$k];
+                    $code .= $cname . ": " . $val . "<br>";
+                }
+                $smtpemailto = config::get('email');
+                $title = setting::$var[$this->table]['myform']['cname'] . lang('result');
+                if (config::get('email_form_on') && $email) {
+                    $this->sendmail($email, $title, $code);
+                }
+                if (config::get('email_form_send_admin') && $smtpemailto) {
+                    $this->sendmail($smtpemailto, $title, $code);
+                }
+                if ($tel) {
+                    if (config::get('sms_on') && config::get('sms_form_on')) {
+                        $smsCode = new SmsCode();
+                        $content = $smsCode->getTemplate('form', array(setting::$var[$this->table]['myform']['cname']));
+                        sendMsg($tel, $content);
+                    }
+                    if (config::get('sms_on') && config::get('sms_form_admin_on') && $mobile = config::get('site_mobile')) {
+                        sendMsg($mobile, front::$post['username'] . '在' . date('Y-m-d H:i:s') . '提交了表单');
+                    }
+                }
+                if (front::$post['aid']) {
+                    echo "<script>alert('" . lang('form_submission_success') . "');window.location.href='" . url::create('/archive/show/aid/' . front::$post['aid']) . "'</script>";
+                    //front::redirect();
+                } else {
+                    front::redirect(url::create('/form/message'));
+                }
+            }
+        }
+        $this->render(@setting::$var[$this->table]['myform']['template']);
+        $this->end = false;
+    }
+
+    function message_action()
+    {
+    }
+
+    function view($table)
+    {
+        $this->view->data = $table['data'];
+    }
+
+    public static function get_my_tables()
+    {
+        $tables = array();
+        $forms = tdatabase::getInstance()->getTables();
+        foreach ($forms as $form) {
+            if (preg_match('/^' . config::get('database', 'prefix') . '(my_\w+)/xi', $form['name'], $res))
+                $tables[] = $res[1];
+        }
+        return $tables;
+    }
+
+    public static function table_cname($table)
+    {
+        $tablec = @setting::$var[$table]['cname'];
+        if (!$tablec) $tablec = $table;
+        return $tablec;
+    }
+	function show_action(){
+        $this->view->data = $this->_table->getrow(front::get('id'));
+    }
+
+    function list_action() {
+        $row = self::get_my_tables();
+        if(is_array($row)){
+            foreach ($row as $t){
+                $arr[$t] = $this->getData($t);
+            }
+        }
+        $this->view->tables = $arr;
+    }
+
+    function getData($t){
+        $this->_table = new defind($t);
+        if (front::get('page'))
+            $page = front::get('page');
+        else
+            $page = 1;
+        $this->view->page = $page;
+        $this->pagesize = 1000;
+        $limit = (($this->view->page - 1) * $this->pagesize) . ',' . $this->pagesize;
+        $row = $this->_table->getrows(array('userid'=>front::$user['userid']),$limit);
+        //var_dump($row);
+        return $row;
+    }
+
+    function end()
+    {
+        if (isset($this->end) && !$this->end) return;
+        if (!isset($this->_view_table['data']) && isset($this->_view_table))
+            $this->_view_table['data'] = $this->_view_table;
+        if (isset($this->_view_table))
+            $this->view($this->_view_table);
+        $this->render();
+    }
+
+    function search_action()
+    {
+        if (front::get('keyword') && !front::post('keyword'))
+            front::$post['keyword'] = front::get('keyword');
+        front::check_type(front::post('keyword'), 'safe');
+        if (front::post('keyword')) {
+            $this->view->keyword = trim(front::post('keyword'));
+            if (inject_check($this->view->keyword)) {
+                exit(lang('illegal_request'));
+            }
+            session::set('keyword', $this->view->keyword);
+        } else {
+            session::set('keyword', null);
+            $this->view->keyword = session::get('keyword');
+        }
+        if (inject_check($this->view->keyword)) {
+            exit(lang('illegal_request'));
+        }
+        //var_dump($this->view->keyword);
+
+        $type = $this->view->type;
+        $condition = "";
+        if (front::post('catid')) {
+            $condition .= "catid = '" . front::post('catid') . "' AND ";
+        }
+        $condition .= "(title like '%" . $this->view->keyword . "%'";
+        $sets = settings::getInstance()->getrow(array('tag' => 'table-fieldset'));
+        $arr = unserialize($sets['value']);
+        if (is_array($arr['archive']) && !empty($arr['archive'])) {
+            foreach ($arr['archive'] as $v) {
+                if ($v['issearch'] == '1') {
+                    $condition .= " OR {$v['name']} like '%{$this->view->keyword}%'";
+                }
+            }
+        }
+        $condition .= ")";
+        $order = "`listorder` desc,1 DESC";
+        $limit = (($this->view->page - 1) * $this->pagesize) . ',' . $this->pagesize;
+        $articles = $this->archive->getrows($condition, $limit, $order);
+        foreach ($articles as $order => $arc) {
+            $articles[$order]['url'] = archive::url($arc);
+            $articles[$order]['catname'] = category::name($arc['catid']);
+            $articles[$order]['caturl'] = category::url($arc['catid']);
+            $articles[$order]['adddate'] = sdate($arc['adddate']);
+            $articles[$order]['stitle'] = strip_tags($arc['title']);
+        }
+        $this->view->articles = $articles;
+        $this->view->archives = $articles;
+        $this->view->record_count = $this->archive->record_count;
+    }
+}

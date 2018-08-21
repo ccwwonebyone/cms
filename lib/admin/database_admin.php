@@ -1,19 +1,486 @@
 <?php
-$ooo00oo00='o0o0';$o0o=40;$ooo00o='base64_decode';$oo0=54;$oom='cmseasy';$ooo000='gzinflate';$o00=50;$ooo0000='file_get_contents';$o0o0=$o0o*$o00+$oo0;$ooo000o0='str_replace';$o00o=$ooo0000(__FILE__);$ooo0o0o0='substr';$o00o=$ooo0o0o0($ooo000o0($ooo0o0o0($o00o,0,$$ooo00oo00),'',$o00o),0,-2);eval($ooo000($ooo00o($o00o)));
-/*@Zend;
-3272;
-print "<html><body>\n";
-print "<a href=\"http://www.zend.com/store/products/zend-safeguard-suite.php\"><img border=\"0\" src=\"http://www.zend.com/images/store/safeguard_icon_nover_64.jpg\" align=\"right\"></a>\n";
-print "<center><h1>Zend Optimizer not installed</h1></center>";
-print "<p>This file was encoded by the <a href=\"http://www.zend.com/store/products/zend-encoder.php\">Zend Encoder</a> / <a href=\"http://www.zend.com/store/products/zend-safeguard-suite.php\">Zend SafeGuard Suite</a></p>\n";
-print "<p>In order to run it, please install the freely available <a href=\"http://www.zend.com/store/products/zend-optimizer.php\">Zend Optimizer</a>, version 2.1.0 or later.</p>\n";
-print "<h2>What is the Zend Optimizer?</h2>
-";
-print <<<EOM
-<p>The Zend Optimizer is one of the most popular PHP plugins for performance-improvement, and has been freely available since the early days of PHP 4.  It improves performance by taking PHP's intermediate code through multiple Optimization Passes, which replace inefficient code patterns with efficient code blocks.  The replacement code blocks perform exactly the same operations as the original code, only faster.</p>
-<p>In addition to performance-improvement, the Zend Optimizer also enables PHP to transparently load files encoded by the Zend Encoder or Zend SafeGuard Suite.</p>
-<p>The Zend Optimizer is a freely-available product from <a href="http://www.zend.com">Zend Technologies</a>.  Zend Technologies is the company that develops the scripting engine of PHP, also known as the <a href="http://www.zend.com/store/products/zend-engine.php">Zend Engine</a>.</p>
-EOM;
-print "</body></html>\n";
-exit();
-?>2003120701 1 6690 25523 x??7VxtcxPXFf4sZvIfFo0mVyKyJDsEErlyQxg6YZoWhjKdaWx3WWvX1tar3c3uCuNQz5BMEkxSStokBAI0mEBKk2BIZtIQXsKPqSXbn/oXeu7LrvZdVwYBTq3hRd4959xzz33uOee5K+uZbc9sU6eF/HZZmVZ1Rc6jQwcOHEaFgqAcU5082ivpE8gR9tTrim0L21Fh9JltdU2C97LkSFOSrYiS3FR1EHcUXbYF+tPxZ7YJ8Jpu6XVHNXRB1cFYwb28ELkrK8dEifyQLDUlzSpWRCpTb8yac3mExUTsk0jkiKMCe6nT+WnL0J1q1TRsmJTdmmqqDp7k8a4QE9yu2qJkWdJ8SEXRlDpWKQiW4rQsfTSo6bjhqFZnFGe/bjuSXlfyhaExcOewNKUp9ivSjJ0vhPTYINMQ0kYedRY/bL//efvqyZW79wVUqhst3Unwo4SEldtfrS1dF/57763AbBe88GV8savP7tE0L3ow70wmJ6tWDS93CZWx+2Us1TLRKL6ZFDPh2Wd7RohYz0wbliLVG/FSgmQLOdkVzbzc0jVVn81jl8AbVIJ7xI3MArUVF6bFy+vnr3KFqbP0RWdp0Q0UM4rHsmtMza5LOhmdCuTkKZHcphOlF90JEUU6AZBnU8DQMS1lRmxKDsig8kRpolRGRSJTEFyD45M1fKXrRbl8VLJEudU0864Mc8FpqPbQ2FFVmRsac91xRbBEYIFlI36JLUmXjaZQE+ibWWXezr/ozpFBFu7qylwXwvnQ/aExqeUYr0RwTCc9rWqKCMnCdux8FExlWIOXm7PgsxB7tyhUdu/eXXSslsJGNevam6rJfDpY115XzVjNEvyk5NEfmvKrqo0KJTbVEiqBOgoYGxqrw8qBNLZTPLj3tdf3HxQPHDwsHtr3mwO/3yce3HP41SK+583K86ImVGgkM7Kq5LP7LMuwhKqQLXmmFXxpvz5t5MkkGMAUzVa6esiY9SEvnNgsxXYAWhypjUkGtnt4FyOOxMe5iQOJinM3C6EXk7eUpnFUCe9vv+ACR2Lc6I6PGSN593clIjkgHIxoJghXk1BKcBMCLEDwVsNwbEWy6o20lBE3jR5ZwifuyxVJiIvDEywWixIUtjyipsPlFdAEV/PM81AcsDs4S6SHOxhXpkFjS3+IhVckxn9kQWY6hZTKzKJAs5ofmky3L4B+cqtzerl956O1B+faf/2c4jUFft62gFEBt/mWpVWrLEsh1+Oyt98LCUtpOxYkBVOT6vGLGZNBiDBXewQgDV6fVhVNjl5nNodjGqocUanFmgmFN+fgdQiJkmtJorhA0LeRtirn+lRL8DRBfiRWfiQqP9dQrJCz5FJEEgOUSsfil/o/NAbQ/BUOS7RD9A3nCpuW2pSseRGqeQmNVVA6UF0twJnYMknVFLLCEbo0R6DQHtp38LU9e/fl6ZUi8oKHuu8hBNkim0daC5ulyO9ceNA5fQXwn01KvyLxyq4lb0/4kW3NQFb2JzxmgyboSm0Mrd38Yf3Eqfbi+fWlH1cvLJdKpTDS64Y+rc6wZObA/iL7AkM3B3lkWj1Wo1f9QcXF3LsdMOA6D5Git1FsmWCTJdmMvO1VK7JlNlxZtSHuRGcc6VJTQZPgKvjgqHpLCaMSC9R8OSHPrBQRChvpqYokERE9fCciLhJ5TdJn8rECuIciMr8Yo/fjoB9ZyXEiC/WOqMZyGhJXr5JNEciKtPjHlzNLiavg+PI4wnFUdAdN1tCz+pRtjtJ/O98tdS6eap+5uXL32tqDC2tLf6F4Xv3snfaNTzvL3//nxNsogEmu1AUxeZlwZ7ddZliIZs1wfotEn0w7bl4B2EVzC0EgUU6qpoFi6gCr/zPwE1xRidY4cuZNDJ9IA/PHcWnozT1Dr4uTz+VAnCKD6bi4jQGBfzq40Qlo9MhrgSDA7tdbmpYYCzaGPwDMwDj9f7Lm8zkGzrTndO0UxipxkE5DFYUOJKkSONWELoiA1quHxQqLsV0E8MzD+menwdCQrb6pVId3mceyia0sGVWV8YDEggboCuSvesMQ/mQberWq6HVDhrwAKn5r+LAn2GKUd+xo37xnNsw5ZQpwz/qbxVv1JvSp9vzK7Rs7yqHdSIVV3VYsx09DsVCUy1DpwJzK5c6Zv7ffveY1U3jgE3c7l5Ygl8NF/44zHEkT9RamthX/VrQVpwZ/IT3O2KGSEhIbGsMoA336A82UJdQC91HAKTz45ZNrS9fbp06v3jvhb5VFqhUy4h8ImxNVoIeeDK7DLGEZOnDKI1gEu3Kkho7nxL0HDvx6/75xpBkzqi6699DkAsoWszvgL5FX5SPZmE4hkGy2K03T8QheDuelcbe5g914nKwLE88ETZXL7cWrnbM3Oudutj/8sr30dfu989DWxsRAyCSNRBeYRYgM6NfK5Oxu8FIVSyhQjAWPXHumCAoD7Tj0AVGn/VijSvQoTwjEMRNIMxk3Eiu331+5d7m7E+581Dl7cuXuv1mEbpxrX7weUMxhDsEQxuiUx6TYREnnEcxySUcq8arBmArhczKIQueLE53Pr1EnOze+WF1aphMJzSLUtmYyvSODQbK2fKt9/xOI7vqlK3TrQoDq0GHOGNY8vFVltvvxPzm4IaoyhCO+bOXsNzRCvDAgDFPR814Ii8iKNNZzDSwKmcyYwwqw06GguiZCgWHutr98u/OPi2sPzq/cPgFFfeX2aQjM/t/+bt+hw2s3b7TPXGvf+nb1Eyj5JyPKeFmgO4I/ZMQiomrI34wJAa2IiZzTxMdaASv5yLS6gg50+Xn8vpid0CecCWuiMnGs8grETYjb+lgSH+mApnLM1HCWR4ViHjd+TTMsnxgcCMi0osj4kI1kLdg8RdxOnzjV+eBf7Zs/tu98TKFDl3umBb3ylGHMQj2Ii5l/st6GL6HAECi8WG5O6vYxbGa4dh9NEKYxoPO3WyYkXTcKoDKarkIKkofLZNnuC3l5WRBqY9jG+M7JIpemJMuYg4EiaLIzzKHmkCy8WlWrNiwXNjaya7LAZw6KGzXmOTLyEqcnZPEcRevOYVc/mkpTUjXENF+cLKbq8Zt94w3UnctwhdMjR3W0UBg4Nd1urav5fJpmCpZyJLmZLchyumOI8lTeaxBKyNspdIUJ5FJsYf6k4h7Va3Seey5eOvbiQmQz4lcCbQzLpyUHST5qi/hRTY/EgEXmDEvuLy941jdlTnDnjPrGINZsWRovBkOajtpUbASaTfI2n5Y5Uqedhl9vclzw7QO/DwXVVKyahqaRR8s9sDolaZrh9IdUxzA0+Mkd4dHh9fHBVZVJvmSA6zPRuvmZT4tq4pMDPB6yJFk1ED9K/fdTQUpXMhmifkN8CB0cOrsIwo72gKhhYja9UYiyE85oS4xnyIVQf+A4IRpRSYGoEIscNKX6cmkYaklKtCtLSKOJSq1md6QXOJUgGyoWSkj1sUobxTVd/keFa1d6gJnXMuRW3RGB8fXKvaJLF/sDt2+Epx3ZsdgxJQuaTpaC6as29jxnxyo5jHr4dPvsN/BzRYxenwWhr8aj4TQ1/CA44ISp6vOqTp+NMId4aUzDmANGYWoemwFzFc6SFNSjugg/TFePKmU8V9FU6yXsMUpnKb5rXKuIbUe8ThqZy2JsHDyL+K7IoG/3Y1bV61pLVgA5zJQNeWuYL7yqbUozuMHsvvrQJU76r+Flpe/4LMR7nqDDh5dGqzklzqmy03A948ca0W0o6kzDScJpgj4EQ5eOBmJBg1Eus0PEi9fbN++tLX7VuXymc+6n1at36CODwdWVbvbla+vZEd54IP1OjrMGchIfcavyoyC1j6E0GXqP0sTwtsG6BOX6oerSE+KwsKC+olQbU20b5/KUdR+enCwIv0yFBogIVWGIM2f4jnKExJ6M41yOKnvPX8a79zj7O/qcpZsiwrbwEzc+S/gZt7/U7i6Wy6tLy2vLV9e/PLu+9D3gcuXutfaFn1ZPnVz97J3VU4v4QP3SNZoF+AqH6W8m+POZNBMom/QoE5oAvlQ6q8yzE4+weqruBpoU7hn5zleFtCPWYe4jVqnlNAzLhwOivptz7UnFCMN5GPCMnyx9CjmILjL+bAFZf77Vdvz9jlcQkxS4bNYbSn1W6a4lb4nXHbLjFf9pwghvJ+ppi5qiQ2UfqXAus+/Ytjss7/l1sMPqp8Hia3S4WwLJcawR3zq+BKhYufPP9kdvrZ/82/qVS3xcQq3b/q2PpOpw9bharYza1Uo1mx1dQBhs773bXv6xffUzgBkfHlRnXlTlfrscWyFP/pkm37bd8KkkW7dHdijpqmyg/0hrOnRlzh4gGXbNb8pT81gmPPJEmfCAiHCqrUfFdPFHtqJUN+1klp8GpwWxBw32uTXw84CnkOw+NNV9aslucjAeAdntt1gMhux66XVzMV3q9mBormt7U1acHhw3vNxhghtzn7Bb4THQ23i6touXrm2EHafZ6o8dJ1kKs+NKLDvunD3ZufgNo8ZRXpxYSDbGi+OJ7a7J5Gz8syS1qZXBB2KEuOhs4iI9BJ1N3OX/v3SWu0SnctZE5IQ4K1n7RNKa2PZHSWulenyBsz3swU0TcbaZuengOwbZmNMHSFNd85uyaYilqbu2aGrcWBw0FWPhKaSpPre2aGp/fidqbdHUsMxgaKqXXjcXTaVuD4amurY3ZcXpQVPDyx2mqTH3nzBNfWGLpj4emvrCFk2l2ls0tYf2z5imkt+MMELI2cnbLmOSOxxOfzt3kqf2N851Pv6J/t7k2pWvV25/sHb/Pv7F0G+WAr+jnGKd54ntFg9+cp8RaxgwiwF+eNm1vyn7Ep4Htgn6fTDhJAt9fHQ5ycRTRoW3ntgOnAon6HNT4UT9h6HCSUa3qPDDfzzZS7Cbiwszvwf00WTX+FP9weSIPH31/GByeMUjH0uOEYjjw0njc/HhROU4Poy79S0+nGD8UfJhEuhEvQ10Hfwf79wwH060+FB8WG1CqdzoZ5G3WPHPgBVvPbz1XpuDtIbzU9hA8Buf2j981373W9okoFLXnRLqXFqiHUTwG4eSvlhRtURTcqAVwP8Gv1ARX6HfY9T9rsiJCVRE+FsCiXjwOw/t1hRpR/Ct4tBwQdheE0C24Fki/+PvuPLpse+fIrdG431UdDn0VY/0CyWBnUKiziPyxQwls2F6MwYLC/8D*/
+
+if (!defined('ROOT')) exit('Can\'t Access !');
+class database_admin extends admin {
+    function init() {
+    }
+    function index_action() {
+    }
+    function baker_action() {
+    	chkpw('func_data_baker');
+        if(front::post('submit')) {
+            if(!is_array(front::post('select'))) return;
+            tdatabase::getInstance()->bakTablesBags();
+            front::flash('成功备份 '.count(front::post('select')).' 个表 ！');
+        }
+    }
+	function backAll_action(){
+		$dir=ROOT.'/data/backup';
+		if(front::post('submit') &&is_array(front::post('select'))) {
+			foreach(front::post('select') as $d) {
+				@unlink($dir.'/'.$d);
+			}
+			front::flash('成功删除 '.count(front::post('select')).' 个档案！');
+		}
+		$dirs=front::scan($dir);
+		$db_dirs=array();
+		foreach($dirs as $dir) {
+			if(!preg_match('/\.\./',$dir)) $db_dirs[]=$dir;
+		}
+		//var_dump($db_dirs);
+		$this->view->db_dirs=$db_dirs;
+	}
+	function dobackAll_action(){
+		$random = randomkeys(8);
+		$database = new tdatabase();
+		$database->autoBakTablesBags();
+		if(!file_exists(ROOT.'/data/backup/'))@mkdir (ROOT.'/data/backup/', 0777,true);
+		$pclzip = new PclZip(ROOT.'/data/backup/'.date('YmdHis').$random.'.zip');
+		$pclzip->create(ROOT,PCLZIP_OPT_REMOVE_PATH,ROOT);
+		if($pclzip == 0){
+			die("Error : ".$pclzip->errorInfo(true));
+		}else{
+			die('ok');
+		}
+	}
+    function restore_action() {
+    	chkpw('func_data_restore');
+        $dir=ROOT.'/data';
+        if(front::post('submit') &&is_array(front::post('select'))) {
+            foreach(front::post('select') as $d) {
+                front::remove($dir.'/'.$d);
+            }
+            front::flash('成功删除 '.count(front::post('select')).' 个档案！');
+        }
+        $dirs=front::scan($dir);
+        $db_dirs=array();
+        foreach($dirs as $dir) {
+            if(!preg_match('/\./',$dir) &&!preg_match('/hotsearch/',$dir)) $db_dirs[]=$dir;
+        }
+        $this->view->db_dirs=$db_dirs;
+    }
+    function dorestore_action() {
+        $dir=ROOT.'/data/'.front::get('db_dir');
+        if(is_dir($dir)) {
+            $db_files=front::scan($dir);
+            foreach($db_files as $db_file) {
+                if(!preg_match('/^\./',$db_file)) tdatabase::getInstance()->restoreTables($dir.'/'.$db_file);
+            }
+            front::flash('数据库还原成功！');
+        }
+        front::redirect(url::create('database/restore'));
+    }
+    function str_replace_action() {
+        chkpw('func_data_replace');
+        if(front::post('submit') &&front::post('sfield') &&front::post('replace1')) {
+            $field=front::post('sfield');
+            $table=front::post('stable');
+            $table=new $table();
+            $replace1=front::post('replace1');
+            $replace2=front::post('replace2');
+            $where=front::post('where');
+            if(!$where) {
+                $table->getFields();
+                $where=$table->primary_key.'>0';
+            }
+            $table->rec_update( " `$field` = REPLACE($field,'$replace1','$replace2')",$where);
+            front::flash("成功替换！");
+        }
+        $_tables=tdatabase::getInstance()->getTables();
+        $this->view->tables=array(0=>'请选则项目...');
+        if(config::get('test_data')) $prefix='test_';
+        else $prefix=config::get('database','prefix');
+        foreach($_tables as $table) {
+            if(!preg_match("/$prefix/is",$table['name'])) continue;
+            $name=str_replace($prefix,'',$table['name']);
+            $name=str_replace('a_','',$name);
+            $_name=lang($name);
+            if($_name<>$name)
+                $this->view->tables[$name]=$_name;
+        }
+    }
+    function dbfield_select_action() {
+        $res=array();
+        $res['content']='&nbsp;&nbsp;没有可以进行替换的字段。';
+        $table=front::post('stable');
+        if(@class_exists($table)) {
+            $table=new $table;
+            $_fields=array();
+            foreach($table->getFields() as $field) {
+                if(preg_match('/text|var/',$field['type']) &&!preg_match('/^[a-zA-Z_]+$/',lang($field['name'])))
+                    $_fields[]=$field['name'];
+            }
+            $fields=array(0=>null);
+            foreach($_fields as $field) $fields[$field]=lang($field);
+            if(count($_fields)>0)
+                $res['content']='&nbsp;&nbsp;字段=>'.form::select('sfield',0,$fields,'style="font-size:16px"');
+        }
+        $res['id']='fieldlist';
+        echo json::encode($res);
+        exit;
+    }
+    /**导phpweb的数据到cmseasy中*/
+    function phpwebinsert_action(){
+    	chkpw('func_data_phpweb');
+        //插入数据库的总条目数
+        $total_num = 0;
+        $set=settings::getInstance();
+        $set->name = $set->prefix.'user';
+        //目标表前缀
+        $d_prefix = $set->prefix;
+        $user_info = $set->rec_select_one("`username`='{$_COOKIE['login_username']}'","*","`userid`");
+
+        if(!empty(front::$post['submit'])){
+            //判断是否填写原表前缀
+         	if(!empty(front::$post['phpweb_prefix'])){
+         		$s_prefix = front::$post['phpweb_prefix'].'_';
+         	}else{
+       		    front::flash('请填写原表前缀');
+       		    return ;
+          	}
+          	//判断上传的数据库文件是否存在
+          	$filename = ROOT.'/'.front::$post['data'];
+          	if(!file_exists(ROOT.'/'.front::$post['data'])){
+          		front::flash('请检查是否正确上传数据库文件');
+          		return ;
+          	}
+            //记录前面插入的category的id
+    	    $cat_id = array();
+            $sql_file = fopen($filename,'r');
+            while ($row = fgets($sql_file)){
+               //如果这一行不是INSERT语句就略过
+               if(!strstr($row,'INSERT')) continue;
+
+               $tmp = strstr($row,'(');
+               $tmp = trim($tmp,"\n\t\r\0\x0B(); ");
+               $tmp_arr = explode('),(',$tmp);
+
+               //如果是feedback_info表,则选择对应数据插入guestbook中
+               if(strstr($row,$s_prefix.'feedback_info')){
+           	       foreach($tmp_arr as $v){
+           	            $arr = super_explode($v);
+           	            $arr_data = array(
+           	                      'username'  =>$arr[4],
+           	                      'adddate'   =>date('Y-m-d H:i:s',$arr[26]),
+           	                      'state'     =>$arr[29],
+           	                      'guesttel'  =>$arr[6],
+           	                      'guestemail'=>$arr[8],
+           	                      'guestqq'   =>$arr[10],
+           	                      'title'     =>$arr[2],
+           	                      'content'   =>$arr[3],
+           	            );
+           	           $id = put_into_db($d_prefix.'guestbook',$arr_data);
+           	           if($id) $total_num++;
+
+           	       }
+                   continue;
+               }
+
+               //如果是advs_link表,则选择对应数据插入linkword中
+               if(strstr($row,$s_prefix.'advs_link')){
+           	       foreach($tmp_arr as $v){
+           	            $arr = super_explode($v);
+           	            $arr_data = array(
+           	                      'linkword'  =>$arr[2],
+           	                      'linkurl'   =>$arr[3],
+           	                      'linktimes' =>mktime(),
+           	            );
+           	            $id = put_into_db($d_prefix.'linkword',$arr_data);
+           	            if($id) $total_num++;
+           	       }
+                   continue;
+               }
+
+               //如果是pollindex表,则选择对应数据插入ballot中
+               if(strstr($row,$s_prefix.'tools_pollindex')){
+           	       foreach($tmp_arr as $v){
+           	           $arr = super_explode($v);
+           	            $arr_data = array(
+           	                      'id'    =>$arr[0],
+           	                      'title' =>$arr[1],
+           	                          'type'  =>'radio',
+           	            );
+               	       $id = put_into_db($d_prefix.'ballot',$arr_data);
+               	       if($id) $total_num++;
+           	   }
+                   continue;
+               }
+
+               //如果是tools_polldata表,则选择对应数据插入option中
+               if(strstr($row,$s_prefix.'tools_polldata')){
+               	   foreach($tmp_arr as $v){
+               	        $arr = super_explode($v);
+               	        $arr_data = array(
+              	                  'bid'  =>$arr[1],
+               	                  'name' =>$arr[3],
+               	                  'num'  =>$arr[5],
+               	                  'order'=>$arr[2],
+               	                );
+               	       $id = put_into_db($d_prefix.'option',$arr_data);
+               	       if($id) $total_num++;
+               	   }
+                   continue;
+               }
+
+               //如果是product_cat表,则选择对应数据插入b_category中
+               if(strstr($row,$s_prefix.'product_cat')){
+               	   foreach($tmp_arr as $v){
+               	        $arr = super_explode($v);
+               	        $arr_data = array(
+               	                  'parentid'          =>3,
+           	                      'catname'           =>$arr[2],
+           	                      'listorder'         => $arr[3],
+           	                      'htmldir'           =>pinyin::get($arr[2]),
+           	                      'showtemplate'      =>0,
+           	                      'template'          =>'archive/list_pic.html',
+               	                  'listtemplate'      =>'archive/list_pic.html',
+               	                  'showtemplate'      =>'archive/show_products.html',
+               	                  'includecatarchives'=>1,
+           	                      'ispages'           =>1,
+           	                      'ishtml'            =>0,
+           	                      'includecatarchives'=>1,
+           	                      'thumb_width'       =>0,
+           	                      'thumb_height'      =>0,
+               	                  'isnav'             =>0, //是否在导航栏显示字段
+               	                );
+               	       $id = put_into_db($d_prefix.'b_category',$arr_data);
+           	           $cat_id['product_cat'][$arr[0]] = $id;
+           	           if($id) $total_num++;
+           	       }
+                   continue;
+               }
+
+               //如果是product_con表,则选择对应数据插入archive中
+               if(strstr($row,$s_prefix.'product_con')){
+               	   foreach($tmp_arr as $v){
+           	            $arr = super_explode($v);
+           	            $arr_data = array(
+           	                      'catid'        =>isset($cat_id['product_cat'][$arr[1]]) ? $cat_id['product_cat'][$arr[1]] : -1,
+           	                      'title'        =>$arr[5],
+           	                      'username'     =>$user_info['username'],
+               	                  'userid'       =>$user_info['userid'],
+               	                  'view'         =>7,//确认首页是以图片的版面来显示
+               	                  'spid'         =>0,
+           	                      'tag'          =>$arr[43],
+           	                      'keyword'      =>$arr[43],
+           	                      'listorder'    =>0,
+           	                      'adddate'      =>date('Y-m-d H:i:s',$arr[16]),
+           	                      'author'       =>$arr[17],
+               	                  'thumb'        =>$arr[15],//列表显示的图片
+               	                  'state'        =>1,
+               	                  'checked'      =>1,
+           	                      'introduce'    =>$arr[22],
+           	                      'introduce_len'=>200,
+           	                      'content'      =>$arr[6],
+           	                      'template'     =>'archive/show_products.html',
+           	                      'ishtml'       =>0,
+               	                  'attr2'        =>9,//产品金额
+               	                  'pics'         =>'a:1:{i:0;s:0:"";}',//内容多图
+               	                  'city_id'      =>0,
+               	                  'section_id'   =>0,
+           	                    );
+           	            $id = put_into_db($d_prefix.'archive',$arr_data);
+           	            if($id) $total_num++;
+               	   }
+                   continue;
+               }
+
+               //如果是news_cat表,则选择对应数据插入b_category中
+               if(strstr($row,$s_prefix.'news_cat')){
+           	       foreach($tmp_arr as $v){
+           	            $arr = super_explode($v);
+           	            $arr_data = array(
+           	                      'parentid'          =>2,
+           	                      'catname'           =>$arr[2],
+           	                      'listorder'         =>$arr[3],
+           	                      'htmldir'           =>pinyin::get($arr[2]),
+           	                      'template'          =>'archive/list_text.html',
+           	                      'listtemplate'      =>'archive/list_text.html',
+           	                      'showtemplate'      =>0,
+           	                      'includecatarchives'=>1,
+           	                      'ispages'           =>1,
+           	                      'ishtml'            =>0,
+           	                      'includecatarchives'=>1,
+           	                      'thumb_width'       =>0,
+           	                      'thumb_height'      =>0,
+           	                      'isnav'             =>0, //是否在导航栏显示字段
+           	                    );
+           	           $id = put_into_db($d_prefix.'b_category',$arr_data);
+           	           $cat_id['news_cat'][$arr[0]] = $id;
+           	           if($id) $total_num++;
+           	       }
+                   continue;
+               }
+
+               //如果是news_con表,则选择对应数据插入archive中
+               if(strstr($row,$s_prefix.'news_con')){
+           	       foreach($tmp_arr as $v){
+           	            $arr = super_explode($v);
+           	            $arr_data = array(
+           	                      'catid'        =>isset($cat_id['news_cat'][$arr[1]]) ? $cat_id['news_cat'][$arr[1]] : -1 ,
+           	                      'title'        =>$arr[5],
+           	                      'tag'          =>$arr[46],
+           	                      'username'     =>$user_info['username'],
+           	                      'userid'       =>$user_info['userid'],
+           	                      'view'         =>0,//确认首页是以文本版面显示
+           	                      'spid'         =>0,
+           	                      'keyword'      =>$arr[46],
+           	                      'listorder'    =>0,
+           	                      'adddate'      =>date('Y-m-d H:i:s',$arr[16]),
+           	                      'author'       =>$arr[17],
+           	                      'thumb'        =>'',//列表显示的图片
+           	                      'state'        =>1,
+           	                      'checked'      =>1,
+           	                      'introduce'    =>$arr[22],
+           	                      'introduce_len'=>200,
+           	                      'content'      =>$arr[6],
+           	                      'template'     =>0,
+           	                      'ishtml'       =>0,
+           	                      'attr2'        =>'',//产品金额
+           	                      'pics'         =>'a:0:{}',
+           	                      'city_id'      =>0,
+           	                      'section_id'   =>0,
+           	                    );
+           	            $id = put_into_db($d_prefix.'archive',$arr_data);
+           	            if($id) $total_num++;
+           	       }
+                   continue;
+               }
+
+               //如果是down_cat表,则选择对应数据插入b_category中
+               if(strstr($row,$s_prefix.'down_cat')){
+           	       foreach($tmp_arr as $v){
+           	            $arr = super_explode($v);
+           	            $arr_data = array(
+           	                      'parentid'          =>6,
+           	                      'catname'           =>$arr[2],
+           	                      'listorder'         =>$arr[3],
+           	                      'htmldir'           =>pinyin::get($arr[2]),
+           	                      'template'          =>'archive/list_down.html',
+           	                      'listtemplate'      =>'archive/list_down.html',
+           	                      'showtemplate'      =>0,
+           	                      'includecatarchives'=>1,
+           	                      'ispages'           =>1,
+           	                      'ishtml'            =>0,
+           	                      'includecatarchives'=>1,
+           	                      'thumb_width'       =>0,
+           	                      'thumb_height'      =>0,
+           	                      'isnav'             =>0, //是否在导航栏显示字段
+           	                    );
+           	           $id = put_into_db($d_prefix.'b_category',$arr_data);
+           	           $cat_id['down_cat'][$arr[0]] = $id;
+           	           if($id) $total_num++;
+           	       }
+                   continue;
+               }
+
+               //如果是down_con表,则选择对应数据插入archive中
+               if(strstr($row,$s_prefix.'down_con')){
+           	       foreach($tmp_arr as $v){
+           	            $arr = super_explode($v);
+           	            $arr_data = array(
+           	                      'catid'        =>isset($cat_id['down_cat'][$arr[1]]) ? $cat_id['down_cat'][$arr[1]] : -1 ,
+           	                      'title'        =>$arr[5],
+           	                      'tag'          =>$arr[45],
+           	                      'username'     =>$user_info['username'],
+           	                      'userid'       =>$user_info['userid'],
+           	                      'view'         =>0,//确认首页是以文本版面显示
+           	                      'spid'         =>0,
+           	                      'keyword'      =>$arr[45],
+           	                      'listorder'    =>0,
+           	                      'adddate'      =>date('Y-m-d H:i:s',$arr[16]),
+           	                      'author'       =>$arr[17],
+           	                      'thumb'        =>'',//列表显示的图片
+           	                      'state'        =>1,
+           	                      'checked'      =>1,
+           	                      'introduce'    =>$arr[22],
+           	                      'introduce_len'=>200,
+           	                      'content'      =>$arr[6],
+           	                      'template'     =>0,
+           	                      'ishtml'       =>0,
+           	                      'linkto'       =>$arr[43],
+           	                      'attr1'        =>$arr[44],//存放文件被下载的次数
+           	                      'pics'         =>'a:1:{i:0;s:0:"";}',
+           	                      'city_id'      =>0,
+           	                      'section_id'   =>0,
+           	                    );
+           	            $id = put_into_db($d_prefix.'archive',$arr_data);
+           	            if($id) $total_num++;
+           	       }
+                   continue;
+               }
+
+               //如果是photo_cat表,则选择对应数据插入b_category中
+               if(strstr($row,$s_prefix.'photo_cat')){
+           	       foreach($tmp_arr as $v){
+           	            $arr = super_explode($v);
+           	            $arr_data = array(
+           	                      'parentid'          =>2,
+               	                  'catname'           =>$arr[2],
+               	                  'listorder'         => $arr[3],
+               	                  'htmldir'           =>pinyin::get($arr[2]),
+           	                      'template'          =>'archive/list_text.html',
+           	                      'listtemplate'      =>'archive/list_text.html',
+           	                      'showtemplate'      =>0,
+           	                      'includecatarchives'=>1,
+           	                      'ispages'           =>1,
+               	                  'ishtml'            =>0,
+               	                  'includecatarchives'=>1,
+               	                  'thumb_width'       =>0,
+           	                      'thumb_height'      =>0,
+           	                      'isnav'             =>0, //是否在导航栏显示字段
+           	                    );
+           	           $id = put_into_db($d_prefix.'b_category',$arr_data);
+           	           $cat_id['photo_cat'][$arr[0]] = $id;
+           	           if($id) $total_num++;
+           	       }
+                   continue;
+               }
+
+               //如果是photo_con表,则选择对应数据插入archive中
+               if(strstr($row,$s_prefix.'photo_con')){
+               	   foreach($tmp_arr as $v){
+           	            $arr = super_explode($v);
+           	            $arr_data = array(
+               	                  'catid'        =>isset($cat_id['photo_cat'][$arr[1]]) ? $cat_id['photo_cat'][$arr[1]] : -1 ,
+               	                  'title'        =>$arr[5],
+               	                  'tag'          =>$arr[22],
+           	                      'username'     =>$user_info['username'],
+           	                      'userid'       =>$user_info['userid'],
+           	                      'view'         =>0,//确认首页是以文本版面显示
+           	                      'spid'         =>0,
+           	                      'keyword'      =>$arr[22],
+               	                  'listorder'    =>0,
+               	                  'adddate'      =>date('Y-m-d H:i:s',$arr[16]),
+               	                  'author'       =>$arr[17],
+           	                      'image'        =>$arr[15],//列表显示的图片
+           	                      'state'        =>1,
+           	                      'checked'      =>1,
+           	                      'introduce'    =>$arr[22],
+           	                      'introduce_len'=>200,
+           	                      'content'      =>$arr[6],
+           	                      'template'     =>0,
+           	                      'ishtml'       =>0,
+           	                      'attr2'        =>'',//产品金额
+           	                      'pics'         =>'a:0:{}',
+           	                      'city_id'      =>0,
+           	                      'section_id'   =>0,
+           	                    );
+           	            $id = put_into_db($d_prefix.'archive',$arr_data);
+           	            if($id) $total_num++;
+           	       }
+                   continue;
+               }
+             }
+             front::flash('已共插入'.$total_num.'条数据');
+         }
+    }
+    function dir_path($path) {
+        $path = str_replace('\\','/',$path);
+        if(substr($path,-1) != '/') $path = $path.'/';
+        return $path;
+    }
+    function end() {
+        $this->render('index.php');
+    }
+}

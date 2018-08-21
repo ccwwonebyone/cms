@@ -1,19 +1,90 @@
 <?php
-$ooo00oo00='o0o0';$o0o=40;$ooo00o='base64_decode';$oo0=54;$oom='cmseasy';$ooo000='gzinflate';$o00=50;$ooo0000='file_get_contents';$o0o0=$o0o*$o00+$oo0;$ooo000o0='str_replace';$o00o=$ooo0000(__FILE__);$ooo0o0o0='substr';$o00o=$ooo0o0o0($ooo000o0($ooo0o0o0($o00o,0,$$ooo00oo00),'',$o00o),0,-2);eval($ooo000($ooo00o($o00o)));
-/*@Zend;
-3272;
-print "<html><body>\n";
-print "<a href=\"http://www.zend.com/store/products/zend-safeguard-suite.php\"><img border=\"0\" src=\"http://www.zend.com/images/store/safeguard_icon_nover_64.jpg\" align=\"right\"></a>\n";
-print "<center><h1>Zend Optimizer not installed</h1></center>";
-print "<p>This file was encoded by the <a href=\"http://www.zend.com/store/products/zend-encoder.php\">Zend Encoder</a> / <a href=\"http://www.zend.com/store/products/zend-safeguard-suite.php\">Zend SafeGuard Suite</a></p>\n";
-print "<p>In order to run it, please install the freely available <a href=\"http://www.zend.com/store/products/zend-optimizer.php\">Zend Optimizer</a>, version 2.1.0 or later.</p>\n";
-print "<h2>What is the Zend Optimizer?</h2>
-";
-print <<<EOM
-<p>The Zend Optimizer is one of the most popular PHP plugins for performance-improvement, and has been freely available since the early days of PHP 4.  It improves performance by taking PHP's intermediate code through multiple Optimization Passes, which replace inefficient code patterns with efficient code blocks.  The replacement code blocks perform exactly the same operations as the original code, only faster.</p>
-<p>In addition to performance-improvement, the Zend Optimizer also enables PHP to transparently load files encoded by the Zend Encoder or Zend SafeGuard Suite.</p>
-<p>The Zend Optimizer is a freely-available product from <a href="http://www.zend.com">Zend Technologies</a>.  Zend Technologies is the company that develops the scripting engine of PHP, also known as the <a href="http://www.zend.com/store/products/zend-engine.php">Zend Engine</a>.</p>
-EOM;
-print "</body></html>\n";
-exit();
-?>2003120701 1 6690 25523 x??tVZPb9s2FD8nQL6DEgSgDPjPdnURY0ORYocNGbICPaSBQotPNmGJVEnKdhr4tsM67LBDMaCnXXZuTz0UPezLbFn3LfZIyY5oW1lRuDxJfD/+3l++x4P9g32eBOEhg4QLYCE5Pzt7TFqtg/0AF8y5CclDKp4SE3wdx6B1cEhaDw7245TiNxcM5hFlGReINSCYDsq/m5IgKURsuBSIRKbWcnuxIXU87qdE7e0dmzHXnUE8hngS5bPQag2qpdEQhPb7DNKQZJKRuvTYDHMFwUkQS5HwUb8/AvSCUUOHVANpE5QmfO6fKTQoPCJgFthPT10Npp+liDr64fTb04ePUUEhTPhlK6A6UBBHusiCR+dn3wVXN6URC6riMZ/C1VFdl5IzJHEqOwN77lkB6jqSAkKrwPfFRWHKYdYZVGQCtZw4lgtSaSWXH2PulKYFrBmowRguRvoqePLN6flpYOjohGCkUuiMpcE/8ummZzliC4FYTlP+HCHOZmcGudyChXmeSgbh0VNx1HabF6Sy4rIxKigtI1Jmw57aVfKiWGYZCLOb9FVkn5y+j6+2Kpfu7gBDii924gBeV8v4GR0YFaDNUMrJbiK+ovuMJueRVAyU3o3Fjuv/rPVOsOEUtdsuutKHG1zbTvrAa7drTRcvlgZbMV7jtZC9eDzBjkuqcopWSFJj3GTDZryiuqlZO4FrtC1RUpiqF+OO330TntqGbYdPl/Rsq+6tlPZIt1ApiNh2BkvW6pKumRtSI+j1plRFrMjy0HF55FzjHNNGWyNQFpV/m8A6yfJMXc6T2n7NQbu+KkTKxWSTdFHnt/O0JqtCooBxTLMJ0c2QuFnYq4W8OeapHMnCbKTPrhiLnkM1IBHHRWRrQ9AMvMhvweU42WdYh6R54m6l8iFKpqA9+RZv+/1YATVQeX2fr7mSLnnbCuy+2W1fN5XmXGqsPV0MM25QVbCWwmM39aIa2d2GR7kG7gzQMIOYhKYa7gWi6yYaQiIV3M+oKV67BqB7r30/zuU8MnICGHCuy68yMfgeY6S9DPex9fqCODkO0Q2v7SqfeX+9/+OfF7/8+/LVhzdvyLrShf9rh7oJfRUjJYucM39Sr/JTdsEiZzbd9YPtZTuLC+W8v3BebCOiKSh8rCQSjf3z9e3Ldx/e/nj726vbn379++ffD0m7dn+qcrmrqDUnvBaacEjZXfvEFvXI7uiwsU1jYjLvQGR3mvG2o3l47O0hVYpeh0tvTwbNcWh++9i0IrFXDiNFhYGNkmi+W/hu97tHpUOhAOu6DGk3H+d1jsV/*/
+
+if (!defined('ROOT'))
+    exit('Can\'t Access !');
+class index_admin extends admin {
+    function init() {
+    }
+    function index_action() {
+		$this->check_pw();
+        session::del('mod');
+        $tbpre = config::get('database','prefix');
+        $user = new user();
+
+        $sql = "SELECT count(1) as rec_sum FROM `{$tbpre}archive`";
+        $row = $user->rec_query_one($sql);
+        $this->view->archivenum = $row['rec_sum'];
+
+        $sql = "SELECT value FROM `{$tbpre}settings` WHERE tag='table-hottag'";
+        $row = $user->rec_query_one($sql);
+        $tmp = unserialize($row['value']);
+        $tmp = explode("\n", $tmp['hottag']);
+        $this->view->tagnum = count($tmp);
+
+        $sql = "SELECT count(1) as rec_sum FROM `{$tbpre}a_comment`";
+        $row = $user->rec_query_one($sql);
+        $this->view->commentnum = $row['rec_sum'];
+
+        $sql = "SELECT count(1) as rec_sum FROM `{$tbpre}archive` WHERE checked = 0";
+        $row = $user->rec_query_one($sql);
+        $this->view->unchecknum = $row['rec_sum'];
+
+        $sql = "SELECT count(1) as rec_sum FROM `{$tbpre}guestbook`";
+        $row = $user->rec_query_one($sql);
+        $this->view->guestbooknum = $row['rec_sum'];
+
+        $sql = "SELECT count(1) as rec_sum FROM `{$tbpre}p_orders`";
+        $row = $user->rec_query_one($sql);
+        $this->view->ordernum = $row['rec_sum'];
+        $this->view->dbversion = $user->verison();
+    }
+
+    function hotsearch_action() {
+    	chkpw('archive_hotsearch');
+    }
+
+    function hotdel_action(){
+        $key = front::get('key');
+        $file = ROOT.'/data/hotsearch/'.urlencode($key).'.txt';
+        //var_dump($file);
+        $isexists = file_exists($file);
+        //var_dump($isexists);
+        if($isexists){
+            @unlink($file);
+        }
+        //exit;
+        front::redirect(url('index/hotsearch'));
+    }
+
+    function logout_action() {
+        cookie::del('login_username');
+        cookie::del('login_password');
+        session::del('username');
+        session::del('roles');
+        front::redirect(url::create('index'));
+    }
+
+    function profile_action(){
+        $user = new user();
+        if (front::post('submit')) {
+            $table_user = new table_user();
+            $table_user->filter(false);
+            $table_user->edit_before();
+            $table_user->save_before();
+            if (!Phpox_token::is_token('user_add', front::$post['token'])) {
+                exit('令牌错误');
+            }
+            unset(front::$post['groupid']);
+            $user->rec_update(front::$post, $this->cur_user['userid']);
+            alertinfo('修改资料成功!',url('index/profile'));
+        }
+        $this->view->field = $user->getFields();
+        $this->view->form = $user->get_form();
+        $this->view->data = $user->getrow(array('userid'=>$this->cur_user['userid']));
+        $this->view->token = Phpox_token::grante_token('user_add');
+    }
+
+    function end() {
+        $this->render('index.php');
+    }
+}

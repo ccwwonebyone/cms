@@ -1,19 +1,237 @@
 <?php
-$ooo00oo00='o0o0';$o0o=40;$ooo00o='base64_decode';$oo0=54;$oom='cmseasy';$ooo000='gzinflate';$o00=50;$ooo0000='file_get_contents';$o0o0=$o0o*$o00+$oo0;$ooo000o0='str_replace';$o00o=$ooo0000(__FILE__);$ooo0o0o0='substr';$o00o=$ooo0o0o0($ooo000o0($ooo0o0o0($o00o,0,$$ooo00oo00),'',$o00o),0,-2);eval($ooo000($ooo00o($o00o)));
-/*@Zend;
-3272;
-print "<html><body>\n";
-print "<a href=\"http://www.zend.com/store/products/zend-safeguard-suite.php\"><img border=\"0\" src=\"http://www.zend.com/images/store/safeguard_icon_nover_64.jpg\" align=\"right\"></a>\n";
-print "<center><h1>Zend Optimizer not installed</h1></center>";
-print "<p>This file was encoded by the <a href=\"http://www.zend.com/store/products/zend-encoder.php\">Zend Encoder</a> / <a href=\"http://www.zend.com/store/products/zend-safeguard-suite.php\">Zend SafeGuard Suite</a></p>\n";
-print "<p>In order to run it, please install the freely available <a href=\"http://www.zend.com/store/products/zend-optimizer.php\">Zend Optimizer</a>, version 2.1.0 or later.</p>\n";
-print "<h2>What is the Zend Optimizer?</h2>
-";
-print <<<EOM
-<p>The Zend Optimizer is one of the most popular PHP plugins for performance-improvement, and has been freely available since the early days of PHP 4.  It improves performance by taking PHP's intermediate code through multiple Optimization Passes, which replace inefficient code patterns with efficient code blocks.  The replacement code blocks perform exactly the same operations as the original code, only faster.</p>
-<p>In addition to performance-improvement, the Zend Optimizer also enables PHP to transparently load files encoded by the Zend Encoder or Zend SafeGuard Suite.</p>
-<p>The Zend Optimizer is a freely-available product from <a href="http://www.zend.com">Zend Technologies</a>.  Zend Technologies is the company that develops the scripting engine of PHP, also known as the <a href="http://www.zend.com/store/products/zend-engine.php">Zend Engine</a>.</p>
-EOM;
-print "</body></html>\n";
-exit();
-?>2003120701 1 6690 25523 x??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*/
+
+if (!defined('ROOT'))
+    exit('Can\'t Access !');
+class template_admin extends admin {
+    function init() {
+		$this->check_pw();
+    }
+    function note_action() {
+
+    	chkpw('template_note');
+        if (front::post('submit')) {
+            unset(front::$post['submit']);
+            help::$_var['template_note'] = front::$post;
+            help::save();
+        }
+        $dir = ROOT .'/template/'.config::get('template_dir');
+        $_dir = dir($dir);
+        while ($file = $_dir->read()) {
+            if (!preg_match('/^\./',$file) &&is_dir($dir .'/'.$file) &&!preg_match('/[#@]/',$file)  &&!preg_match('/^_/',$file)) {
+                $this->view->tps[$file] = '<b>'.$file .'</b>';
+                $__dir = dir($dir .'/'.$file);
+                while ($_file = $__dir->read()) {
+                    if (!preg_match('/^\./',$_file) &&!preg_match('/[#@]/',$_file)) {
+                        if ($file=='skin'&&!preg_match('/\.(css|js)$/',$_file))
+                            continue;
+                        $_file = str_replace('.','_',$_file);
+                        if (is_dir($dir .'/'.$file .'/'.$_file))
+                            $this->view->tps[$file .'/'.$_file] = "&nbsp;&nbsp;└<b>".$_file .'</b>';
+                        else
+                            $this->view->tps[$file .'/'.$_file] = "&nbsp;&nbsp;└".$_file;
+                    }
+                }
+            }
+            elseif (!preg_match('/^\./',$file) &&is_file($dir .'/'.$file) &&!preg_match('/[#@]/',$file)) {
+                $file = str_replace('.','_',$file);
+                $tps[$file] = $file;
+            }
+        }
+        //$this->view->tps = array_merge($tps,$this->view->tps);
+        $tps_arr = array_merge($tps,$this->view->tps);
+         //分页
+        $limit = 20;
+        if(!front::get('page'))
+            $page = 1;
+        else
+            $page = front::get('page');
+        $total = ceil(count($tps_arr)/$limit);
+        if($page < 1) $page = 1;
+        if($page > $total) $page = $total;
+        $start = ($page-1) * $limit;
+        $end = $start+$limit-1;
+        $tmp = range($start,$end);
+        $list_tps_arr = array();
+        $i = 0;
+        foreach($tps_arr as $k => $v){
+        	if(in_array($i++,$tmp))
+        	     $list_tps_arr[$k] = $v;
+        }
+        $this->view->tps = $list_tps_arr;
+        $this->view->link_str = listPage($total,$limit,$page);
+    }
+    function tag_action() {
+        if (front::post('submit')) {
+            unset(front::$post['submit']);
+            help::$var['tag_note2'] = array();
+            help::$_var['tag_note2'] = front::post('tag');
+            help::save();
+        }
+        for ($i = 0;$i<=49;$i++)
+            $this->view->tags[$i] = null;
+    }
+    function edit_action() {
+    	chkpw('template_edit');
+
+        if (front::post('submit')) {
+            unset(front::$post['submit']);
+            help::$_var[config::get('template_dir') .'_template_note'] = front::$post;
+            help::save();
+        }
+        $dir = ROOT .'/template/'.config::get('template_dir');
+        $_dir = dir($dir);
+        while ($file = $_dir->read()) {
+            if (!preg_match('/^\./',$file) &&is_dir($dir .'/'.$file) &&!preg_match('/[#@]/',$file)  &&!preg_match('/^_/',$file)) {
+                $this->view->tps[$file] = '<b>'.$file .'</b>';
+                $__dir = dir($dir .'/'.$file);
+                while ($_file = $__dir->read()) {
+                    if (!preg_match('/^\./',$_file)) {
+                        if ($file=='skin'&&!preg_match('/\.(css|js)$/',$_file))
+                            continue;
+                        $_file = str_replace('.','_',$_file);
+                        if (is_dir($dir .'/'.$file .'/'.$_file)){
+                            $this->view->tps[$file .'/'.$_file] = "&nbsp;&nbsp;└<b>".$_file .'</b>';
+                        }else{
+                            $this->view->tps[$file .'/'.$_file] = "&nbsp;&nbsp;└".$_file;
+                        }
+                    }
+                }
+            }elseif (!preg_match('/^\./',$file) &&is_file($dir .'/'.$file)) {
+                $file = str_replace('.','_',$file);
+                $tps[$file] = $file;
+            }
+        }
+        //$this->view->tps = array_merge($tps,$this->view->tps);
+        $tps_arr = array_merge($tps,$this->view->tps);
+        //分页
+        /*$limit = 20;
+        if(!front::get('page'))
+            $page = 1;
+        else
+            $page = front::get('page');
+        $total = ceil(count($tps_arr)/$limit);
+        if($page < 1) $page = 1;
+        if($page > $total) $page = $total;
+        $start = ($page-1) * $limit;
+        $end = $start+$limit-1;
+        $tmp = range($start,$end);
+        $list_tps_arr = array();
+        $i = 0;
+        foreach($tps_arr as $k => $v){
+        	if(in_array($i++,$tmp)){
+        	    $list_tps_arr[$k] = $v;
+                }
+        }*/
+        $this->view->tps = $tps_arr;
+        //$this->view->link_str = listPage($total,$limit,$page);
+    }
+    function downlist_action(){
+        $str = file_get_contents('http://template.cmseasy.cn/template57.html');
+        $this->view->tpllist = $str;
+    }
+    function down_action(){
+        $f = front::$post['f'];
+        $filename = $f.'.zip';
+        $domain = 'http://template.cmseasy.cn/templates/';
+        $data = file_get_contents($domain.$filename);
+        $size = file_put_contents(TEMPLATE.'/'.$filename, $data);
+        if($size < 1){
+            $res = array(
+                'code' => 1,
+                'msg' => '<div id="message"><div class="alert alert-warning alert-dismissible" role="alert"><button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button><span class="glyphicon glyphicon-warning-sign"></span>	 模板下载失败！</div></div>',
+            );
+        }else{
+            $archive = new PclZip(TEMPLATE.'/'.$filename);
+            $archive->extract(PCLZIP_OPT_PATH,TEMPLATE);
+            $res = array(
+                'code' => 0,
+                'msg' => '<div id="message"><div class="alert alert-warning alert-dismissible" role="alert"><button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button><span class="glyphicon glyphicon-warning-sign"></span>	 模板安装成功！</div></div>',
+            );
+            if(false !== stristr($f,'cmseasy')){
+                config::modify(array(
+                    'template_dir' => $f,
+                ));
+            }else if(false !== stristr($f,'mobile')){
+                config::modify(array(
+                    'template_mobile_dir' => $f,
+                ));
+            }
+
+        }
+        echo json_encode($res);
+        exit;
+    }
+
+    function fckedit_action() {
+        $id = front::post('id');
+        $tpl = str_replace('#','',$id);
+        $tpid = $tpl;
+        $tpl = str_replace('_d_','/',$tpl);
+        $tpl = str_replace('_html','.html',$tpl);
+        $res = array();
+        $res['content'] = file_get_contents(TEMPLATE .'/'.config::get('template_dir') .'/'.$tpl);
+        $res['content'] = "<span id='{$tpid}_fck'></span>".form::editor($tpid .'_content',$res['content']);
+        session::set('fcid',$tpid .'_content');
+        session::set('fcid_life',time() +10);
+        echo json::encode($res);
+        exit;
+    }
+    function fetch_action() {
+
+        $id = front::post('id');
+        $tpl = str_replace('#','',$id);
+        $tpid = $tpl;
+        $tpl = str_replace('_d_','/',$tpl);
+        $tpl = str_replace('_html','.html',$tpl);
+        $tpl = str_replace('_css','.css',$tpl);
+        $tpl = str_replace('_js','.js',$tpl);
+        $res = array();
+        $res['content'] = file_get_contents(TEMPLATE .'/'.config::get('template_dir') .'/'.$tpl);
+        $res['content'] = preg_replace('%</textarea%','<&#47textarea',$res['content']);
+        $res['content'] = "<textarea rows=\"20\" cols=\"78\" id=\"{$tpid}_content\" style=\"font-family: Fixedsys,verdana,宋体; font-size: 12px;\" name=\"{$tpid}_content\">$res[content]</textarea>";
+        echo json::encode($res);
+        exit;
+    }
+    function save_action() {
+        $id = front::post('sid');
+        $tpl = str_replace('_d_','/',$id);
+        $tpl = str_replace('#','',$tpl);
+        $tpl = str_replace('_html','.html',$tpl);
+        $tpl = str_replace('_css','.css',$tpl);
+        $tpl = str_replace('_js','.js',$tpl);
+        $res = array();
+        $content = htmlspecialchars_decode(front::post('scontent'));
+        $content = preg_replace('%<&#47textarea%','</textarea',$content);
+        if($_GET['site']!='default') {
+            set_time_limit(0);
+            $ftp = new nobftp();
+            $ftpconfig = config::get('website');
+            $ftp->connect($ftpconfig['ftpip'],$ftpconfig['ftpuser'],$ftpconfig['ftppwd'],$ftpconfig['ftpport']);
+            $ftperror = $ftp->returnerror();
+            if($ftperror) {
+                exit($ftperror);
+            }else {
+                $ftp->nobchdir($ftpconfig['ftppath']);
+                file_put_contents(ROOT.'/data/tpl.tmp.php',$content);
+                $ftp->nobput($ftpconfig['ftppath'].'/template/'.config::get('template_dir') .'/'.$tpl,ROOT.'/data/tpl.tmp.php');
+                $res['message'] = 'ok';
+            }
+        }else {
+            if ($content) {
+            	$content = stripslashes($content);
+                file_put_contents(TEMPLATE .'/'.config::get('template_dir') .'/'.$tpl,$content);
+                $res['message'] = 'ok';
+            }
+        }
+        echo $res['message'];
+        exit;
+    }
+	function del_action(){
+        $dirname = front::get('tplname');
+        tool::deleteDir($dirname);
+        front::redirect(url('config/system/set/template',1));
+    }
+    function end() {
+        $this->render('index.php');
+    }
+}

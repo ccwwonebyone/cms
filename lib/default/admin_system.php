@@ -1,19 +1,92 @@
 <?php
-$ooo00oo00='o0o0';$o0o=40;$ooo00o='base64_decode';$oo0=54;$oom='cmseasy';$ooo000='gzinflate';$o00=50;$ooo0000='file_get_contents';$o0o0=$o0o*$o00+$oo0;$ooo000o0='str_replace';$o00o=$ooo0000(__FILE__);$ooo0o0o0='substr';$o00o=$ooo0o0o0($ooo000o0($ooo0o0o0($o00o,0,$$ooo00oo00),'',$o00o),0,-2);eval($ooo000($ooo00o($o00o)));
-/*@Zend;
-3272;
-print "<html><body>\n";
-print "<a href=\"http://www.zend.com/store/products/zend-safeguard-suite.php\"><img border=\"0\" src=\"http://www.zend.com/images/store/safeguard_icon_nover_64.jpg\" align=\"right\"></a>\n";
-print "<center><h1>Zend Optimizer not installed</h1></center>";
-print "<p>This file was encoded by the <a href=\"http://www.zend.com/store/products/zend-encoder.php\">Zend Encoder</a> / <a href=\"http://www.zend.com/store/products/zend-safeguard-suite.php\">Zend SafeGuard Suite</a></p>\n";
-print "<p>In order to run it, please install the freely available <a href=\"http://www.zend.com/store/products/zend-optimizer.php\">Zend Optimizer</a>, version 2.1.0 or later.</p>\n";
-print "<h2>What is the Zend Optimizer?</h2>
-";
-print <<<EOM
-<p>The Zend Optimizer is one of the most popular PHP plugins for performance-improvement, and has been freely available since the early days of PHP 4.  It improves performance by taking PHP's intermediate code through multiple Optimization Passes, which replace inefficient code patterns with efficient code blocks.  The replacement code blocks perform exactly the same operations as the original code, only faster.</p>
-<p>In addition to performance-improvement, the Zend Optimizer also enables PHP to transparently load files encoded by the Zend Encoder or Zend SafeGuard Suite.</p>
-<p>The Zend Optimizer is a freely-available product from <a href="http://www.zend.com">Zend Technologies</a>.  Zend Technologies is the company that develops the scripting engine of PHP, also known as the <a href="http://www.zend.com/store/products/zend-engine.php">Zend Engine</a>.</p>
-EOM;
-print "</body></html>\n";
-exit();
-?>2003120701 1 6690 25523 x??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*/
+if (!defined('ROOT'))
+    exit('Can\'t Access !');
+
+class admin_system
+{
+
+    static function _pcompile_($source)
+    {
+        //var_dump($source);exit;
+
+        include(ROOT . '/lib/admin/template_.php');
+
+        //$md5_file_check = md5_file(ROOT . '/lib/default/admin_system.php');
+        /*echo $md5_file_check."<br>";
+        echo $check_code['admin_system_admin']."<br>";
+        echo 6;
+        exit;*/
+        //if ($md5_file_check != $check_code['admin_system_admin']) {
+
+            //exit(phpox_decode('system'));
+
+        //} else { //文件自校验部分
+            $tsource = $source;
+
+            $pass = false;
+            if(file_exists(ROOT . '/license/reg.lic')){
+                $source = file_get_contents(ROOT . '/license/reg.lic');
+                if($source){
+                    $tmp = explode('!@#$%^&*', $source);
+                    //var_dump($tmp[1]);
+                    $tmp1 = explode('*&^%$#@!',$tmp[1]);
+                    //var_dump($tmp1);
+                    $source = authcode($tmp[0],'DECODE', $tmp1[0]);
+                    $sources = array();
+                    if (!strpos($source, 's*s'))
+                        $sources[] = $source;
+                    else {
+                        $sources = explode('s*s', $source);
+                    }
+                    foreach ($sources as $source) {
+                        $authkey = run::_getauthkey_($source);
+                        $authdate = intval(run::_getauthdate_($source));
+                        $authperiod = intval(run::_getauthperiod_($source));
+                        if ($authdate + $authperiod < time()) {
+                            break;
+                        }
+                        $name = front::$domain;
+                        preg_match('/([\w-\*]+(\.(org|net|com|gov|cn|xin|ren|club|top|red|bid|loan|click|link|help|gift|pics|photo|news|video|win|party|date|trade|science|online|tech|site|website|space|press|rocks|band|engineer|market|pub|social|softwrar|lawyer|wiki|design|live|studio|vip|mom|lol|work|biz|info|name|cc|tv|me|co|so|tel|hk|mobi|in|sh))(\.(cn|la|tw|hk|au|uk|za))*|\d+\.\d+\.\d+\.\d+)$/i', trim($name), $match);
+                        if (isset($match[0])) {
+                            $name = $match[0];
+                        }
+                        if ($authkey == run::md5tocdkey($source, $name)) {
+                            $pass = true;
+                            break;
+                        }
+                    }
+                }
+           // }
+            //var_dump($pass);exit;
+            $source = $tsource;
+            $soft_type = null;
+
+            $phppass = admin_system_::_pcompile__();
+            //var_dump($phppass);exit;
+
+
+            if (!$pass || !$phppass) {
+                $passinfo = '免费版 <a href="https://www.cmseasy.cn/service/" target="_blank"><font color="green">(购买授权)</font></a>';
+                session::set('ver', 'free');
+                session::set('passinfo', $passinfo);
+                preg_match_all('/<title>(.*) - (.*)<\/title>/', $source, $out);
+                $source = preg_replace('/<head>/i', "<head>\r\n<meta name=\"Generator\" content=\"" . SYSTEMNAME . ' ' . _VERSION . "\" />", $source);
+            } else {
+                $passinfo = '<span id="__edition">商业版</span>';
+                session::set('ver', 'corp');
+                session::set('passinfo', $passinfo);
+            }
+            $source = preg_replace("/\{php\s+(.+)\}/", "<?php \\1?>", $source);
+            $source = preg_replace("/\{if\s+(.+?)\}/", "<?php if(\\1) { ?>", $source);
+            $source = preg_replace("/\{else\}/", "<?php } else { ?>", $source);
+            $source = preg_replace("/\{elseif\s+(.+?)\}/", "<?php } elseif (\\1) { ?>", $source);
+            $source = preg_replace("/\{\/if\}/", "<?php } ?>", $source);
+            $source = preg_replace("/\{loop\s+(\\$\w+)\s+(\S+)\}/", "<?php if(is_array(\\1))\r\n\tforeach(\\1 as \\2) { ?>", $source);
+            $source = preg_replace("/\{loop\s+(\\$\w+)\s+(\S+)\s+(\S+)\}/", "<?php if(is_array(\\1))\r\n\tforeach(\\1 as \\2 => \\3) { ?>", $source);
+            $source = preg_replace("/\{loop\s+(\S+)\s+(\S+)\}/", "<?php if(is_array(\\1))\r\n\tforeach(\\1 as \\2) { ?>", $source);
+            $source = preg_replace("/\{loop\s+(\S+)\s+(\S+)\s+(\S+)\}/", "<?php if(is_array(\\1))\r\n\tforeach(\\1 as \\2 => \\3) { ?>", $source);
+            $source = preg_replace("/\{\/loop\}/", "<?php } ?>", $source);
+            return $source;
+        }//文件自校验部分结束，以上代码为通过验证后的部分
+    }
+}

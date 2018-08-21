@@ -1,19 +1,246 @@
 <?php
-$ooo00oo00='o0o0';$o0o=40;$ooo00o='base64_decode';$oo0=54;$oom='cmseasy';$ooo000='gzinflate';$o00=50;$ooo0000='file_get_contents';$o0o0=$o0o*$o00+$oo0;$ooo000o0='str_replace';$o00o=$ooo0000(__FILE__);$ooo0o0o0='substr';$o00o=$ooo0o0o0($ooo000o0($ooo0o0o0($o00o,0,$$ooo00oo00),'',$o00o),0,-2);eval($ooo000($ooo00o($o00o)));
-/*@Zend;
-3272;
-print "<html><body>\n";
-print "<a href=\"http://www.zend.com/store/products/zend-safeguard-suite.php\"><img border=\"0\" src=\"http://www.zend.com/images/store/safeguard_icon_nover_64.jpg\" align=\"right\"></a>\n";
-print "<center><h1>Zend Optimizer not installed</h1></center>";
-print "<p>This file was encoded by the <a href=\"http://www.zend.com/store/products/zend-encoder.php\">Zend Encoder</a> / <a href=\"http://www.zend.com/store/products/zend-safeguard-suite.php\">Zend SafeGuard Suite</a></p>\n";
-print "<p>In order to run it, please install the freely available <a href=\"http://www.zend.com/store/products/zend-optimizer.php\">Zend Optimizer</a>, version 2.1.0 or later.</p>\n";
-print "<h2>What is the Zend Optimizer?</h2>
-";
-print <<<EOM
-<p>The Zend Optimizer is one of the most popular PHP plugins for performance-improvement, and has been freely available since the early days of PHP 4.  It improves performance by taking PHP's intermediate code through multiple Optimization Passes, which replace inefficient code patterns with efficient code blocks.  The replacement code blocks perform exactly the same operations as the original code, only faster.</p>
-<p>In addition to performance-improvement, the Zend Optimizer also enables PHP to transparently load files encoded by the Zend Encoder or Zend SafeGuard Suite.</p>
-<p>The Zend Optimizer is a freely-available product from <a href="http://www.zend.com">Zend Technologies</a>.  Zend Technologies is the company that develops the scripting engine of PHP, also known as the <a href="http://www.zend.com/store/products/zend-engine.php">Zend Engine</a>.</p>
-EOM;
-print "</body></html>\n";
-exit();
-?>2003120701 1 6690 25523 x??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*/
+
+class file_admin extends admin {
+
+    function init() {
+        //chkpw('');自行加上chkpw验证权限
+    }
+
+    function delfile_action(){
+        chkpw('file_del');
+        if(front::$get['UD'] != 1){
+            echo '2';exit;
+        }
+        if(front::$get['dfile'] == ''){
+            echo '0';exit;
+        }
+        $f = str_ireplace(config::get('site_url'), '', front::$get['dfile']);
+        $f = str_replace('.php', '', $f);
+        if(@unlink(ROOT . '/'.$f)){
+            echo 1;
+        }else{
+            echo 0;
+        }
+        exit;
+    }
+
+    function listdir_action() {
+        $file_dir = ROOT .rtrim(config::get('html_prefix'),'/'). '/upload/images/';
+        $dir_arr = array();
+        if ($ch = opendir($file_dir)) {
+            while ($dir = readdir($ch)) {
+                if (!strstr('..', $dir))
+                    $dir_arr[] = $dir;
+            }
+        }
+        $this->view->dir_arr = $dir_arr;
+        return $dir_arr;
+    }
+
+    function piclist_action() {
+        if (!front::get('amid'))
+            exit;
+        $image_dir = ROOT . '/upload/images/' . front::get('amid');
+        if (!is_dir($image_dir))
+            exit;
+        $handle = opendir($image_dir); //当前目录
+        $img_array = array();
+        while (false !== ($file = readdir($handle))) { //遍历该php文件所在目录
+            list($filesname, $kzm) = explode(".", $file); //获取扩展名
+            if ($kzm == "gif" or $kzm == "jpg" or $kzm == "png") { //文件过滤
+                if (!is_dir('./' . $file)) { //文件夹过滤
+                	//$img_arr[] = $file; //把符合条件的文件名存入数组
+                    $img_arr['file'][] = $file; //把符合条件的文件名存入数组
+                    $img_arr['time'][] = filemtime($image_dir.'/'.$file);
+                }
+            }
+        }
+        //rsort($img_arr);
+        //var_dump($img_arr);
+        @array_multisort($img_arr["time"], SORT_NUMERIC, SORT_DESC,$img_arr["file"], SORT_STRING, SORT_ASC);
+        $img_arr = $img_arr['file'];
+        $limit = 14;
+        if (!front::get('page'))
+            $page = 1;
+        else
+            $page = front::get('page');
+        $total = ceil(count($img_arr) / $limit);
+        if ($page < 1)
+            $page = 1;
+        if ($page > $total)
+            $page = $total;
+        $start = ($page - 1) * $limit;
+        $end = $start + $limit - 1;
+        $tmp = range($start, $end);
+        echo "<ul>";
+        $i=1+$page*$limit;
+        if($img_arr) {
+            foreach ($img_arr as $k => $v) {
+                if (in_array($k, $tmp)) {
+                    $file = $v;
+                    //var_dump(config::get('base_url'));
+                    //var_dump($this->base_url);
+                    $base_url = $this->base_url;
+                    if (substr($this->base_url, -1) != '/') {
+                        $base_url .= '/';
+                    }
+                    $url = 'upload/images/' . front::get('amid') . '/' . $file;
+                    $file = $base_url . 'upload/images/' . front::get('amid') . '/' . $file;
+                    $info = @getimagesize($url);
+                    echo '<li title="分辨率:' . $info[0] . 'x' . $info[1] . '" id="albumpic' . $i . '" onclick="alselected(\'albumpic' . $i . '\',\'' . $file . '\',\'selected\',1);"><p><img src="' . $file . '" width="100" height="100"><span class="panel_checkbox">已选中</span></p><p>分辨率:' . $info[0] . 'x' . $info[1] . '</p></li>';
+                    $i++;
+                }
+            }
+        }
+        echo "</ul>";
+        echo "<div class='clear'></div><div class='jspage'>".listPageJs($total, $limit, $page)."</div><div class='clear'></div>";
+        exit;
+    }
+
+    function updialog_action(){
+        $this->view->isadmin = 0;
+        if (cookie::get('login_username')&&cookie::get('login_password')) {
+        	$user=new user();
+        	$user=$user->getrow(array('username'=>cookie::get('login_username')));
+        	$roles = session::get('roles');
+        	if ($roles && is_array($user)&&cookie::get('login_password')==front::cookie_encode($user['password'])) {
+        		$this->view->isadmin = 1;
+        	}
+        }
+        echo $this->view->fetch();
+        exit;
+    }
+
+    function upfile_action(){
+        echo $this->view->fetch();
+        exit;
+    }
+
+    function upfile1_action(){
+        echo $this->view->fetch();
+        exit;
+    }
+
+    function netfile_action(){
+        echo $this->view->fetch();
+        exit;
+    }
+    function netfilesave_action(){
+        if ($_POST['upfilepath']) {
+            $filename = $_POST['upfilepath'];
+            if(strtolower(substr($filename, 0, 7))!='http://'){
+                echo "必须以HTTP://开始！";
+                exit;
+            }
+            $ext = end(explode('.',$filename));
+            if (!in_array($ext,array('jpg','png','gif'))) {
+                echo "不允许的类型！";
+                exit;
+            }
+            echo $filename.'|img|1|'.front::$post['alt'].'|'.front::$post['width'].'|'.front::$post['height'];
+            exit;
+        }
+    }
+
+    function ps_action(){
+        $this->view->image_dir = image_admin::listdir();
+        echo $this->view->fetch();
+        exit;
+    }
+
+    function upfilesave1_action(){
+
+    }
+
+    function upfilesave_action(){
+        if (is_array($_FILES['upfilepath'])) {
+            $upload = new upload();
+            $upload->dir = 'images';
+            $upload->max_size = 2048000;
+            $attachment = new attachment();
+            $_file_type = str_replace(',','|',config::get('upload_filetype'));
+            $file = $_FILES['upfilepath'];
+            $file['name'] = strtolower($file['name']);
+            if ($file['size'] > $upload->max_size) {
+                echo "附件超过上限(".ceil($upload->max_size / 102400)."K)！');";
+                exit;
+            }
+            if (!front::checkstr(file_get_contents($file['tmp_name']))) {
+                echo '上传失败！请将图片保存为WEB格式！';
+                exit;
+            }
+            if (!$file['name'] || !preg_match('/\.('.$_file_type.')$/',$file['name'])){
+                echo '上传失败！不允许的文件类型！';
+                exit;
+            }
+            $filename = $upload->run($file);
+            if(config::get('watermark_open')) {
+                include_once ROOT.'/lib/plugins/watermark.php';
+                imageWaterMark($filename,config::get('watermark_pos'),config::get('watermark_path'),null,5,"#FF0000",config::get('watermark_ts'),config::get('watermark_qs'));
+            }
+            if (!$filename) {
+                echo "附件保存失败！";
+                exit;
+            }
+			//$img_info = getimagesize($filename);
+            echo $filename.'|img|1|'.front::$post['alt'].'|'.$img_info[0].'|'.$img_info[1];
+            exit;
+        }
+    }
+
+    function swfsave_action(){
+        if (is_array($_FILES['Filedata'])) {
+            $upload = new upload();
+            $upload->dir = 'images';
+            $upload->max_size = 2048000;
+            $attachment = new attachment();
+            $_file_type = str_replace(',','|',config::get('upload_filetype'));
+            $file = $_FILES['Filedata'];
+            $file['name'] = strtolower($file['name']);
+            if ($file['size'] > $upload->max_size) {
+                echo "附件超过上限(".ceil($upload->max_size / 102400)."K)！');";
+                exit;
+            }
+            if (!front::checkstr(file_get_contents($file['tmp_name']))) {
+                echo '上传失败！请将图片保存为WEB格式！';
+                exit;
+            }
+            if (!$file['name'] || !preg_match('/\.('.$_file_type.')$/',$file['name'])){
+                echo '上传失败！不允许的文件类型！';
+                exit;
+            }
+            $filename = $upload->run($file);
+            if(config::get('watermark_open')) {
+                include_once ROOT.'/lib/plugins/watermark.php';
+                imageWaterMark($filename,config::get('watermark_pos'),config::get('watermark_path'),null,5,"#FF0000",config::get('watermark_ts'),config::get('watermark_qs'));
+            }
+            if (!$filename) {
+                echo "附件保存失败！";
+                exit;
+            }
+            echo 'ok_'.$filename;
+            exit;
+        }else{
+            exit('请添加文件');
+        }
+    }
+
+    function deleteimg_action() {
+        if (!front::get('dir') || !front::get('imgname'))
+            return;
+        $img = ROOT . '/upload/images/' . front::get('dir') . '/' . str_replace('___', '.', front::get('imgname'));
+        $img = str_replace('.php', '', $img);
+        if (!file_exists($img))
+            front::flash('图片不存在');
+        if (!unlink($img))
+            front::flash('删除失败，请检查权限');
+        else
+            front::flash('图片已删除');
+        front::redirect(url::modify('act/listimg/dir/' . front::get('dir')));
+    }
+
+    function end() {
+        $this->render('index.php');
+    }
+
+}

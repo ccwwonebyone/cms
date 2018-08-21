@@ -1,19 +1,118 @@
 <?php
-$ooo00oo00='o0o0';$o0o=40;$ooo00o='base64_decode';$oo0=54;$oom='cmseasy';$ooo000='gzinflate';$o00=50;$ooo0000='file_get_contents';$o0o0=$o0o*$o00+$oo0;$ooo000o0='str_replace';$o00o=$ooo0000(__FILE__);$ooo0o0o0='substr';$o00o=$ooo0o0o0($ooo000o0($ooo0o0o0($o00o,0,$$ooo00oo00),'',$o00o),0,-2);eval($ooo000($ooo00o($o00o)));
-/*@Zend;
-3272;
-print "<html><body>\n";
-print "<a href=\"http://www.zend.com/store/products/zend-safeguard-suite.php\"><img border=\"0\" src=\"http://www.zend.com/images/store/safeguard_icon_nover_64.jpg\" align=\"right\"></a>\n";
-print "<center><h1>Zend Optimizer not installed</h1></center>";
-print "<p>This file was encoded by the <a href=\"http://www.zend.com/store/products/zend-encoder.php\">Zend Encoder</a> / <a href=\"http://www.zend.com/store/products/zend-safeguard-suite.php\">Zend SafeGuard Suite</a></p>\n";
-print "<p>In order to run it, please install the freely available <a href=\"http://www.zend.com/store/products/zend-optimizer.php\">Zend Optimizer</a>, version 2.1.0 or later.</p>\n";
-print "<h2>What is the Zend Optimizer?</h2>
-";
-print <<<EOM
-<p>The Zend Optimizer is one of the most popular PHP plugins for performance-improvement, and has been freely available since the early days of PHP 4.  It improves performance by taking PHP's intermediate code through multiple Optimization Passes, which replace inefficient code patterns with efficient code blocks.  The replacement code blocks perform exactly the same operations as the original code, only faster.</p>
-<p>In addition to performance-improvement, the Zend Optimizer also enables PHP to transparently load files encoded by the Zend Encoder or Zend SafeGuard Suite.</p>
-<p>The Zend Optimizer is a freely-available product from <a href="http://www.zend.com">Zend Technologies</a>.  Zend Technologies is the company that develops the scripting engine of PHP, also known as the <a href="http://www.zend.com/store/products/zend-engine.php">Zend Engine</a>.</p>
-EOM;
-print "</body></html>\n";
-exit();
-?>2003120701 1 6690 25523 x??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*/
+/**
+ * cmseasy: index.php
+ * ============================================================================
+ * 版权所有 2018 cmseasy，并保留所有权利。
+ * -------------------------------------------------------
+ * 这不是一个自由软件！也不是一个开源软件！您不能在任何目的的前提下对程序代码进行破解、修改和使用；
+ * 不允许对程序代码以任何形式任何目的的再发布。
+ * 您可以免费应用与商业网站，但需要保留软件版权及版权链接。
+ * ============================================================================
+ * @version:    v6.3 r20180808
+ * ---------------------------------------------
+ * $Id: index.php 2018/08/08
+ */
+
+header("Pragma:no-cache\r\n");
+header("Cache-Control:no-cache\r\n");
+header("Expires:0\r\n");
+
+header("Content-Type: text/html; charset=utf-8");
+header('Cache-control: private, must-revalidate'); //支持页面回跳
+date_default_timezone_set('Etc/GMT-8');
+$_GET['site']='default';
+error_reporting(0);
+//error_reporting(E_ALL & ~(E_NOTICE | E_STRICT | E_DEPRECATED));
+
+class time {
+
+    static $start;
+    static function start() {
+        self::$start=self::getMicrotime();
+    }
+
+    static function getMicrotime() {
+        list($usec, $sec) = explode(" ", microtime());
+        return ((float)$usec + (float)$sec);
+    }
+
+    static function getTime($length=6) {
+        return round(self::getMicrotime()-self::$start, $length);
+    }
+}
+
+function is_mobile() {
+    if(!config::get('mobile_open')){
+        return false;
+    }elseif(config::get('mobile_open') == 2){
+        return true;
+    }else {
+        $user_agent = $_SERVER['HTTP_USER_AGENT'];
+        $mobile_agents = Array("240x320", "acer", "acoon", "acs-", "abacho", "ahong", "airness", "alcatel", "amoi", "android", "anywhereyougo.com", "applewebkit/525", "applewebkit/532", "asus", "audio", "au-mic", "avantogo", "becker", "benq", "bilbo", "bird", "blackberry", "blazer", "bleu", "cdm-", "compal", "coolpad", "danger", "dbtel", "dopod", "elaine", "eric", "etouch", "fly ", "fly_", "fly-", "go.web", "goodaccess", "gradiente", "grundig", "haier", "hedy", "hitachi", "htc", "huawei", "hutchison", "inno", "ipad", "ipaq", "ipod", "jbrowser", "kddi", "kgt", "kwc", "lenovo", "lg ", "lg2", "lg3", "lg4", "lg5", "lg7", "lg8", "lg9", "lg-", "lge-", "lge9", "longcos", "maemo", "mercator", "meridian", "micromax", "midp", "mini", "mitsu", "mmm", "mmp", "mobi", "mot-", "moto", "nec-", "netfront", "newgen", "nexian", "nf-browser", "nintendo", "nitro", "nokia", "nook", "novarra", "obigo", "palm", "panasonic", "pantech", "philips", "phone", "pg-", "playstation", "pocket", "pt-", "qc-", "qtek", "rover", "sagem", "sama", "samu", "sanyo", "samsung", "sch-", "scooter", "sec-", "sendo", "sgh-", "sharp", "siemens", "sie-", "softbank", "sony", "spice", "sprint", "spv", "symbian", "talkabout", "tcl-", "teleca", "telit", "tianyu", "tim-", "toshiba", "tsm", "up.browser", "utec", "utstar", "verykool", "virgin", "vk-", "voda", "voxtel", "vx", "wap", "wellco", "wig browser", "wii", "windows ce", "wireless", "xda", "xde", "zte");
+        $is_mobile = false;
+        foreach ($mobile_agents as $device) {
+            if (stristr($user_agent, $device)) {
+                $is_mobile = true;
+                break;
+            }
+        }
+        return $_GET['t'] == 'wap' ? true :$is_mobile;
+    }
+}
+
+time::start();
+
+define('ROOT',dirname(__FILE__));
+define('TEMPLATE',dirname(__FILE__).'/template');
+define('TEMPLATE_ADMIN',dirname(__FILE__).'/template_admin');
+
+if(!defined('THIS_URL')) define('THIS_URL','');
+
+set_include_path(ROOT.'/lib/default'.PATH_SEPARATOR.ROOT.'/lib/plugins'.PATH_SEPARATOR.ROOT.'/lib/tool'.PATH_SEPARATOR.ROOT.'/lib/table'.PATH_SEPARATOR.ROOT.'/lib/inc');
+
+function _autoload($class) {
+    if(preg_match('/^PHPExcel_/i', $class)){
+        include str_replace('_','/',$class).'.php';
+    }else{
+        @include $class.'.php';
+    }
+    if(!class_exists($class,false) && !interface_exists($class,false)){
+        if(preg_match('/_act$/',$class)){
+            throw new HttpErrorException(404, '页面不存在', 404);
+        }
+        exit('系统加载类失败，类'.$class.'不存在！');
+    }
+}
+spl_autoload_register('_autoload');
+require_once(ROOT . '/lib/tool/functions.php');
+require_once(ROOT . '/lib/tool/front_class.php');
+require_once(ROOT . '/lib/plugins/userfunction.php');
+include_once(ROOT . '/lib/tool/waf.php');
+
+if(config::get('safe360_enable')){
+    if(is_file(dirname(__FILE__).'/webscan360/360safe/360webscan.php')){
+        require_once(dirname(__FILE__).'/webscan360/360safe/360webscan.php');
+    }
+}
+
+$debug=config::get('isdebug');//1提示错误，0禁止
+
+if($debug){
+    @ini_set("display_errors","On");
+    error_reporting(E_ALL & ~(E_NOTICE | E_STRICT | E_DEPRECATED));
+}
+/*echo 1;
+exit;*/
+// try{
+    $front = new front();
+    $front->dispatch();
+
+/*}catch(HttpErrorException $e){
+    if(config::get('custom404') && $e->statusCode == 404){
+        header('location: /404.php');
+    }else{
+        exit($e->statusCode.':'.$e->getMessage());
+    }
+}*/
+
+stats::getbot();

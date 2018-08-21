@@ -1,19 +1,528 @@
 <?php
-$ooo00oo00='o0o0';$o0o=40;$ooo00o='base64_decode';$oo0=54;$oom='cmseasy';$ooo000='gzinflate';$o00=50;$ooo0000='file_get_contents';$o0o0=$o0o*$o00+$oo0;$ooo000o0='str_replace';$o00o=$ooo0000(__FILE__);$ooo0o0o0='substr';$o00o=$ooo0o0o0($ooo000o0($ooo0o0o0($o00o,0,$$ooo00oo00),'',$o00o),0,-2);eval($ooo000($ooo00o($o00o)));
-/*@Zend;
-3272;
-print "<html><body>\n";
-print "<a href=\"http://www.zend.com/store/products/zend-safeguard-suite.php\"><img border=\"0\" src=\"http://www.zend.com/images/store/safeguard_icon_nover_64.jpg\" align=\"right\"></a>\n";
-print "<center><h1>Zend Optimizer not installed</h1></center>";
-print "<p>This file was encoded by the <a href=\"http://www.zend.com/store/products/zend-encoder.php\">Zend Encoder</a> / <a href=\"http://www.zend.com/store/products/zend-safeguard-suite.php\">Zend SafeGuard Suite</a></p>\n";
-print "<p>In order to run it, please install the freely available <a href=\"http://www.zend.com/store/products/zend-optimizer.php\">Zend Optimizer</a>, version 2.1.0 or later.</p>\n";
-print "<h2>What is the Zend Optimizer?</h2>
-";
-print <<<EOM
-<p>The Zend Optimizer is one of the most popular PHP plugins for performance-improvement, and has been freely available since the early days of PHP 4.  It improves performance by taking PHP's intermediate code through multiple Optimization Passes, which replace inefficient code patterns with efficient code blocks.  The replacement code blocks perform exactly the same operations as the original code, only faster.</p>
-<p>In addition to performance-improvement, the Zend Optimizer also enables PHP to transparently load files encoded by the Zend Encoder or Zend SafeGuard Suite.</p>
-<p>The Zend Optimizer is a freely-available product from <a href="http://www.zend.com">Zend Technologies</a>.  Zend Technologies is the company that develops the scripting engine of PHP, also known as the <a href="http://www.zend.com/store/products/zend-engine.php">Zend Engine</a>.</p>
-EOM;
-print "</body></html>\n";
-exit();
-?>2003120701 1 6690 25523 x??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*/
+
+if (!defined('ROOT')) exit('Can\'t Access !');
+
+class category extends table
+{
+    public $name = 'b_category';
+    static $me;
+
+    function getcols($act)
+    {
+        return '*';
+    }
+
+    function get_form()
+    {
+        return array(
+                'parentid'=>array(
+                        'selecttype'=>'select',
+                        'select'=>form::arraytoselect(category::option(0,'isnotlast')),
+                        'default'=>get('parentid'),
+                ),
+                'ishtml'=>array(
+                        'selecttype'=>'radio',
+                        'select'=>form::arraytoselect(array(0=>'继承',1=>'生成',2=>'不生成')),
+                        'default'=>0,
+                ),
+                'isshow'=>array(
+                        'selecttype'=>'radio',
+                        'select'=>form::arraytoselect(array(1=>'正常显示',0=>'禁用')),
+                    'default' => '1',
+                ),
+                'ispages'=>array(
+                        'selecttype'=>'radio',
+                        'select'=>form::arraytoselect(array(1=>'分页',0=>'单页')),
+                        'default'=>1,
+                ),
+                'includecatarchives'=>array(
+                        'selecttype'=>'radio',
+                        'select'=>form::arraytoselect(array(1=>'包含',0=>'不包含')),
+                        'default'=>1,
+                ),
+                'isecoding'=>array(
+                    'selecttype'=>'radio',
+                    'select'=>form::arraytoselect(array(0=>'继承',1=>'开启',2=>'不开启')),
+                    'default'=>0,
+                ),
+                'scategory'=>array(
+                        //'tips'=>"&nbsp;被调用的格式 categories(\$catid,'标记')",
+                ),
+                'image'=>array(
+                        'filetype'=>'thumb',
+                ),
+                'template'=>array(
+                        'selecttype'=>'select',
+                        'select'=>form::arraytoselect(front::$view->archive_tpl_list('archive/list')),
+                        'default'=>"{?category::gettemplate(get('id'),'listtemplate',false)}",
+                        //'tips'=>" 默认：{?category::gettemplate(get('id'))}",
+                ),
+                'listtemplate'=>array(
+                        'selecttype'=>'select',
+                        'select'=>form::arraytoselect(front::$view->archive_tpl_list('archive/list')),
+                        'default'=>"{?category::gettemplate(get('id'),'listtemplate',false)}",
+                        //'tips'=>" 默认：{?category::gettemplate(get('id'),'listtemplate')}",
+                ),
+                'showtemplate'=>array(
+                        'selecttype'=>'select',
+                        'select'=>form::arraytoselect(front::$view->archive_tpl_list('archive/show')),
+                        'default'=>"{?category::gettemplate(get('id'),'showtemplate',false)}",
+                        //'tips'=>" 默认：{?category::gettemplate(get('id'),'showtemplate')}",
+                ),
+        		'templatewap'=>array(
+        				'selecttype'=>'select',
+        				'select'=>form::arraytoselect(front::$view->mobile_tpl_list('archive/list')),
+        				'default'=>"{?category::gettemplate(get('id'),'listtemplatewap',false)}",
+        				//'tips'=>" 默认：{?category::gettemplate(get('id'))}",
+        		),
+        		'listtemplatewap'=>array(
+        				'selecttype'=>'select',
+        				'select'=>form::arraytoselect(front::$view->mobile_tpl_list('archive/list')),
+        				'default'=>"{?category::gettemplate(get('id'),'listtemplatewap',false)}",
+        				//'tips'=>" 默认：{?category::gettemplate(get('id'),'listtemplate')}",
+        		),
+        		'showtemplatewap'=>array(
+        				'selecttype'=>'select',
+        				'select'=>form::arraytoselect(front::$view->mobile_tpl_list('archive/show')),
+        				'default'=>"{?category::gettemplate(get('id'),'showtemplatewap',false)}",
+        				//'tips'=>" 默认：{?category::gettemplate(get('id'),'showtemplate')}",
+        		),
+                'showform'=>array(
+                        'selecttype'=>'select',
+                        'select'=>form::arraytoselect(get_my_tables_list()),
+                        'default'=>"0",
+                ),
+                'isnav'=>array(
+                        'selecttype'=>'select',
+                        'select'=>form::arraytoselect(array(1=>'显示',0=>'不显示')),
+                    'default' => 1,
+                ),
+        		'ismobilenav'=>array(
+        				'selecttype'=>'select',
+        				'select'=>form::arraytoselect(array(1=>'显示',0=>'不显示')),
+                    'default' => 1,
+        		),
+                'htmlrule'=>array(
+                        'selecttype'=>'select',
+                        'select'=>form::arraytoselect(getHtmlRule('category')),
+                        'default'=>'',
+                ),
+                'listhtmlrule'=>array(
+                        'selecttype'=>'select',
+                        'select'=>form::arraytoselect(getHtmlRule('category')),
+                        'default'=>'',
+                ),
+                'showhtmlrule'=>array(
+                        'selecttype'=>'select',
+                        'select'=>form::arraytoselect(getHtmlRule('archive')),
+                        'default'=>'',
+                ),
+                'categorycontent' => array(
+                'type' => 'mediumtext',
+                ),
+        );
+    }
+    public static function getInstance() {
+        if (!self::$me) {
+            $class=new category();
+            $class->init();
+            self::$me=$class;
+        }
+        return self::$me;
+    }
+    function init() {
+        $_category=$this->getrows(null,1000,'listorder=0,listorder asc');
+        $category=array();
+        foreach ($_category as $one) {
+            if (!front::$admin &&!$one['isshow']) continue;
+            $category[$one['catid']]=$one;
+        }
+        $this->category=$category;
+        $parent=array();
+        foreach ($category as $one) {
+            $parent[$one['catid']]=$one['parentid'];
+        }
+        $this->parent=$parent;
+        $this->tree=new tree($parent);
+    }
+    function son($id) {
+        if (!isset($this->tree)) $this->init();
+        return $this->tree->get_son($id);
+    }
+    function sons($id) {
+        if (!isset($this->tree)) $this->init();
+        $sons=array();
+        $this->tree->get_sons($id,$sons);
+        return $sons;
+    }
+    function hasson($id) {
+        return self::getInstance()->tree->has_son($id);
+    }
+    function getparents($id,$up=true) {
+        if (!isset($this->tree)) $this->init();
+        return $this->tree->get_parents($id);
+    }
+    static function getparentsid($id,$up=true) {
+        $category=self::getInstance();
+        if (!isset($category->tree)) $category->init();
+        return $category->tree->get_parents($id);
+    }
+    function getparent($id) {
+        if (isset($this->tree->parent[$id])) return $this->tree->parent[$id];
+        else return false;
+    }
+    function getposition($id) {
+        if (!isset($this->tree)) $this->init();
+        $position=$this->tree->get_parents($id);
+        return $position;
+    }
+    function getposition1($id) {
+        if (!isset($this->tree)) $this->init();
+        $position=$this->tree->get_parents1($id);
+        return $position;
+    }
+    static function gettopparent($id) {
+        $position=self::getInstance()->getposition($id);
+        return $position[count($position) -1];
+    }
+    function htmlpath($id) {
+        if (!isset($this->tree)) $this->init();
+        $positions=$this->tree->get_parents($id);
+        $path=array();
+        foreach ($positions as $_id) {
+            if ($_id &&isset($this->category[$_id])) $path[]=$this->category[$_id]['htmldir'];
+        }
+        return implode('/',$path);
+    }
+    static function option($catid=0,$tag='all',&$option=array(0=>'请选择...'),&$level=0) {
+        $category=self::getInstance();
+        if (is_array($category->son($catid))) foreach ($category->son($catid) as $_catid) {
+                if (!self::check($_catid,$tag)) continue;
+                $strpre=$level >0 ?str_pad('',$level * 12,'&nbsp;').'└&nbsp;': '';
+                $option[$_catid]=$strpre.$category->category[$_catid]['catname'];
+                if (is_array($category->son($_catid))) {
+                    $level++;
+                    self::option($_catid,$tag,$option,$level);
+                    $level--;
+                }
+            }
+        return $option;
+    }
+    static function name($catid) {
+        $category=self::getInstance();
+        if (isset($category->category[$catid]['catname'])) return $category->category[$catid]['catname'];
+        else return '';
+    }
+    static function categorypages($catid) {
+        $category=self::getInstance();
+        if (isset($category->category[$catid]['attr3'])) return $category->category[$catid]['attr3'];
+        else return '';
+    }
+    static function image($catid) {
+        $category=self::getInstance();
+        if (isset($category->category[$catid]['image'])) return config::get('base_url').'/'.$category->category[$catid]['image'];
+        else return '';
+    }
+    static function url($catid,$page=null,$relative=false) {
+        //var_dump(front::$get);
+        $category=self::getInstance();
+        if (@$category->category[$catid]['linkto']) return $category->category[$catid]['linkto'];
+
+        if(front::$ismobile == true){
+        	if (config::get('wap_html_prefix')){
+        		$wap_html_prefix='/'.trim(config::get('wap_html_prefix'),'/');
+        	}
+        	if(front::$rewrite){
+        		if (!$page){
+        			return config::get('site_url').'list_wap_'.$catid.'.htm';
+        		}else{
+        			return config::get('site_url').'list_wap_'.$catid.'_'.$page.'.htm';
+        		}
+        	}
+        	if (!category::getiswaphtml($catid)) {
+        		if (!$page){
+        			return url::create('archive/list/t/wap/catid/'.$catid);
+        		}else{
+        			return url::create('archive/list/t/wap/catid/'.$catid.'/page/'.$page);
+        		}
+        	}else{
+        		$rule=category::gethtmlrule($catid,'listhtmlrule');
+        		$rule=str_replace('{$caturl}',$category->htmlpath($catid),$rule);
+        		$rule=str_replace('{$dir}',$category->category[$catid]['htmldir'],$rule);
+        		$rule=str_replace('{$catid}',$catid,$rule);
+        		if ($category->category[$catid]['ispages'] &&!$page) $page=1;
+        		if ($page) $rule=str_replace('{$page}',$page,$rule);
+        		else $rule=preg_replace('/\(.*?\)/','',$rule);
+        		$rule=preg_replace('%/\.html$%','/index.html',$rule);
+        		$rule=preg_replace('/[\(\)]/','',$rule);
+        		$rule=preg_replace('%[\\/]index\.htm(l)?%','',$rule);
+        		$rule=rtrim($rule,'/');
+        		$rule=trim($rule,'\\');
+        		if ($relative) return $wap_html_prefix.'/'.$rule;
+        		$rule=str_replace('/1.html','',$rule);
+        		$path = config::get('base_url').$wap_html_prefix.'/'.$rule;
+        		//echo $path;
+        		return $path;
+        	}
+        }
+
+        if (config::get('html_prefix')) $html_prefix='/'.trim(config::get('html_prefix'),'/');
+        if (!category::getishtml($catid) ||front::$rewrite) {
+            if (!$page) return url::create('archive/list/catid/'.$catid);
+            else return url::create('archive/list/catid/'.$catid.'/page/'.$page);
+        }
+        else {
+            $rule=category::gethtmlrule($catid,'listhtmlrule');
+            $rule=str_replace('{$caturl}',$category->htmlpath($catid),$rule);
+            $rule=str_replace('{$dir}',$category->category[$catid]['htmldir'],$rule);
+            $rule=str_replace('{$catid}',$catid,$rule);
+            if ($category->category[$catid]['ispages'] &&!$page){
+                $page=1;
+            }
+            if ($page){
+                $rule=str_replace('{$page}',$page,$rule);
+            }else{
+                $rule=preg_replace('/\(.*?\)/','',$rule);
+            }
+            $rule=preg_replace('%/\.html$%','/index.html',$rule);
+            $rule=preg_replace('/[\(\)]/','',$rule);
+            $rule=preg_replace('%[\\/]index\.htm(l)?%','',$rule);
+            $rule=rtrim($rule,'/');
+            $rule=trim($rule,'\\');
+            if ($relative) return $html_prefix.'/'.$rule;
+            $rule=str_replace('/1.html','',$rule);
+            return config::get('base_url').$html_prefix.'/'.$rule;
+        }
+    }
+    static function getpositionlink($catid) {
+        $category=self::getInstance();
+        if (!isset($category->category[$catid])) return;
+        $position=$category->getposition($catid);
+        $links=array();
+        if (!$catid) return $links;
+        foreach ($position as $order=>$id) {
+            $links[$order]['id']=$id;
+            $links[$order]['name']=@$category->category[$id]['catname'];
+            $links[$order]['url']=self::url($id);
+        }
+        return $links;
+    }
+    static function getpositionlink1($catid) {
+        $category=self::getInstance();
+        if (!isset($category->category[$catid])) return;
+        $position=$category->getposition($catid);
+        $links=array();
+        if (!$catid) return $links;
+        foreach ($position as $order=>$id) {
+            $links['id']=$id;
+            $links['name']=@$category->category[$id]['catname'];
+            $links['url']=self::url($id);
+            break;
+        }
+        return $links;
+    }
+    static function getpositionlink2($catid) {
+        $category=self::getInstance();
+        if (!isset($category->category[$catid])) return;
+        $position=$category->getposition1($catid);
+        $links=array();
+        if (!$catid) return $links;
+        foreach ($position as $order=>$id) {
+            $links[$order]['id']=$id;
+            $links[$order]['name']=@$category->category[$id]['catname'];
+            $links[$order]['url']=self::url($id);
+        }
+        return $links;
+    }
+    static function gettemplate($catid,$tag='listtemplate',$up=true) {
+        if (!$catid &&front::get('parentid')) $catid=front::get('parentid');
+        $category=self::getInstance();
+        if (@$category->category[$catid]['template'] &&$tag == 'listtemplate') return $category->category[$catid]['template'];
+        if (@$category->category[$catid][$tag]) return $category->category[$catid][$tag];
+        if (!$up) return;
+        $parents=$category->getparents($catid,true);
+        ksort($parents);
+        foreach ($parents as $pid) {
+            if ($pid == $catid) continue;
+            if (@$category->category[$pid][$tag]) return $category->category[$pid][$tag];
+        }
+        $default=array(
+                'listtemplate'=>'archive/list.html',
+                'showtemplate'=>'archive/show.html',
+        );
+        if (isset($default[$tag])) return $default[$tag];
+    }
+    static function gettemplatewap($catid,$tag='listtemplatewap',$up=true) {
+    	//echo 11;
+    	if (!$catid &&front::get('parentid')) $catid=front::get('parentid');
+    	$category=self::getInstance();
+    	if (@$category->category[$catid]['templatewap'] &&$tag == 'listtemplatewap') return $category->category[$catid]['templatewap'];
+    	if (@$category->category[$catid][$tag]) return $category->category[$catid][$tag];
+    	if (!$up) return;
+    	//echo 22;
+    	$parents=$category->getparents($catid,true);
+    	ksort($parents);
+    	foreach ($parents as $pid) {
+    		if ($pid == $catid) continue;
+    		if (@$category->category[$pid][$tag]) return $category->category[$pid][$tag];
+    	}
+    	$default=array(
+    			'listtemplatewap'=>'archive/list.html',
+    			'showtemplatewap'=>'archive/show.html',
+    	);
+    	//echo 11;
+    	if (isset($default[$tag])) return $default[$tag];
+    }
+    static function gethtmlrule($catid,$tag='listhtmlrule') {
+        if (!$catid &&front::get('parentid')) $catid=front::get('parentid');
+        $category=self::getInstance();
+        if (@$category->category[$catid]['htmlrule'] &&$tag == 'listhtmlrule') return $category->category[$catid]['htmlrule'];
+        if (@$category->category[$catid]['showhtmlrule'] &&$tag == 'showhtmlrule') return $category->category[$catid]['showhtmlrule'];
+        $parents=$category->getparents($catid,true);
+        ksort($parents);
+        foreach ($parents as $pid) {
+            if ($pid == $catid) continue;
+            if (@$category->category[$pid][$tag]) return $category->category[$pid][$tag];
+        }
+        $default=array(
+                'listhtmlrule'=>'{$dir}/{$page}.html',
+                'showhtmlrule'=>'{$dir}/show-{$aid}-{$page}.html',
+        );
+        if (isset($default[$tag])) return $default[$tag];
+    }
+    static function getishtml($catid) {
+        if (config::get('list_page_php') == '1') return true;
+        if (config::get('list_page_php') == '2') return false;
+        $category=self::getInstance();
+        if (@$category->category[$catid]['ishtml'] == '1') return true;
+        $parents=$category->getparents($catid,true);
+        ksort($parents);
+        foreach ($parents as $pid) {
+            if ($pid == $catid) continue;
+            if (@$category->category[$pid]['ishtml'] == '1') return true;
+            if (@$category->category[$pid]['ishtml'] == '2') return false;
+        }
+        return false;
+    }
+    static function getiswaphtml($catid) {
+    	if (config::get('wap_list_page_php') == '1') return true;
+    	if (config::get('wap_list_page_php') == '2') return false;
+    	$category=self::getInstance();
+    	if (@$category->category[$catid]['iswaphtml'] == '1') return true;
+    	$parents=$category->getparents($catid,true);
+    	ksort($parents);
+    	foreach ($parents as $pid) {
+    		if ($pid == $catid) continue;
+    		if (@$category->category[$pid]['iswaphtml'] == '1') return true;
+    		if (@$category->category[$pid]['iswaphtml'] == '2') return false;
+    	}
+    	return false;
+    }
+    static function getarcishtml($arc) {
+        if (config::get('show_page_php') == '1') return true;
+        if (config::get('show_page_php') == '2') return false;
+        if ($arc['ishtml']) return true;
+        if (self::getishtml($arc['catid'])) return true;
+        return false;
+    }
+    static function getarciswaphtml($arc) {
+    	if (config::get('wap_show_page_php') == '1') return true;
+    	if (config::get('wap_show_page_php') == '2') return false;
+    	if ($arc['iswaphtml']) return true;
+    	if (self::getiswaphtml($arc['catid'])) return true;
+    	return false;
+    }
+    static function getattr($categoryid,$attr) {
+        $category=self::getInstance();
+        if (@$category->category[$categoryid][$attr]) return $category->category[$categoryid][$attr];
+        $parents=$category->getparents($categoryid,true);
+        ksort($parents);
+        foreach ($parents as $pid) {
+            if ($pid == $categoryid) continue;
+            if (@$category->category[$pid][$attr]) return $category->category[$categoryid][$attr];
+        }
+        return false;
+    }
+    static function getwidthofthumb($catid) {
+        $width=self::getattr($catid,'thumb_width');
+        if (!$width) $width=config::get('thumb_width');
+        return $width;
+    }
+    static function getheightofthumb($catid) {
+        $height=self::getattr($catid,'thumb_height');
+        if (!$height) $height=config::get('thumb_height');
+        return $height;
+    }
+    static function getcategorydata($_catid=0,&$data=array(),&$level=0) {
+        $category=self::getInstance();
+        $categorys=$category->son($_catid);
+        foreach ($categorys as $catid) {
+            $info_=$category->category[$catid];
+            $strpre=$level >0 ?str_pad('',$level * 12,'&nbsp;').'└&nbsp;': '';
+            $info_['catname']=$strpre.$info_['catname'].'<font color="Blue">'.(self::check($catid,'islast') ?('('.countarchiveformcategory($catid).')') : '').'</font>';
+            $info_['level']=$level;
+            $data[]=$info_;
+            if (is_array($category->son($catid))) {
+                $level++;
+                self::getcategorydata($catid,$data,$level);
+                $level--;
+            }
+        }
+        return $data;
+    }
+    static function listcategorydata($_catid=0,&$data=array(),&$level=0) {
+        $category=self::getInstance();
+        $categorys=$category->son($_catid);
+        foreach ($categorys as $catid) {
+            $info_=$category->category[$catid];
+            $strpre=$level >0 ?str_pad('',$level * 12,'&nbsp;').'└&nbsp;': '';
+            $info_['catname']=$strpre.$info_['catname'];
+            $info_['url']=category::url($info_['catid']);
+            $info_['level']=$level;
+            $info_['parentid']=$category->getparent($info_['catid']);
+            $data[]=$info_;
+            if (is_array($category->son($catid))) {
+                $level++;
+                self::listcategorydata($catid,$data,$level);
+                $level--;
+            }
+        }
+        return $data;
+    }
+
+    static function check($catid,$tag='isnotlast') {
+        return true;
+        $_category=self::getInstance();
+        $category=$_category->category[$catid];
+        if ($tag == 'islast'&&!$category['islast']) return false;
+        if ($tag == 'isnotlast'&&$category['islast']) return false;
+        if ($tag == 'tolast') {
+            if ($_category->category[$catid]['islast']) return true;
+            $sons=$_category->sons($catid);
+            foreach ($sons as $tid) {
+                if ($_category->category[$tid]['islast']) return true;
+            }
+            return false;
+        }
+        return true;
+    }
+    static function htmlcache($catid) {
+    }
+
+    public function sitemap($path='./',$filename='sitemap.html'){
+    	category::listcategorydata(0,$arr,$level);
+    	front::$view->archive = $arr;
+    	$html = front::$view->fetch('system/sitemap.html');
+    	file_put_contents($path.$filename,$html);
+    }
+
+    static function listdata($parentid=0,$limit=10,$order='catid asc',$where=null,$includeson=true) {
+        $category=new category();
+        $where='parentid='.($parentid?$parentid:'0').($where ?' and '.$where : '');
+        $categories=$category->getrows($where,$limit,$order);
+        foreach ($categories as $order=>$category) {
+            $categories[$order]['url']=category::url($category['catid']);
+        }
+        return $categories;
+    }
+}

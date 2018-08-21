@@ -1,7 +1,7 @@
 <?php if (!defined('ROOT')) exit('Can\'t Access !'); return array (
 
 'database'=>array(
-'hostname'=>'mysql',//MySQL服务器
+'hostname'=>'localhost',//MySQL服务器
 'user'=>'root',//用户名
 'password'=>'123456',//密码
 'database'=>'cms',//数据库名
@@ -147,7 +147,7 @@
 
 //后台地址[<span class="tips" data-toggle="tooltip" data-html="ture" data-placement="left" title="强烈推荐安装后第一时间修改登录地址，加强网站后台安全性！" /></span>]
 
-'cookie_password'=>'ad18171c9ff2a7f48357b2573521db376468dfdd',
+'cookie_password'=>'143e08f341b9c113730ebb1b9bdea21953fe0eda',
 
 //Cookie安全码[<span class="tips" data-toggle="tooltip" data-html="ture" data-placement="left" title="多站点设置时，此项必须一致！" /></span>]
 

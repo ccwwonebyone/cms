@@ -1,19 +1,957 @@
 <?php
-$ooo00oo00='o0o0';$o0o=40;$ooo00o='base64_decode';$oo0=54;$oom='cmseasy';$ooo000='gzinflate';$o00=50;$ooo0000='file_get_contents';$o0o0=$o0o*$o00+$oo0;$ooo000o0='str_replace';$o00o=$ooo0000(__FILE__);$ooo0o0o0='substr';$o00o=$ooo0o0o0($ooo000o0($ooo0o0o0($o00o,0,$$ooo00oo00),'',$o00o),0,-2);eval($ooo000($ooo00o($o00o)));
-/*@Zend;
-3272;
-print "<html><body>\n";
-print "<a href=\"http://www.zend.com/store/products/zend-safeguard-suite.php\"><img border=\"0\" src=\"http://www.zend.com/images/store/safeguard_icon_nover_64.jpg\" align=\"right\"></a>\n";
-print "<center><h1>Zend Optimizer not installed</h1></center>";
-print "<p>This file was encoded by the <a href=\"http://www.zend.com/store/products/zend-encoder.php\">Zend Encoder</a> / <a href=\"http://www.zend.com/store/products/zend-safeguard-suite.php\">Zend SafeGuard Suite</a></p>\n";
-print "<p>In order to run it, please install the freely available <a href=\"http://www.zend.com/store/products/zend-optimizer.php\">Zend Optimizer</a>, version 2.1.0 or later.</p>\n";
-print "<h2>What is the Zend Optimizer?</h2>
-";
-print <<<EOM
-<p>The Zend Optimizer is one of the most popular PHP plugins for performance-improvement, and has been freely available since the early days of PHP 4.  It improves performance by taking PHP's intermediate code through multiple Optimization Passes, which replace inefficient code patterns with efficient code blocks.  The replacement code blocks perform exactly the same operations as the original code, only faster.</p>
-<p>In addition to performance-improvement, the Zend Optimizer also enables PHP to transparently load files encoded by the Zend Encoder or Zend SafeGuard Suite.</p>
-<p>The Zend Optimizer is a freely-available product from <a href="http://www.zend.com">Zend Technologies</a>.  Zend Technologies is the company that develops the scripting engine of PHP, also known as the <a href="http://www.zend.com/store/products/zend-engine.php">Zend Engine</a>.</p>
-EOM;
-print "</body></html>\n";
-exit();
-?>2003120701 1 6690 25523 x??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*/
+
+if (!defined('ROOT'))
+    exit('Can\'t Access !');
+
+class cache_admin extends admin
+{
+
+    public $archive;
+
+    function init()
+    {
+        header('Cache-control: private, must-revalidate');
+        front::$admin = false;
+        front::$isadmin = false;
+        front::$html = true;
+    }
+
+    function make_index_action()
+    {
+        $servip = gethostbyname($_SERVER['SERVER_NAME']);
+        if ($servip == front::ip() && front::get('ishtml') == 1) {
+
+        } else {
+            chkpw('cache_index');
+        }
+        $case = 'index';
+        $act = 'index';
+        $_GET = array('case' => $case, 'act' => $act);
+        $front = new front();
+        front::$admin = false;
+        front::$isadmin = false;
+        front::$html = true;
+        $case = $case . '_act';
+        $case = new $case();
+        $case->init();
+        $method = $act . '_action';
+        $view = $case->view;
+        file_put_contents(ROOT . '/index.html', $case->fetch());
+        front::flash(lang('generation_of_home'));
+        front::redirect(front::$from);
+    }
+
+    function make_special_action()
+    {
+        chkpw('cache_special');
+        header('Cache-control: private, must-revalidate');
+        @set_time_limit(0);
+        if (!front::post('submit'))
+            return;
+        $speciaid = intval(front::$post['specialid']);
+        $special = new special();
+        $specials = $special->getrow($speciaid);
+        if (!$specials['ishtml']) {
+            front::flash(lang('none_of_the_generated_HTML'));
+            return;
+        }
+        $archive_all = new archive();
+        $archive_num = $archive_all->rec_count('spid=' . $speciaid . ' and checked=1 and `state`=1');
+        $pagesize = config::get('list_pagesize');
+        if (!$archive_num) $archive_num = 1;
+        $cpage = ceil($archive_num / $pagesize);
+        $j = 0;
+        for ($i = 1; $i <= $cpage; $i++) {
+            $path = 'special/' . $speciaid . '/list-' . $i . '.html';
+            tool::mkdir(dirname($path));
+            $data = file_get_contents(config::get('site_url') . 'index.php?case=special&act=show&spid=' . $speciaid . '&page=' . $i);
+            if (file_put_contents($path, $data)) {
+                $j++;
+            }
+        }
+        if ($j > 0) {
+
+            $path = 'special/' . $speciaid . '/index.html';
+            tool::mkdir(dirname($path));
+            $data = file_get_contents(config::get('site_url') . 'index.php?case=special&act=show&spid=' . $speciaid . '&page=1');
+            if (file_put_contents($path, $data)) {
+                //front::flash("成功生成html <b>1</b> 页！");
+            }
+            front::flash(lang('generate_html') . " <b>$j</b> " . lang('npage') . "！");
+        }
+    }
+
+    function make_area_action()
+    {
+        chkpw('cache_area');
+        header('Cache-control: private, must-revalidate');
+        @set_time_limit(0);
+
+        if (!front::post('submit'))
+            return;
+        if (!config::get('area_html')) {
+            front::flash(lang('none_of_the_generated_HTML'));
+            return;
+        }
+        $archive_all = new archive();
+
+        if (front::post('province_id')) {
+            $where = 'checked=1 and `state`=1';
+            $where .= ' and province_id=' . front::post('province_id');
+            $archive_num = $archive_all->rec_count($where);
+            $pagesize = config::get('list_pagesize');
+            $cpage = ceil($archive_num / $pagesize);
+            $j = 0;
+            for ($i = 1; $i <= $cpage; $i++) {
+                $path = 'area/province/' . intval(front::post('province_id')) . '_list_' . $i . '.html';
+                tool::mkdir(dirname($path));
+                $data = file_get_contents(config::get('site_url') . 'index.php?case=area&act=list&province_id=' . intval(front::post('province_id')) . '&city_id=' . intval(front::post('city_id')) . '&section_id=' . intval(front::post('section_id')) . '&page=' . $i);
+                if (file_put_contents($path, $data)) {
+                    $j++;
+                }
+            }
+            if ($j > 0) {
+                front::flash(lang('generate_html') . " <b>$j</b> " . lang('npage') . "！");
+            } else {
+                front::flash(lang('none_of_the_generated_HTML'));
+            }
+        }
+        if (front::post('city_id')) {
+            $where = 'checked=1 and `state`=1';
+            $where .= ' and city_id=' . front::post('city_id');
+            $archive_num = $archive_all->rec_count($where);
+            $pagesize = config::get('list_pagesize');
+            $cpage = ceil($archive_num / $pagesize);
+            $j = 0;
+            for ($i = 1; $i <= $cpage; $i++) {
+                $path = 'area/city/' . intval(front::post('city_id')) . '_list_' . $i . '.html';
+                tool::mkdir(dirname($path));
+                $data = file_get_contents(config::get('site_url') . 'index.php?case=area&act=list&province_id=' . intval(front::post('province_id')) . '&city_id=' . intval(front::post('city_id')) . '&section_id=' . intval(front::post('section_id')) . '&page=' . $i);
+                if (file_put_contents($path, $data)) {
+                    $j++;
+                }
+            }
+            if ($j > 0) {
+                front::flash(lang('generate_html') . " <b>$j</b> " . lang('npage') . "！");
+            } else {
+                front::flash(lang('none_of_the_generated_HTML'));
+            }
+        }
+        if (front::post('section_id')) {
+            $where = 'checked=1 and `state`=1';
+            $where .= ' and section_id=' . front::post('section_id');
+            $archive_num = $archive_all->rec_count($where);
+            $pagesize = config::get('list_pagesize');
+            $cpage = ceil($archive_num / $pagesize);
+            $j = 0;
+            for ($i = 1; $i <= $cpage; $i++) {
+                $path = 'area/section/' . intval(front::post('section_id')) . '_list_' . $i . '.html';
+                tool::mkdir(dirname($path));
+                $data = file_get_contents(config::get('site_url') . 'index.php?case=area&act=list&province_id=' . intval(front::post('province_id')) . '&city_id=' . intval(front::post('city_id')) . '&section_id=' . intval(front::post('section_id')) . '&page=' . $i);
+                if (file_put_contents($path, $data)) {
+                    $j++;
+                }
+            }
+            if ($j > 0) {
+                front::flash(lang('generate_html') . " <b>$j</b> " . lang('npage') . "！");
+            } else {
+                front::flash(lang('none_of_the_generated_HTML'));
+            }
+        }
+    }
+
+    function make_tag_action()
+    {
+        chkpw('cache_tag');
+        header('Cache-control: private, must-revalidate');
+        set_time_limit(0);
+        if (!front::$get['tag']) {
+            front::$get['tag'] = front::$post['tag'];
+        }
+        if (!front::$get['submit']) {
+            front::$get['submit'] = front::$post['submit'];
+        }
+        $otag = new tag();
+        $tags = $otag->getrows("", 0);
+        //var_dump($tags);
+        $tags = $this->view->hottags = array_to_hashmap($tags, 'tagid', 'tagname');
+
+        if (!front::get('submit'))
+            return;
+        if (!config::get('tag_html') || !front::$get['tag']) {
+            front::flash(lang('none_of_the_generated_HTML'));
+            front::redirect(front::$from);
+            return;
+        }
+        $tagid = front::$get['tag'];
+        $tag = $tags[$tagid];
+        $pinyin = pinyin::get($tag);
+
+        $arctag = new arctag();
+        $archive_num = $arctag->rec_count('tagid=' . $tagid);
+
+        front::$record_count = $archive_num;
+        $pagesize = config::get('list_pagesize');
+        front::$pages = $pagesize;
+        $cpage = ceil($archive_num / $pagesize);
+        $j = 0;
+
+        for ($i = 1; $i <= $cpage; $i++) {
+            $path = 'tags/' . $pinyin . '-' . $tagid . '-' . $i . '.html';
+            tool::mkdir(dirname($path));
+
+            $data = file_get_contents(getSiteUrl() . '/index.php?case=tag&act=show&tag=' . urlencode($tag) . '&page=' . $i);
+            if (file_put_contents($path, $data)) {
+                $j++;
+            }
+        }
+        if ($j > 0) {
+            front::flash(lang('generate_html') . " <b>$j</b> " . lang('npage') . "！");
+            front::redirect(front::$from);
+        } else {
+            front::flash(lang('none_of_the_generated_HTML'));
+            front::redirect(front::$from);
+        }
+    }
+
+    function make_type_action()
+    {
+        chkpw('cache_type');
+        header('Cache-control: private, must-revalidate');
+        @set_time_limit(0);
+        if (!front::post('submit'))
+            return;
+
+        $case = 'type';
+        $act = 'list';
+        $_GET = array('case' => $case, 'act' => $act);
+        $front = new front();
+        front::$admin = false;
+        front::$isadmin = false;
+        front::$html = true;
+        front::$rewrite = false;
+        $case = $case . '_act';
+        $case = new $case();
+        $case->init();
+        $method = $act . '_action';
+        $totalpage = 100;
+        $time_start = time::getTime();
+
+        $type = type::getInstance();
+        $typeid = front::post('typeid');
+        if ($typeid && !$type->getishtml($typeid)) {
+            front::flash(lang('none_of_the_generated_HTML'));
+            return;
+        }
+        if ($typeid) {
+            $arrtype = $type->getrows($typeid);
+        } else {
+            $arrtype = $type->getrows('', 0);
+        }
+        $cpage = 0;
+        if (is_array($arrtype) && !empty($arrtype)) {
+            foreach ($arrtype as $v) {
+                if (!$type->getishtml($v['typeid'])) {
+                    continue;
+                }
+                $types = array();
+                $types = $type->sons($v['typeid']);
+                $types[] = $v['typeid'];
+                $where = 'typeid in (' . implode(',', $types) . ') AND checked=1 AND state=1';
+                $archive_all = new archive();
+                $archive_num = $archive_all->rec_count($where);
+                for (front::$get['page'] = 1; ; front::$get['page']++) {
+                    $view = $case->view;
+                    $pagesize = config::get('list_pagesize');
+                    $limit = ((front::$get['page'] - 1) * $pagesize) . ',' . $pagesize;
+                    $archive = new archive();
+                    $case->view->archives = $archive->getrows($where, $limit, '`listorder` desc,adddate desc');
+                    $case->view->page = front::$get['page'];
+                    $case->view->type = $v;
+                    $case->view->typeid = $v['typeid'];
+                    $case->view->pages = $v['ispages'];
+
+                    foreach ($case->view->archives as $order => $arc) {
+                        $articles = $arc;
+                        if (!$arc['introduce'])
+                            $arc['introduce'] = cut($arc['content'], 200);
+                        $articles['url'] = archive::url($arc);
+                        $articles['catname'] = category::name($arc['catid']);
+                        $articles['caturl'] = category::url($arc['catid']);
+                        $articles['sthumb'] = @strstr($arc['thumb'], "http://") ? $arc['thumb'] : config::get('base_url') . '/' . $arc['thumb'];
+                        $articles['strgrade'] = archive::getgrade($arc['grade']);
+                        $articles['adddate'] = sdate($arc['adddate']);
+                        $articles['buyurl'] = url('archive/orders/aid/' . $arc['aid']);
+                        $articles['stitle'] = strip_tags($arc['title']);
+						$prices = getPrices($arc['attr2']);
+                    $articles['attr2'] = $prices['price'];
+                    $articles['oldprice'] = $prices['oldprice'];
+                        $case->view->archives[$order] = $articles;
+                    }
+                    if (!isset($page_count)) {
+                        front::$record_count = $case->view->record_count = $archive_num;
+                        $case->view->page_count = ceil($case->view->record_count / $pagesize);
+                        $page_count = $case->view->page_count;
+                    }
+
+                    if (front::get('page') > 1 && front::get('page') > $case->view->page_count) {
+                        $page_count = null;
+                        break;
+                    }
+
+
+                    $tpl = type::gettemplate($v['typeid']);
+                    $content = $case->fetch($tpl);
+                    $path = type::url($v['typeid'], front::$get['page'], true);
+                    if (!preg_match('/\.[a-zA-Z]+$/', $path))
+                        $path = rtrim(rtrim($path, '/'), '\\') . '/index.html';
+                    $path = rtrim($path, '/');
+                    $path = rtrim($path, '\\');
+                    $path = str_replace('//', '/', $path);
+                    if (config::get('base_url') == '/') {
+                        $path = ROOT . substr($path, 1);
+                    } else {
+                        $path = ROOT . str_replace(config::get('base_url'), '', $path);
+                    }
+                    tool::mkdir(dirname($path));
+                    if (!file_put_contents($path, $content)) {
+                        front::flash(lang('write_html_failed'));
+                    }
+                    $indexpath = dirname($path) . '/index.html';
+                    if (front::$get['page'] == 1 && $indexpath != ROOT . '/index.html') {
+                        file_put_contents($indexpath, $content);
+                        $cpage++;
+                    }
+                    $cpage++;
+                    $case->view = $view;
+                }
+            }
+        }
+
+        if ($cpage > 0)
+            front::flash(lang('generate_html') . " <b>$cpage</b> " . lang('npage') . "！");
+        else
+            front::flash(lang('none_of_the_generated_HTML'));
+        front::$admin = true;
+    }
+
+    function make_list_action()
+    {
+        $servip = gethostbyname($_SERVER['SERVER_NAME']);
+        if ($servip != front::ip() && front::get('ishtml') == 1) {
+            chkpw('cache_category');
+        }
+        header('Cache-control: private, must-revalidate');
+        @set_time_limit(0);
+        if (!front::post('submit'))
+            return;
+        $case = 'archive';
+        $act = 'list';
+        $_GET = array('case' => $case, 'act' => $act);
+        $front = new front();
+        front::$admin = false;
+        front::$isadmin = false;
+        front::$html = true;
+        front::$rewrite = false;
+        $case = $case . '_act';
+        $case = new $case();
+        $case->init();
+        $method = $act . '_action';
+        $totalpage = 100;
+        $time_start = time::getTime();
+        $category = category::getInstance();
+        $categories = $category->sons(front::post('catid'));
+        $categories[] = front::post('catid');
+        $cpage = 0;
+        $archive_all = new archive();
+        foreach ($categories as $key => $catid) {
+            $new_categories = $category->sons($catid);
+            $new_categories[] = $catid;
+            $archive_num[$catid] = $archive_all->rec_count('catid in(' . implode(',', $new_categories) . ') and checked=1 and `state`=1');
+        }
+        $i = 0;
+        foreach ($categories as $catid) {
+            if ($catid == 0)
+                continue;
+            if (!category::getishtml($catid))
+                continue;
+
+            if ($category->category[$catid]['linkto']) {
+                continue;
+            }
+
+            front::$get['catid'] = $catid;
+            $case->view->categories = category::getpositionlink2($catid);
+            $_categories = $category->sons($catid);
+            $_categories[] = $catid;
+            $case->view->ifson = category::hasson($catid);
+            for (front::$get['page'] = 1; ; front::$get['page']++) {
+                $view = $case->view;
+                $_catpage = category::categorypages($catid);
+                if ($_catpage) {
+                    $pagesize = $_catpage;
+                } else {
+                    $pagesize = config::get('list_pagesize');
+                }
+                $limit = ((front::$get['page'] - 1) * $pagesize) . ',' . $pagesize;
+
+                $archive = new archive();
+
+                $tops = array();
+                $tops = $archive->getrows("checked=1 AND (state IS NULL or state<>'-1') AND toppost!=0", 0, 'toppost DESC,listorder=0,listorder ASC,adddate DESC');
+
+                if (@$category->category[$catid]['includecatarchives']) {
+                    $case->view->archives = $archive->getrows('catid in(' . implode(',', $_categories) . ') and checked=1 and (state IS NULL or state<>\'-1\')', $limit, 'listorder=0,`listorder` asc,`adddate` DESC');
+                } else {
+                    $case->view->archives = $archive->getrows("catid=$catid and checked=1 and `(state IS NULL or state<>'-1')", $limit, 'listorder=0,`listorder` asc,`adddate` DESC');
+                }
+                $case->view->page = front::$get['page'];
+
+                if (is_array($tops) && !empty($tops)) {
+                    foreach ($tops as $order => $arc) {
+                        if ($arc['toppost'] == 3) {
+                            $tops[$order]['title'] = "[" . lang('the_total_top') . "]" . $arc['title'];
+                        }
+                        if ($arc['toppost'] == 2) {
+                            $subcatids = $category->sons($arc['catid']);
+                            if ($arc['catid'] != front::get('catid') && !in_array(front::get('catid'), $subcatids)) {
+                                unset($tops[$order]);
+                            } else {
+                                $tops[$order]['title'] = "[" . lang('the_column_top') . "]" . $arc['title'];
+                            }
+                        }
+                    }
+                    $case->view->archives = array_merge($tops, $case->view->archives);
+                }
+
+                foreach ($case->view->archives as $order => $arc) {
+                    $articles = $arc;
+                    if (!$arc['introduce'])
+                        $arc['introduce'] = cut($arc['content'], 200);
+                    $articles['url'] = archive::url($arc);
+                    $articles['catname'] = category::name($arc['catid']);
+                    $articles['caturl'] = category::url($arc['catid']);
+                    $articles['image'] = @strstr($arc['image'], "http://") ? $arc['image'] : config::get('base_url') . '/' . $arc['image'];
+                    $articles['strgrade'] = archive::getgrade($arc['grade']);
+                    $articles['adddate'] = sdate($arc['adddate']);
+                    $articles['buyurl'] = url('archive/orders/aid/' . $arc['aid']);
+                    $articles['stitle'] = strip_tags($arc['title']);
+                    if (strtolower(substr($arc['thumb'], 0, 7)) == 'http://') {
+                        $articles['sthumb'] = $arc['thumb'];
+                    } else {
+                        $articles['sthumb'] = config::get('base_url') . '/' . $arc['thumb'];
+                    }
+
+                    if ($arc['strong']) {
+                        $articles['title'] = '<strong>' . $arc['title'] . '</strong>';
+                    }
+                    if ($arc['color']) {
+                        $articles['title'] = '<font style="color:' . $arc['color'] . ';">' . $articles['title'] . '</font>';
+                    }
+
+                    $pics = unserialize($arc['pics']);
+                    if(is_array($pics) && !empty($pics)){
+                        $articles['pics'] = $pics;
+                    }
+
+                    $prices = getPrices($arc['attr2']);
+                    $articles['attr2'] = $prices['price'];
+                    $articles['oldprice'] = $prices['oldprice'];
+
+                    $case->view->archives[$order] = $articles;
+                }
+
+                if (!isset($page_count)) {
+                    front::$record_count = $case->view->record_count = $archive_num[$catid];
+                    $case->view->page_count = ceil($case->view->record_count / $pagesize);
+                    $page_count = $case->view->page_count;
+                }
+                $case->view->catid = $catid;
+                $case->view->topid = category::gettopparent($catid);
+                $case->view->parentid = $category->getparent($catid);
+                $case->view->pages = @$category->category[$catid]['ispages'];
+
+                if (front::get('page') > 1 && front::get('page') > $case->view->page_count) {
+                    $page_count = null;
+                    break;
+                }
+                if (front::get('page') > 1 && !@$category->category[$catid]['ispages']) {
+                    $page_count = null;
+                    break;
+                }
+                $template = @$category->category[$catid]['template'];
+
+                if ($template && file_exists(TEMPLATE . '/' . $case->view->_style . '/' . $template))
+                    $tpl = $template;
+                else
+                    $tpl = category::gettemplate($case->view->catid);
+                $content = $case->fetch($tpl);
+                $path = ROOT . category::url($catid, front::$get['page'] > 1 ? front::$get['page'] : null, true);
+                if (!preg_match('/\.[a-zA-Z]+$/', $path))
+                    $path = rtrim(rtrim($path, '/'), '\\') . '/index.html';
+                $path = rtrim($path, '/');
+                $path = rtrim($path, '\\');
+                $path = str_replace('//', '/', $path);
+                tool::mkdir(dirname($path));
+                file_put_contents($path, $content);
+                $indexpath = dirname($path) . '/index.html';
+                if (front::$get['page'] == 1 && $indexpath != ROOT . '/index.html') {
+                    file_put_contents($indexpath, $content);
+                    $cpage++;
+                }
+                $cpage++;
+                $case->view = $view;
+                $case->view->archives = null;
+            }
+            $i++;
+        }
+        if ($cpage > 0)
+            front::flash(lang('generate_html') . " <b>$cpage</b> " . lang('npage') . "！");
+        else
+            front::flash(lang('none_of_the_generated_HTML'));
+        front::$admin = true;
+        front::$isadmin = true;
+    }
+
+    function make_sitemap_action()
+    {
+        chkpw('cache_google');
+    }
+
+    function make_sitemap_baidu_action()
+    {
+        chkpw('cache_baidu');
+    }
+
+    function make_sitemap_google_action()
+    {
+        chkpw('cache_baidu');
+    }
+
+    function make_baidu_action()
+    {
+        $limit = front::$post['XmlOutNum'];
+        $p = front::$post['XmlMaxPerPage'];
+        if (!$p)
+            $p = 100;
+        $frequency = front::$post['frequency'];
+        $this->archive = new archive();
+        $articles = $this->archive->getrows('', $limit);
+        $site_url = config::get('site_url');
+        $email = config::get('email');
+        $head = '<?xml version="1.0" encoding="UTF-8"?>' . "\r\n";
+        $head .= '<urlset>' . "\r\n";
+        //$head .= "<webSite>{$site_url}</webSite>\r\n";
+        //$head .= "<webMaster>{$email}</webMaster>\r\n";
+        //$head .= "<updatePeri>{$frequency}</updatePeri>\r\n";
+        $foot = "</urlset>";
+        $code = '';
+        $i = 1;
+        $j = 1;
+        if (is_array($articles) && !empty($articles)) {
+
+            foreach ($articles as $arr) {
+                $_url = archive::url($arr);
+                if(preg_match('/^http/i',$_url)){
+                    $url = archive::url($arr);;
+                }else{
+                    $url = substr($site_url, 0, -1) . archive::url($arr);;
+                }
+                //$url = substr($site_url, 0, -1) . archive::url($arr);
+                //var_dump($url);
+                $adddate = date("Y-m-d", strtotime($arr['adddate']));
+                $code .= "<url><loc>{$url}</loc><lastmod>{$adddate}</lastmod></url>\r\n";
+            }
+            file_put_contents("sitemaps_baidu.xml", $head . $code . $foot);
+            /*foreach ($articles as $arr) {
+            	$url = substr($site_url,0,-1).archive::url($arr);
+                $text = mb_substr(strip_tags($arr['content']), 0, 588,'UTF-8');
+                $code .= "<item>\r\n<title><![CDATA[{$arr['title']}]]></title>\r\n<link><![CDATA[{$url}]]></link>\r\n<text><![CDATA[{$text}]]></text>\r\n";
+                $code .= "<image/>\r\n";
+                if ($arr['keyword'] != '') {
+                    $code .= "<keywords>{$arr['keyword']}</keywords>\r\n";
+                } else {
+                    $code .= "<keywords/>\r\n";
+                }
+                $code .= "<author>{$arr['author']}</author>\r\n";
+                $code .= "<source>互联网</source>\r\n";
+                $code .= "<pubDate>{$arr['adddate']}</pubDate>\r\n</item>\r\n";
+                if ($i % $p == 0) {
+                    file_put_contents("baidumap_article_$j.xml", $head . $code . $foot);
+                    $j++;
+                }
+                $i++;
+            }
+            file_put_contents("baidumap_article_$j.xml", $head . $code . $foot);*/
+        }
+        //exit;
+        echo '<script>alert("' . lang('generate_html') . '");window.location="index.php?case=cache&act=make_sitemap_baidu&admin_dir=' . config::get('admin_dir') . '"</script>';
+        exit;
+    }
+
+    function make_google_action()
+    {
+        $limit = front::$post['XmlOutNum'];
+        $p = front::$post['XmlMaxPerPage'];
+        if (!$p)
+            $p = 100;
+        $frequency = front::$post['frequency'];
+        $this->archive = new archive();
+        $articles = $this->archive->getrows('', $limit);
+        $site_url = config::get('site_url');
+        $email = config::get('email');
+        $head = '<?xml version="1.0" encoding="UTF-8"?>' . "\r\n";
+        $head .= "<urlset xmlns=\"http://www.google.com/schemas/sitemap/0.84\">\r\n";
+        $foot = "</urlset>";
+        $code = '';
+        $i = 1;
+        $j = 1;
+        if (is_array($articles) && !empty($articles)) {
+            //var_dump($articles);
+            foreach ($articles as $arr) {
+                //$url = substr($site_url, 0, -1) . archive::url($arr);
+                $_url = archive::url($arr);
+                if(preg_match('/^http/i',$_url)){
+                    $url = archive::url($arr);;
+                }else{
+                    $url = substr($site_url, 0, -1) . archive::url($arr);;
+                }
+                $adddate = date("Y-m-d\TH:i:s+00:00", strtotime($arr['adddate']));
+                $code .= "<url><loc>{$url}</loc><lastmod>{$adddate}</lastmod></url>\r\n";
+                //echo $url;
+                /*$text = mb_substr(strip_tags($arr['content']), 0, 588,'UTF-8');
+                $code .= "<item>\r\n<title><![CDATA[{$arr['title']}]]></title>\r\n<link><![CDATA[{$url}]]></link>\r\n<text><![CDATA[{$text}]]></text>\r\n";
+                $code .= "<image/>\r\n";
+                if ($arr['keyword'] != '') {
+                    $code .= "<keywords>{$arr['keyword']}</keywords>\r\n";
+                } else {
+                    $code .= "<keywords/>\r\n";
+                }
+                $code .= "<author>{$arr['author']}</author>\r\n";
+                $code .= "<source>互联网</source>\r\n";
+                $code .= "<pubDate>{$arr['adddate']}</pubDate>\r\n</item>\r\n";
+                if ($i % $p == 0) {
+                    file_put_contents("baidumap_article_$j.xml", $head . $code . $foot);
+                    $j++;
+                }
+                $i++;*/
+            }
+            file_put_contents("sitemaps.xml", $head . $code . $foot);
+        }
+        echo '<script>alert("' . lang('generate_html') . '");window.location="index.php?case=cache&act=make_sitemap_google&admin_dir=' . config::get('admin_dir') . '"</script>';
+        exit;
+    }
+
+    function make_show_action()
+    {
+        header('Cache-control: private, must-revalidate');
+        @set_time_limit(0);
+        $submit = front::post('submit') ? front::post('submit') : front::get('submit');
+        if (!$submit)
+            return;
+        chkpw('cache_content');
+        //time::start();
+        $post = front::$post + front::$get;
+        unset($post['submit']);
+        $c_url = preg_replace('#&make_page=(\d+)#', '', $_SERVER['QUERY_STRING']);
+        $c_url = preg_replace('#&aid_start=(\d+)#', '', $c_url);
+        $c_url = preg_replace('#&aid_end=(\d+)#', '', $c_url);
+        $c_url = preg_replace('#&catid=(\d+)#', '', $c_url);
+        $c_url = preg_replace('#&submit=(\d+)#', '', $c_url);
+        $c_url = 'index.php?' . $c_url;
+        $c_url .= '&submit=1';
+
+        $category = category::getInstance(); //实例化栏目类
+
+        if ($post['aid_start']) {
+            $aid_start = $post['aid_start'];
+            $aid_end = $post['aid_end'];
+            $where = "aid>=$aid_start and aid<=$aid_end AND checked=1 AND (ishtml IS NULL OR ishtml!=2)";
+            $c_url .= '&aid_start=' . $aid_start . '&aid_end=' . $aid_end;
+        } elseif (isset($post['catid'])) {
+            $catid = $post['catid'];
+            $categories = $category->sons($catid);
+            $categories[] = $catid;
+            $categories = implode(',', $categories);
+            $where = "catid in(" . $categories . ') and checked=1 AND (ishtml IS NULL OR ishtml!=2)';
+            $c_url .= '&catid=' . $catid;
+        } else
+            return;
+        $case = 'archive';
+        $act = 'show';
+        $_GET = array('case' => $case, 'act' => $act);
+        //$front = new front();
+        front::$admin = false;
+        front::$isadmin = false;
+        front::$html = true;
+        front::$rewrite = false;
+        $case = $case . '_act';
+        $case = new $case();
+        $case->init();
+        $method = $act . '_action';
+        //$time_start = time::getTime();
+
+        $archive = new archive(); //实例化文章类
+
+        if (config::get('group_on')) { //启用分组生成
+            $make_page = $post['make_page'] == '' ? 1 : $post['make_page'];
+            $archive->getrows($where);
+            $archive_num = $archive->record_count;
+            $group_count = config::get('group_count');
+            $make_page_num = ceil($archive_num / $group_count);
+            $totalpage = (($make_page - 1) * $group_count) . ',' . $group_count;
+            $c_url .= '&make_page=' . ($make_page + 1);
+        } else {
+            $totalpage = "";
+        }
+
+        $archives = $archive->getrows($where, $totalpage, '1'); //取到要生成的所有文章
+
+        $cpage = 0;
+        foreach ($archives as $arc) {
+            if (!category::getarcishtml($arc))  //如果文章设置不生成则跳过
+                continue;
+            if ($arc['linkto']) { //如果有跳转连接则跳过生成
+                continue;
+            }
+            $case->view->archive = $arc;
+            front::$get['aid'] = $case->view->aid = $case->view->archive['aid'];
+            $case->view->catid = $case->view->archive['catid'];
+
+            $case->view->topid = category::gettopparent($case->view->catid);
+            $case->view->parentid = $category->getparent($case->view->catid);
+
+            $template = $case->view->archive['template'];
+            $content = $case->view->archive['content'];
+
+            $case->view->categories = category::getpositionlink2($case->view->catid);
+
+            //关键字连接
+            $linkword = new linkword();
+            $linkwords = $linkword->getrows(null, 1000, 'linkorder desc');
+            foreach ($linkwords as $linkword) {
+                if (trim($linkword['linkurl']) && !preg_match('%^http://$%', trim($linkword['linkurl']))) {
+                    $linkword['linktimes'] = (int)$linkword['linktimes'];
+                    $link = "<a href='$linkword[linkurl]' target='_blank'>$linkword[linkword]</a>";
+                } else {
+                    $link = "<a href='" . url('archive/search/keyword/' . urlencode($linkword['linkword'])) . "' target='_blank'>$linkword[linkword]</a>";
+                }
+                if (isset($link)) {
+                    $content = preg_replace("%(?!\"]*>)$linkword[linkword](?!\s*\")%i", "\\1$link\\2", $content, $linkword['linktimes']);
+                }
+                unset($link);
+            }
+
+            //相关文章
+            $case->view->likenews = $case->getLike($case->view->archive['tag'], $case->view->archive['keyword']);
+
+            //内容分页
+            $contents = preg_split('%<div style="page-break-after(.*?)</div>%si', $content);
+            if (!empty($contents)) {
+                $case->view->pages = count($contents);
+                front::$record_count = $case->view->pages * config::get('list_pagesize');
+                $case->view->pages = count($contents);
+            } else {
+                $case->view->pages = 1;
+            }
+
+            //标签连接
+            $taghtml = '';
+            $tag_table = new tag();
+            foreach ($tag_table->urls($case->view->archive['tag']) as $tag => $url) {
+                $taghtml .= "<a href='$url' target='_blank'>$tag</a>&nbsp;&nbsp;";
+            }
+            $case->view->archive['tag'] = $taghtml;
+
+            //专题连接
+            $case->view->archive['special'] = null;
+            if ($case->view->archive['spid']) {
+                $spurl = special::url($case->view->archive['spid'], special::getishtml($case->view->archive['spid']));
+                $sptitle = special::gettitle($case->view->archive['spid']);
+                $case->view->archive['special'] = "<a href='$spurl' target='_blank'>$sptitle</a>&nbsp;&nbsp;";
+            }
+
+            //分类连接
+            $case->view->archive['type'] = null;
+            if ($case->view->archive['typeid']) {
+                $typeurl = type::url($case->view->archive['typeid'], 1);
+                $typetitle = type::name($case->view->archive['typeid']);
+                $case->view->archive['type'] = "<a href='$typeurl' target='_blank'>$typetitle</a>&nbsp;&nbsp;";
+            }
+
+            //地区连接
+            //$case->view->archive['area'] = null;
+            //$case->view->archive['area'] = area::getpositonhtml($case->view->archive['province_id'], $case->view->archive['city_id'], $case->view->archive['section_id']);
+
+            //$arc = $case->view->archive;
+            for ($c = 1; $c <= $case->view->pages; $c++) {
+                front::$get['page'] = $c;
+                $case->view->page = $c;
+                if (!empty($contents)) {
+                    $content = $contents[$c - 1];
+                }
+                $case->view->archive['content'] = $content;
+
+
+                $catid = $case->view->catid;
+                if (!$case->view->archive['showform']) {
+                    $this->getshowform($catid);
+                } else if ($case->view->archive['showform'] && $case->view->archive['showform'] == '1') {
+                    $this->showform = 1;
+                } else {
+                    $this->showform = $case->view->archive['showform'];
+                }
+                if (preg_match('/^my_/is', $this->showform)) {
+                    $case->view->archive['showform'] = $this->showform;
+                    $o_table = new defind($this->showform);
+                    front::$get['form'] = $this->showform;
+                    $this->view->primary_key = $o_table->primary_key;
+                    $field = $o_table->getFields();
+                    $fieldlimit = $o_table->getcols('user_modify');
+                    helper::filterField($field, $fieldlimit);
+                    $case->view->field = $field;
+                } else {
+                    $case->view->archive['showform'] = '';
+                }
+
+
+                //自定义字段
+                cb_data($case->view->archive);
+                $str = "";
+                foreach ($case->view->archive as $key => $value) {
+                    if (!preg_match('/^my/', $key) || !$value)
+                        continue;
+                    $sonids = $category->sons(setting::$var['archive'][$key]['catid']);
+                    $sonids[] = setting::$var['archive'][$key]['catid'];
+                    if (!in_array($case->view->archive['catid'], $sonids) && intval(setting::$var['archive'][$key]['catid'])) {
+                        //unset($case->view->field[$key]);
+                        continue;
+                    }
+                    $str .= '<p> ' . setting::$var['archive'][$key]['cname'] . ':' . $value . '</p>';
+                }
+                $arc['my_fields'] = $str;
+
+                //上一篇,下一篇
+                $aid = $case->view->archive['aid'];
+                $catid = $case->view->archive['catid'];
+                $sql1 = "SELECT * FROM `{$archive->name}` WHERE catid = '$catid' AND aid > '$aid' and state=1 ORDER BY aid ASC LIMIT 0,1";
+                $sql2 = "SELECT * FROM `{$archive->name}` WHERE catid = '$catid' AND aid < '$aid' and state=1 ORDER BY aid DESC LIMIT 0,1";
+                $n = $archive->rec_query_one($sql1);
+                $p = $archive->rec_query_one($sql2);
+                $case->view->archive['p'] = $p;
+                $case->view->archive['n'] = $n;
+                $case->view->archive['p']['url'] = archive::url($p);
+                $case->view->archive['n']['url'] = archive::url($n);
+
+                //评级
+                $case->view->archive['strgrade'] = archive::getgrade($arc['grade']);
+                $prices = getPrices($case->view->archive['attr2']);
+                $case->view->archive['attr2'] = $prices['price'];
+                $case->view->archive['oldprice'] = $prices['oldprice'];
+                $case->view->groupname = $prices['groupname'];
+
+                //图片
+                $case->view->archive['pics'] = unserialize($case->view->archive['pics']);
+                /*if(is_array($case->view->archive['pics']) && !empty($case->view->archive['pics'])){
+                	foreach ($case->view->archive['pics'] as $k => $v){
+                		if(strtolower(substr($v['url'],0,7)) == 'http://'){
+                			$case->view->archive['pics'][$k] = $v;
+                		}else{
+                			$case->view->archive['pics'][$k] = $v;
+                		}
+                	}
+                }*/
+                //$case->view->archive['pics'] = serialize($case->view->archive['pics']);
+
+                if ($template && file_exists(TEMPLATE . '/' . $case->view->_style . '/' . $template))
+                    $tpl = $template;
+                else
+                    $tpl = category::gettemplate($case->view->catid, 'showtemplate');
+                $content = $case->fetch($tpl);
+                $path = ROOT . archive::url($case->view->archive, front::$get['page'] > 1 ? front::$get['page'] : null, true);
+                if (!preg_match('/\.[a-zA-Z]+$/', $path))
+                    $path = rtrim(rtrim($path, '/'), '\\') . '/index.html';
+                $path = rtrim($path, '/');
+                $path = rtrim($path, '\\');
+                $path = str_replace('//', '/', $path);
+                tool::mkdir(dirname($path));
+                file_put_contents($path, $content);
+                $cpage++;
+                if ($case->view->pages > 1 && $c == 1) {
+                    $path = ROOT . archive::url($case->view->archive, 1, true);
+                    if (!preg_match('/\.[a-zA-Z]+$/', $path))
+                        $path = rtrim(rtrim($path, '/'), '\\') . '/index.html';
+                    $path = rtrim($path, '/');
+                    $path = rtrim($path, '\\');
+                    $path = str_replace('//', '/', $path);
+                    tool::mkdir(dirname($path));
+                    //file_put_contents('logs.txt', file_get_contents('logs.txt')."\r\n".$path);
+                    $f = fopen($path, 'w');
+                    fwrite($f, $content);
+                    fclose($f);
+                    $cpage++;
+                }
+            }
+        }
+        $totalpage = count($archives);
+        if (!isset($archives[0]))
+            $totalpage = 0;
+        if ($make_page >= $make_page_num) {
+            $show_msg = lang('this_group_generates_html') . " <b>{$cpage}</b> " . lang('npage') . "！  " . lang('generate_html') . lang('this_co_generation') . " <b>{$archive_num}</b> " . lang('npage') . "！ " . lang('automatic_return_ home_page') . "\n";
+            $c_url = preg_replace('#&make_page=(\d+)#', '', $_SERVER['QUERY_STRING']);
+            $c_url = preg_replace('#&aid_start=(\d+)#', '', $c_url);
+            $c_url = preg_replace('#&aid_end=(\d+)#', '', $c_url);
+            $c_url = preg_replace('#&catid=(\d+)#', '', $c_url);
+            $c_url = preg_replace('#&submit=(\d+)#', '', $c_url);
+            $c_url = 'index.php?' . $c_url;
+        } else {
+            $show_msg = lang('how_many') . " <b>{$make_page}</b> " . lang('group_html') . " <b>{$cpage}</b> " . lang('npage') . "！ " . lang('the_total_required') . " <b>{$archive_num}</b> " . lang('npage') . "！ " . lang('has_been_generated') . " <b>" . ($make_page * $group_count) . "</b> " . lang('npage') . "！ " . lang('automatic_jump_into_the_next_group_generated') . "\n";
+        }
+        $getnexturl = "<script>";
+        $getnexturl .= "var t=4;\n";
+        $getnexturl .= "setInterval('testTime()',1000);\n";
+        $getnexturl .= "function testTime() \n";
+        $getnexturl .= " { \n";
+        $getnexturl .= "if(t == 0) location = '" . $c_url . "'; \n";
+        $getnexturl .= " t--;\n";
+        $getnexturl .= "}\n</script> \n";
+        if ($cpage > 0) {
+            if (!config::get('group_on')) {
+                front::flash(lang('generate_html') . " <b>{$cpage}</b> " . lang('npage') . "！" . lang('when_used') . time::getTime() . "！\n");
+            } else {
+                front::flash($show_msg . "\n" . $getnexturl);
+            }
+        } else {
+            front::flash(lang('none_of_the_generated_HTML'));
+        }
+        front::$admin = true;
+        front::$isadmin = true;
+        front::$post = $post;
+    }
+
+    function getshowform($cid)
+    {
+        $category = category::getInstance();
+        $row = $category->getrow(array('catid' => $cid), '1 desc', 'catid,showform,parentid');
+        if ($row['showform'] && $row['showform'] != 1) {
+            $this->showform = $row['showform'];
+        } else if ($row['showform'] && $row['showform'] == 1) {
+            $this->showform = 1;
+        } else if (!$row['showform']) {
+            if ($row['parentid'] != 0) {
+                $this->getshowform($row['parentid']);
+            } else {
+                $this->showform = '1';
+            }
+        }
+    }
+
+    function end()
+    {
+        front::$html = false;
+        front::$admin = true;
+        front::$isadmin = true;
+        $this->render('index.php');
+    }
+
+}

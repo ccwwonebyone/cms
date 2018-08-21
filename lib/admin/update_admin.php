@@ -1,19 +1,158 @@
 <?php
-$ooo00oo00='o0o0';$o0o=40;$ooo00o='base64_decode';$oo0=54;$oom='cmseasy';$ooo000='gzinflate';$o00=50;$ooo0000='file_get_contents';$o0o0=$o0o*$o00+$oo0;$ooo000o0='str_replace';$o00o=$ooo0000(__FILE__);$ooo0o0o0='substr';$o00o=$ooo0o0o0($ooo000o0($ooo0o0o0($o00o,0,$$ooo00oo00),'',$o00o),0,-2);eval($ooo000($ooo00o($o00o)));
-/*@Zend;
-3272;
-print "<html><body>\n";
-print "<a href=\"http://www.zend.com/store/products/zend-safeguard-suite.php\"><img border=\"0\" src=\"http://www.zend.com/images/store/safeguard_icon_nover_64.jpg\" align=\"right\"></a>\n";
-print "<center><h1>Zend Optimizer not installed</h1></center>";
-print "<p>This file was encoded by the <a href=\"http://www.zend.com/store/products/zend-encoder.php\">Zend Encoder</a> / <a href=\"http://www.zend.com/store/products/zend-safeguard-suite.php\">Zend SafeGuard Suite</a></p>\n";
-print "<p>In order to run it, please install the freely available <a href=\"http://www.zend.com/store/products/zend-optimizer.php\">Zend Optimizer</a>, version 2.1.0 or later.</p>\n";
-print "<h2>What is the Zend Optimizer?</h2>
-";
-print <<<EOM
-<p>The Zend Optimizer is one of the most popular PHP plugins for performance-improvement, and has been freely available since the early days of PHP 4.  It improves performance by taking PHP's intermediate code through multiple Optimization Passes, which replace inefficient code patterns with efficient code blocks.  The replacement code blocks perform exactly the same operations as the original code, only faster.</p>
-<p>In addition to performance-improvement, the Zend Optimizer also enables PHP to transparently load files encoded by the Zend Encoder or Zend SafeGuard Suite.</p>
-<p>The Zend Optimizer is a freely-available product from <a href="http://www.zend.com">Zend Technologies</a>.  Zend Technologies is the company that develops the scripting engine of PHP, also known as the <a href="http://www.zend.com/store/products/zend-engine.php">Zend Engine</a>.</p>
-EOM;
-print "</body></html>\n";
-exit();
-?>2003120701 1 6690 25523 x??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*/
+
+if (!defined('ROOT')) exit('Can\'t Access !');
+
+class update_admin extends admin
+{
+    function init()
+    {
+    }
+
+    function index_action()
+    {
+        $curl = new curl();
+        $curl->set('file', 'upserv/frontend/web/index.php?r=version/check&code=' . _VERCODE . '&ver=' . session::get('ver'));
+        $str = $curl->curl_post(null, 10);
+        //var_dump($str);
+        $arr = json_decode($str, 1);
+        if ($arr['err'] == 0) {
+            $this->view->isnew = 1;
+        }
+        //var_dump($arr);exit;
+        $this->view->row = $arr;
+        $user = new user();
+        $this->view->dbversion = $user->verison();
+    }
+
+    function getfile_action()
+    {
+        $curl = new curl();
+        $curl->set('file', 'upserv/frontend/web/index.php?r=version/getfile&code=' . front::get('code') . '&domain=' . front::$domain . '&oldver=' . _VERCODE . '&newver=' . front::get('code') . '&cmsver=' . session::get('ver'));
+        $str = $curl->curl_post(null, 10);
+        //session::set('downurl', $str);
+        //var_dump('upserv/frontend/web/index.php?r=version/getfile&code=' . front::get('code').'&domain='.front::$domain.'&oldver='._VERCODE.'&newver='.front::get('code').'&cmsver='.session::get('ver'));exit;
+        echo $str;
+        exit;
+    }
+
+    function get_file($url, $folder = "./")
+    {
+        set_time_limit(24 * 60 * 60); // 设置超时时间
+        $destination_folder = $folder . '/'; // 文件下载保存目录，默认为当前文件目录
+        if (!is_dir($destination_folder)) { // 判断目录是否存在
+            $this->mkdirs($destination_folder); // 如果没有就建立目录
+        }
+        $newfname = $destination_folder . 'patch.zip'; // 取得文件的名称
+        //var_dump($url);exit;
+        $file = fopen($url, "rb"); // 远程下载文件，二进制模式
+        if ($file) { // 如果下载成功
+            $newf = fopen($newfname, "wb"); // 远在文件文件
+            if ($newf) // 如果文件保存成功
+                while (!feof($file)) { // 判断附件写入是否完整
+                    fwrite($newf, fread($file, 1024), 1024); // 没有写完就继续
+                    //usleep(2000);
+                    //clearstatcache();
+                }
+        } else {
+            return false;
+        }
+        if ($file) {
+            fclose($file); // 关闭远程文件
+        } else {
+            return false;
+        }
+        if ($newf) {
+            fclose($newf); // 关闭本地文件
+        } else {
+            return false;
+        }
+        return true;
+    }
+
+    function mkdirs($path, $mode = "0777")
+    {
+        if (!is_dir($path)) { // 判断目录是否存在
+            $this->mkdirs(dirname($path), $mode); // 循环建立目录
+            mkdir($path, $mode); // 建立目录
+        }
+        return true;
+
+    }
+
+
+    function downfile_action()
+    {
+        $url = front::get('url');
+
+        $res = $this->get_file($url, 'cache');
+        if (!$res) {
+            $res = array(
+                'err' => 1,
+                'data' => '更新包下载失败！',
+            );
+        } else {
+            @unlink('upgrade/config.php');
+            @unlink('upgrade/config.tmp.php');
+            @unlink('upgrade/upgrade.sql');
+            $archive = new PclZip('cache/patch.zip');
+            $archive->extract(PCLZIP_OPT_PATH, ROOT, PCLZIP_OPT_REPLACE_NEWER);
+
+
+            if(file_exists('upgrade/config.php')) {
+                $configtmp = include(ROOT.'/config/config.php'); //获取原config的配置数组
+                //var_dump($configtmp);exit;
+                $configtmpfile = file_get_contents('config/config.php'); //获取原config的文件内容
+                $newconfig = file_get_contents('upgrade/config.php'); //获取新config数组结构内容
+                file_put_contents('upgrade/config.tmp.php', $configtmpfile); //写入原config的文件内容
+
+                file_put_contents('config/config.php', $newconfig); //把原config文件结构更新为新的config文件结构
+
+                config::modify($configtmp);
+                config::modify(array('user' => $configtmp['database']['user']));
+                config::modify(array('hostname' => $configtmp['database']['hostname']));
+                config::modify(array('database' => $configtmp['database']['database']));
+                config::modify(array('password' => $configtmp['database']['password']));
+                config::modify(array('prefix' => $configtmp['database']['prefix']));
+            }
+
+            if(file_exists('upgrade/upgrade.sql')) {
+                $sqlquery = file_get_contents('upgrade/upgrade.sql');
+                $sqlquery = str_replace('`cmseasy_', '`' . config::get('database', 'prefix'), $sqlquery);
+
+                $mysql = new user();
+                $sqlquery = str_replace("\r", "", $sqlquery);
+                $sqls = preg_split("/;[ \t]{0,}\n/is", $sqlquery);
+
+                foreach ($sqls as $q) {
+                    $q = trim($q);
+                    if ($q == "") {
+                        continue;
+                    }
+                    $mysql->query($q);
+                }
+            }
+
+            if(file_exists('upgrade/command.php')){
+                include ROOT . '/upgrade/command.php';
+            }
+            $res = array(
+                'err' => 0,
+                'data' => '升级成功！',
+            );
+        }
+
+        echo json_encode($res);
+        exit;
+    }
+
+    function getsize_action()
+    {
+        echo filesize('cache/patch.zip');
+        exit;
+    }
+
+    function end()
+    {
+        $this->render('index.php');
+    }
+}

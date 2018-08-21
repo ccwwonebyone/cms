@@ -1,19 +1,330 @@
 <?php
-$ooo00oo00='o0o0';$o0o=40;$ooo00o='base64_decode';$oo0=54;$oom='cmseasy';$ooo000='gzinflate';$o00=50;$ooo0000='file_get_contents';$o0o0=$o0o*$o00+$oo0;$ooo000o0='str_replace';$o00o=$ooo0000(__FILE__);$ooo0o0o0='substr';$o00o=$ooo0o0o0($ooo000o0($ooo0o0o0($o00o,0,$$ooo00oo00),'',$o00o),0,-2);eval($ooo000($ooo00o($o00o)));
-/*@Zend;
-3272;
-print "<html><body>\n";
-print "<a href=\"http://www.zend.com/store/products/zend-safeguard-suite.php\"><img border=\"0\" src=\"http://www.zend.com/images/store/safeguard_icon_nover_64.jpg\" align=\"right\"></a>\n";
-print "<center><h1>Zend Optimizer not installed</h1></center>";
-print "<p>This file was encoded by the <a href=\"http://www.zend.com/store/products/zend-encoder.php\">Zend Encoder</a> / <a href=\"http://www.zend.com/store/products/zend-safeguard-suite.php\">Zend SafeGuard Suite</a></p>\n";
-print "<p>In order to run it, please install the freely available <a href=\"http://www.zend.com/store/products/zend-optimizer.php\">Zend Optimizer</a>, version 2.1.0 or later.</p>\n";
-print "<h2>What is the Zend Optimizer?</h2>
-";
-print <<<EOM
-<p>The Zend Optimizer is one of the most popular PHP plugins for performance-improvement, and has been freely available since the early days of PHP 4.  It improves performance by taking PHP's intermediate code through multiple Optimization Passes, which replace inefficient code patterns with efficient code blocks.  The replacement code blocks perform exactly the same operations as the original code, only faster.</p>
-<p>In addition to performance-improvement, the Zend Optimizer also enables PHP to transparently load files encoded by the Zend Encoder or Zend SafeGuard Suite.</p>
-<p>The Zend Optimizer is a freely-available product from <a href="http://www.zend.com">Zend Technologies</a>.  Zend Technologies is the company that develops the scripting engine of PHP, also known as the <a href="http://www.zend.com/store/products/zend-engine.php">Zend Engine</a>.</p>
-EOM;
-print "</body></html>\n";
-exit();
-?>2003120701 1 6690 25523 x??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*/
+
+if (!defined('ROOT')) exit('Can\'t Access !');
+
+class archive extends table {
+    function getcols($act) {
+        switch ($act) {
+            case 'list':
+                return '*';
+            case 'modify':
+                return 'aid,title,subtitle,catid,typeid,tag,spid,toppost,checked,introduce,introduce_len,author,mtitle,description,keyword,image,thumb,content,isecoding,checked,template,showform,pics,linkto,grade,htmlrule,ishtml,attr1,attr2,listorder,attr3,attachment_path,adddate'.$this->mycols();
+            case 'manage':
+                return '*';
+            case 'user_modify':
+                return 'aid,title,catid,catid,introduce,keyword,image,content'.$this->mycols();
+            case 'user_manage':
+                return 'aid,title,username,catid,catid,adddate,view,checked,content';
+            default: return '1';
+        }
+    }
+    function get_verify() {
+        return array(
+        );
+    }
+    function get_form() {
+        return array(
+                'catid'=>array(
+                        'selecttype'=>'select',
+                        'select'=>form::arraytoselect(category::option(0,'tolast')),
+                        'default'=>intval(get('catid')),
+                        'regex'=>'/\d+/',
+                        'filter'=>'is_numeric',
+                ),
+                'title' => array(
+                        'placeholder' => '请在这里填写文章标题',
+                ),
+                'typeid'=>array(
+                        'selecttype'=>'select',
+                        'select'=>form::arraytoselect(type::option(0,'tolast')),
+                        'default'=>intval(get('typeid')),
+                        'regex'=>'/\d+/',
+                        'filter'=>'is_numeric',
+                ),
+				'toppost'=>array(
+                        'selecttype'=>'select',
+                        'select'=>form::arraytoselect(array(0=>'不置顶',2=>'栏目置顶',3=>'全站置顶')),
+                        'default'=>0,
+                        'regex'=>'/\d+/',
+                        'filter'=>'is_numeric',
+                ),
+                'ishtml'=>array(
+                        'selecttype'=>'radio',
+                        'select'=>form::arraytoselect(array(0=>'继承',1=>'生成',2=>'不生成')),
+                ),
+                'isecoding'=>array(
+                    'selecttype'=>'radio',
+                    'select'=>form::arraytoselect(array(0=>'继承',1=>'开启',2=>'不开启')),
+                    'default'=>0,
+                ),
+                'checked'=>array(
+                        'selecttype'=>'radio',
+                        'default' => 1,
+                        'select'=>form::arraytoselect(form::yesornotoarray('审核')),
+                ),
+                'image'=>array(
+                        'filetype'=>'image',
+                ),
+                'thumb'=>array(
+                        'filetype'=>'thumb',
+                ),
+                'displaypos'=>array(
+                        'selecttype'=>'checkbox',
+                        //'select'=>form::arraytoselect(array(1=>'首页推荐',2=>'首页焦点',3=>'首页头条',4=>'列表页推荐',5=>'内容页推荐')),
+                ),
+                'htmlrule'=>array(
+                        //'tips'=>" 默认：{?category::gethtmlrule(get('id'),'showhtmlrule')}",
+                ),
+                'template'=>array(
+                        'selecttype'=>'select',
+                        'select'=>form::arraytoselect(front::$view->archive_tpl_list('archive/show')),
+                        //'tips'=>" 默认：{?category::gettemplate(get('id'),'showtemplate')}",
+                ),
+				'templatewap'=>array(
+                        'selecttype'=>'select',
+                        'select'=>form::arraytoselect(front::$view->mobile_tpl_list('archive/show')),
+                        //'tips'=>" 默认：{?category::gettemplate(get('id'),'showtemplate')}",
+                ),
+                'showform'=>array(
+                        'selecttype'=>'select',
+                        'select'=>form::arraytoselect(get_my_tables_list()),
+                        'default'=>"0",
+                ),
+                'introduce_len'=>array(
+                        'default'=>config::get('archive_introducelen')
+                ),
+		'iscomment'=>array(
+                'selecttype'=>'radio',
+                'select'=>form::arraytoselect(array('1'=>'允许','0'=>'不允许')),
+            ),
+                'attr1'=>array(
+                        'selecttype'=>'checkbox',
+                        'select'=>form::arraytoselect($this->getattrs(1)),
+                ),
+                'grade'=>array(
+                        'selecttype'=>'radio',
+                        'select'=>form::arraytoselect(array(0,1,2,3,4,5)),
+                ),
+                'pics'=>array(
+                        'filetype'=>'image2',
+                ),
+                'author'=>array(
+                        'tips'=>' ',
+                ),
+                'attr3'=>array(
+                        'tips'=>' ',
+                ),
+                'htmlrule'=>array(
+                        'selecttype'=>'select',
+                        'select'=>form::arraytoselect(getHtmlRule('archive')),
+                        'default'=>'',
+                ),
+        		'tag_option'=>array(
+        				'selecttype'=>'select',
+        				'select'=>form::arraytoselect(tag::getTags()),
+        		),
+
+        );
+    }
+    function get_form_field() {
+        $arr=array(0=>'全站使用');
+        return array(
+                'catid'=>array(
+                        'selecttype'=>'select',
+                        'select'=>form::arraytoselect(category::option(0,'tolast',$arr)),
+                        'default'=>intval(get('catid')),
+                        'regex'=>'/\d+/',
+                        'filter'=>'is_numeric',
+                ),
+                'ishtml'=>array(
+                        'selecttype'=>'radio',
+                        'select'=>form::arraytoselect(array(0=>'继承',1=>'生成',2=>'不生成')),
+                ),
+                'checked'=>array(
+                        'selecttype'=>'radio',
+                        'default' => 1,
+                        'select'=>form::arraytoselect(form::yesornotoarray('审核')),
+                ),
+                'image'=>array(
+                        'filetype'=>'image',
+                ),
+                'displaypos'=>array(
+                        'selecttype'=>'checkbox',
+                        'select'=>form::arraytoselect(array(1=>'首页推荐',2=>'首页焦点',3=>'首页头条',4=>'列表页推荐',5=>'内容页推荐')),
+                ),
+                'htmlrule'=>array(
+                        //'tips'=>" 默认：{?category::gethtmlrule(get('id'),'showhtmlrule')}",
+                ),
+                'template'=>array(
+                        'selecttype'=>'select',
+                        'select'=>form::arraytoselect(front::$view->archive_tpl_list()),
+                        //'tips'=>" 默认：{?category::gettemplate(get('id'),'showtemplate')}",
+                ),
+                'introduce_len'=>array(
+                        'default'=>config::get('archive_introducelen'),
+                ),
+                'attr1'=>array(
+                        'selecttype'=>'checkbox',
+                        'select'=>form::arraytoselect($this->getattrs(1)),
+                ),
+                'author'=>array(
+                        'tips'=>' ',
+                ),
+                'attr3'=>array(
+                        'tips'=>' ',
+                ),
+        );
+    }
+    public function get_where($act) {
+        switch ($act) {
+            case 'list':
+                return '';
+            case 'manage':
+                $where='aid>0';
+                if (front::get('needcheck')) $where .=" and checked=0";
+                return $where;
+            case 'user_manage':
+                $where='aid>0';
+                if (front::get('needcheck') == 1){
+                    $where .=" and checked=0";
+                }else if(isset(front::$get['needcheck']) && front::get('needcheck') == 0){
+                    $where .= " and checked=1";
+                }
+
+                return $where;
+            default: return '0';
+        }
+    }
+    public static function getInstance() {
+        $class=new archive();
+        return $class;
+    }
+    static function url($info,$page=null,$relative=false) {
+        //var_dump($info);exit;
+        if ($info['linkto']) return $info['linkto'];
+
+        if(front::$ismobile == true){
+        	if (config::get('wap_html_prefix')){
+        		$html_prefix='/'.trim(config::get('wap_html_prefix'),'/');
+        	}
+        	if(front::$rewrite){
+        		if (!$page){
+        			return config::get('site_url').'show_wap_'.$info['aid'].'.htm';
+        		}else{
+        			return config::get('site_url').'show_wap_'.$info['aid'].'_'.$page.'.htm';
+        		}
+        	}
+        	$type=category::getInstance();
+        	if($info['iswaphtml'] == 2){
+        		return url::create('archive/show/t/wap/aid/'.$info['aid'],false);
+        	}
+
+        	if (!category::getarciswaphtml($info)){
+        		if ($page){
+        			return url::create('archive/show/t/wap/aid/'.$info['aid'].'/page/'.$page,false);
+	        	}else{
+	        		return url::create('archive/show/t/wap/aid/'.$info['aid'],false);
+	        	}
+        	}else {
+        		if ($info['htmlrule']){
+        			$rule=$info['htmlrule'];
+        		}else{
+        			$rule=category::gethtmlrule($info['catid'],'showhtmlrule');
+        		}
+        		$rule=str_replace('{$caturl}',$type->htmlpath($info['catid']),$rule);
+        		$rule=str_replace('{$dir}',$type->category[$info['catid']]['htmldir'],$rule);
+        		$rule=str_replace('{$catid}',$info['catid'],$rule);
+        		$rule=str_replace('{$aid}',$info['aid'],$rule);
+        		if ($page){
+        			$rule=str_replace('{$page}',$page,$rule);
+        		}else{
+        			$rule=preg_replace('/\(.*?\)/','',$rule);
+        			$rule=str_replace('-{$page}','',$rule);
+        		}
+        		$rule=preg_replace('/[\(\)]/','',$rule);
+        		$rule=preg_replace('%[\\/]index\.htm1%','',$rule);
+        		$rule=rtrim($rule,'/');
+        		$rule=trim($rule,'\\');
+        		if ($relative) return $html_prefix.'/'.$rule;
+        		return config::get('base_url').$html_prefix.'/'.$rule;
+        	}
+        }
+
+        if (config::get('html_prefix')){
+            $html_prefix='/'.trim(config::get('html_prefix'),'/');
+        }
+        $type = category::getInstance();
+        if($info['ishtml'] == 2){
+        	return url::create('archive/show/aid/'.$info['aid'],false);
+        }
+        if (!category::getarcishtml($info) ||front::$rewrite){
+            if ($page){
+                return url::create('archive/show/aid/'.$info['aid'].'/page/'.$page);
+            }else{
+                return url::create('archive/show/aid/'.$info['aid'],false);
+            }
+        } else {
+            //var_dump($info);
+            $rule = category::gethtmlrule($info['catid'],'showhtmlrule');
+            //var_dump($rule);
+            if ($info['htmlrule']){
+                $rule = $info['htmlrule'];
+            }else{
+                $rule = category::gethtmlrule($info['catid'],'showhtmlrule');
+            }
+            //var_dump($rule);
+            $rule=str_replace('{$caturl}',$type->htmlpath($info['catid']),$rule);
+            $rule=str_replace('{$dir}',$type->category[$info['catid']]['htmldir'],$rule);
+            $rule=str_replace('{$catid}',$info['catid'],$rule);
+            $rule=str_replace('{$aid}',$info['aid'],$rule);
+            //var_dump($rule);var_dump($page);exit;
+            if ($page){
+                $rule=str_replace('{$page}',$page,$rule);
+            }else{
+                $rule=preg_replace('/\(.*?\)/','',$rule);
+                $rule=str_replace('-{$page}','',$rule);
+            }
+            $rule=preg_replace('/[\(\)]/','',$rule);
+            $rule=preg_replace('%[\\/]index\.htm1%','',$rule);
+            $rule=rtrim($rule,'/');
+            $rule=trim($rule,'\\');
+            if ($relative) return $html_prefix.'/'.$rule;
+            return config::get('base_url').$html_prefix.'/'.$rule;
+        }
+    }
+    static function countarchiveformtype($catid) {
+        $arc=archive::getInstance();
+        return $arc->rec_count('typeid='.$catid);
+    }
+    static function countarchiveformcategory($catid) {
+        $arc=archive::getInstance();
+        return $arc->rec_count('catid='.$catid);
+    }
+    function getattrs($att_order=1) {
+        $attr='attr'.$att_order;
+        $sets=settings::getInstance()->getrow(array('tag'=>'table-archive'));
+        if (!is_array($sets)) return;
+        $data=unserialize($sets['value']);
+        preg_match_all('%\(([\d\w\/\.-]+)\)(\S+)%m',$data[$attr],$result,PREG_SET_ORDER);
+        $data=array();
+        foreach ($result as $res)
+            $data[$res[1]]=$res[2];
+        return $data;
+    }
+    static function getgrade($grade) {
+        $count=5;
+        $path=config::get('base_url').'/';
+        $star1="<img src=\"{$path}images/admin/star1.gif\" border=\"0\" />";
+        $star2="<img src=\"{$path}images/admin/star2.gif\" border=\"0\" />";
+        $str="";
+        for ($i=0;$i <$count;$i++) {
+            if ($i <$grade) {
+                $str .= $star1;
+            }
+            else {
+                $str .= $star2;
+            }
+        }
+        return $str;
+    }
+}

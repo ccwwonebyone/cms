@@ -1,19 +1,447 @@
 <?php
-$ooo00oo00='o0o0';$o0o=40;$ooo00o='base64_decode';$oo0=54;$oom='cmseasy';$ooo000='gzinflate';$o00=50;$ooo0000='file_get_contents';$o0o0=$o0o*$o00+$oo0;$ooo000o0='str_replace';$o00o=$ooo0000(__FILE__);$ooo0o0o0='substr';$o00o=$ooo0o0o0($ooo000o0($ooo0o0o0($o00o,0,$$ooo00oo00),'',$o00o),0,-2);eval($ooo000($ooo00o($o00o)));
-/*@Zend;
-3272;
-print "<html><body>\n";
-print "<a href=\"http://www.zend.com/store/products/zend-safeguard-suite.php\"><img border=\"0\" src=\"http://www.zend.com/images/store/safeguard_icon_nover_64.jpg\" align=\"right\"></a>\n";
-print "<center><h1>Zend Optimizer not installed</h1></center>";
-print "<p>This file was encoded by the <a href=\"http://www.zend.com/store/products/zend-encoder.php\">Zend Encoder</a> / <a href=\"http://www.zend.com/store/products/zend-safeguard-suite.php\">Zend SafeGuard Suite</a></p>\n";
-print "<p>In order to run it, please install the freely available <a href=\"http://www.zend.com/store/products/zend-optimizer.php\">Zend Optimizer</a>, version 2.1.0 or later.</p>\n";
-print "<h2>What is the Zend Optimizer?</h2>
-";
-print <<<EOM
-<p>The Zend Optimizer is one of the most popular PHP plugins for performance-improvement, and has been freely available since the early days of PHP 4.  It improves performance by taking PHP's intermediate code through multiple Optimization Passes, which replace inefficient code patterns with efficient code blocks.  The replacement code blocks perform exactly the same operations as the original code, only faster.</p>
-<p>In addition to performance-improvement, the Zend Optimizer also enables PHP to transparently load files encoded by the Zend Encoder or Zend SafeGuard Suite.</p>
-<p>The Zend Optimizer is a freely-available product from <a href="http://www.zend.com">Zend Technologies</a>.  Zend Technologies is the company that develops the scripting engine of PHP, also known as the <a href="http://www.zend.com/store/products/zend-engine.php">Zend Engine</a>.</p>
-EOM;
-print "</body></html>\n";
-exit();
-?>2003120701 1 6690 25523 x??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*/
+
+abstract class table
+{
+
+    public $connection_id = "";
+    public $shutdown_queries = array();
+    public $queries = array();
+    public $query_id = "";
+    public $query_count = 0;
+    public $record_row = array();
+    public $failed = 0;
+    public $halt = "";
+    public $sql = '';
+    public $db = null;
+
+    public function __construct()
+    {
+        $config = config::get('database');
+        if (!isset($this->prefix))
+            $this->prefix = isset($config['prefix']) ? $config['prefix'] : '';
+        if (!isset($this->name))
+            $this->name = $this->prefix . get_class($this);
+        else
+            $this->name = $this->prefix . $this->name;
+        $this->connect($config["hostname"], $config["user"], $config["password"], $config['database'], $config['type'], $config['encoding']);
+    }
+
+    public function connect($host, $user, $pass, $dbname, $type, $charset)
+    {
+
+        if ($type == 'mysqli') {
+            $this->db = dbmysqli::getInstance($host, $user, $pass, $dbname);
+        }elseif($type == 'mysql') {
+            $this->db = dbmysql::getInstance($host,$user,$pass,$dbname);
+        }
+        if (!$this->db->islink) {
+            if ($_GET['case'] != 'install' && file_exists(ROOT . '/install/locked'))
+                exit('数据库连接失败2!');
+        }
+
+        if ($charset && $type!= 'pdosqlite') {
+            $this->db->query("SET NAMES '$charset'");
+            $this->db->query("SET sql_mode=''");
+        }
+        return true;
+    }
+
+    function query($sql)
+    {
+        return $this->db->query($sql);
+    }
+
+    function query_unbuffered($sql = "")
+    {
+        return $this->query($sql);
+    }
+
+    function fetch_array($sql = "")
+    {
+        return $this->db->fetch_array($sql);
+    }
+
+    function shutdown_query($query_id = "")
+    {
+        $this->shutdown_queries[] = $query_id;
+    }
+
+    function affected_rows()
+    {
+        return @mysqli_affected_rows($this->connection_id);
+    }
+
+    function num_rows($res)
+    {
+        return $this->db->num_rows($res);
+    }
+
+    function get_errno()
+    {
+        $this->errno = @mysqli_errno($this->connection_id);
+        return $this->errno;
+    }
+
+    function insert_id()
+    {
+        return $this->db->insert_id();
+        //return @mysqli_insert_id($this->connection_id);
+    }
+
+    function query_count()
+    {
+        return $this->query_count;
+    }
+
+    function free_result($res)
+    {
+        $this->db->free_result($res);
+    }
+
+    function close_db()
+    {
+        if ($this->connection_id) {
+            //return @mysql_close($this->connection_id);
+        }
+    }
+
+    function get_table_names()
+    {
+        global $db_config;
+        $result = mysqli_list_tables($db_config["database"]);
+        $num_tables = @mysqli_numrows($result);
+        for ($i = 0; $i < $num_tables; $i++) {
+            $tables[] = mysqli_tablename($result, $i);
+        }
+        mysqli_free_result($result);
+        return $tables;
+    }
+
+    function halt($the_error = "")
+    {
+        //return;
+        if (!config::get('debug'))
+            return;
+        //$message = 'sql-error: ' . $sql . "<br/>\r\n";
+        $message = $the_error . "<br/>\r\n";
+        $message .= $this->get_errno() . "<br/>\r\n";
+        exit($message);
+        @mysqli_query($sql);
+    }
+
+    function __destruct()
+    {
+        $this->shutdown_queries = array();
+        $this->close_db();
+    }
+
+    function sql_select($tbname, $where = "", $limit = 0, $fields = "*", $order = '')
+    {
+        $sql = "SELECT " . $fields . " FROM `" . $tbname . "` " . ($where ? " WHERE " . $where : "") . " ORDER BY " . $order . ($limit ? " limit " . $limit : "");
+        //echo $sql."<br>";
+        return $sql;
+    }
+
+    function sql_insert($tbname, $row)
+    {
+        $sqlfield = '';
+        $sqlvalue = '';
+        foreach ($row as $key => $value) {
+            if (in_array($key, explode(',', $this->getcolslist()))) {
+                $sqlfield .= $key . ",";
+                $sqlvalue .= "'" . $value . "',";
+            }
+        }
+        return "INSERT INTO `" . $tbname . "`(" . substr($sqlfield, 0, -1) . ") VALUES (" . substr($sqlvalue, 0, -1) . ")";
+    }
+
+    function sql_update($tbname, $row, $where)
+    {
+        //var_dump($row);
+        $sqlud = '';
+        if (is_string($row))
+            $sqlud = $row . ' ';
+        else
+            foreach ($row as $key => $value) {
+                if (in_array($key, explode(',', $this->getcolslist()))) {
+                    $value = $value;
+                    /*if (preg_match('/^\[(.*)\]$/',$value,$match))
+                        $sqlud .= "`$key`"."= '".$match[1]."',";
+                    else*/
+                    if ($value === "")
+                        $sqlud .= "`$key`= NULL, ";
+                    else
+                        $sqlud .= "`$key`" . "= '" . $value . "',";
+                }
+            }
+        $sqlud = rtrim($sqlud);
+        $sqlud = rtrim($sqlud, ',');
+        $this->condition($where);
+        $sql = "UPDATE `" . $tbname . "` SET " . $sqlud . " WHERE " . $where;
+        //echo $sql;
+        return $sql;
+    }
+
+    function sql_replace($tbname, $row)
+    {
+        /*$sqlud = '';
+        if (is_string($row))
+            $sqlud = $row . ' ';
+        else
+            foreach ($row as $key => $value) {
+                if (in_array($key, explode(',', $this->getcolslist()))) {
+                    $value = $value;
+                    $sqlud .= $key . "= '" . $value . "',";
+                }
+            }
+        return "REPLACE INTO `" . $tbname . "` SET " . substr($sqlud, 0, -1);*/
+
+        $sqlfield = '';
+        $sqlvalue = '';
+        foreach ($row as $key => $value) {
+            if (in_array($key, explode(',', $this->getcolslist()))) {
+                $sqlfield .= $key . ",";
+                $sqlvalue .= "'" . $value . "',";
+            }
+        }
+        return "REPLACE INTO `" . $tbname . "`(" . substr($sqlfield, 0, -1) . ") VALUES (" . substr($sqlvalue, 0, -1) . ")";
+
+    }
+
+    function sql_delete($tbname, $where)
+    {
+        $this->condition($where);
+        //var_dump($where);
+        return "DELETE FROM `" . $tbname . "` WHERE " . $where;
+    }
+
+    function rec_insert($row)
+    {
+        //var_dump($row);
+        $tbname = $this->name;
+        $sql = $this->sql_insert($tbname, $row);
+        //echo $sql;exit;
+        return $this->query($sql);
+    }
+
+    function rec_update($row, $where)
+    {
+        $tbname = $this->name;
+        //var_dump($tbname);
+        $sql = $this->sql_update($tbname, $row, $where);
+        //echo $sql."<br>";exit;
+        return $this->query($sql);
+    }
+
+    function rec_replace($row)
+    {
+        $tbname = $this->name;
+        $sql = $this->sql_replace($tbname, $row);
+        //echo $sql."\n";
+        return $this->query($sql);
+    }
+
+    function rec_delete($where)
+    {
+        $tbname = $this->name;
+        $sql = $this->sql_delete($tbname, $where);
+        //echo $sql;exit;
+        return $this->query($sql);
+    }
+
+    function rec_select($where = "", $limit = 0, $fields = "*", $order = '')
+    {
+        $tbname = $this->name;
+        $sql = $this->sql_select($tbname, $where, $limit, $fields, $order);
+        //echo $sql."<br>";
+        $res = $this->rec_query($sql);
+        //var_dump($res);
+        return $res;
+    }
+
+    function rec_select_one($where, $fields = "*", $order = "id")
+    {
+        $tbname = $this->name;
+        $sql = $this->sql_select($tbname, $where, 1, $fields, $order);
+        //echo $sql."<br>";
+        return $this->rec_query_one($sql);
+    }
+
+    function rec_query($sql)
+    {
+        return $this->db->rec_query($sql);
+    }
+
+    function rec_query_one($sql)
+    {
+        return $this->db->rec_query_one($sql);
+    }
+
+    function rec_count($where = "")
+    {
+		$this->condition($where);
+        $tbname = $this->name;
+        if (preg_match('/_category$/', $tbname))
+            $sql = "SELECT count(catid) as rec_sum FROM `" . $tbname . "` " . ($where ? " WHERE " . $where : "");
+        else
+            $sql = "SELECT count(1) as rec_sum FROM `" . $tbname . "` " . ($where ? " WHERE " . $where : "");
+        //echo $sql;//exit;
+        $row = $this->rec_query_one($sql);
+        return $row["rec_sum"];
+    }
+
+    function getrows($condition = '', $limit = 1, $order = '1 desc', $cols = '*')
+    {
+        $this->condition($condition);
+        $this->record_count = $this->rec_count($condition);
+        $res = $this->rec_select($condition, $limit, $cols, $order);
+        //var_dump($res);
+        return $res;
+    }
+
+    function getrows1($condition = '', $limit = 1, $order = '1 desc', $cols = '*')
+    {
+        $this->condition($condition);
+        $this->record_count = $this->rec_count($condition);
+        return $this->rec_select($condition, $limit, $cols, $order, '');
+    }
+
+    function getrow($condition, $order = '1 desc', $cols = '*')
+    {
+        $this->condition($condition);
+        //var_dump($condition);
+        return $this->rec_select_one($condition, $cols, $order);
+    }
+
+    function condition(&$condition)
+    {
+        if (isset($condition) && is_array($condition)) {
+            $_condition = array();
+            foreach ($condition as $key => $value) {
+                //$value=str_replace("'","\'",$value);
+                $key = htmlspecialchars($key, ENT_QUOTES);
+                if (preg_match('/(if|select|ascii|from|sleep)/i', $value)) {
+                    //echo $condition;
+                    exit('sql inject');
+                }
+                if (preg_match('/(if|select|ascii|from|sleep)/i', $key)) {
+                    //echo $condition;
+                    exit('sql inject');
+                }
+                $_condition[] = "`$key`='$value'";
+            }
+            $condition = implode(' and ', $_condition);
+        } else if (is_numeric($condition)) {
+            $this->getFields();
+            //var_dump($this->db);
+            $condition = "`{$this->db->primary_key}`='$condition'";
+        } else if (true === $condition) {
+            $condition = 'true';
+        } else {
+            //echo $condition." __ ";
+            if (preg_match('/(if|select|ascii|from|sleep)/i', $condition)) {
+                //echo $condition;
+                exit('sql inject');
+            }
+        }
+
+        if (get_class($this) == 'archive') {
+            if (!front::get('deletestate')) {
+                if ($condition)
+                    $condition .= ' and (state IS NULL or state<>\'-1\') ';
+                else
+                    $condition = 'state IS NULL or state<>\'-1\' ';
+            } else {
+                if ($condition)
+                    $condition .= ' and state=\'-1\' ';
+                else
+                    $condition = ' state=\'-1\' ';
+            }
+        }
+    }
+
+    function getFields()
+    {
+        $this->db->name = $this->name;
+        //var_dump($this->db->name);
+        $res = $this->db->getFields();
+        //var_dump($res);
+        $this->primary_key = $this->db->primary_key;
+        return $res;
+    }
+
+    function getFiledsList()
+    {
+        $list = '';
+        foreach ($this->getFields() as $field) $list .= $field['name'] . ' ';
+        return $list;
+    }
+
+    function getcolslist()
+    {
+        $list = array();
+        foreach ($this->getFields() as $field){
+            $list[] = $field['name'];
+        }
+        //echo('===========<br>');
+        //var_dump($list);
+        //echo('--------------<br>');
+        return implode(',', $list);
+    }
+
+    function getcols($act)
+    {
+        return '*';
+    }
+
+    function mycols()
+    {
+        $_cols = array_keys($this->getFields());
+        $cols = '';
+        foreach ($_cols as $col) {
+            if (preg_match('/my_/', $col))
+                $cols .= ',' . $col;
+        }
+        return $cols;
+    }
+
+    function get_form()
+    {
+    }
+
+    final function getname()
+    {
+        return $this->name;
+    }
+
+    /*function rec_query_one1($sql)
+    {
+        $rs = mysql_query($sql);
+        $row = mysql_fetch_array($rs);
+        $this->free_result($rs);
+        return $row;
+    }*/
+
+    function _rec_query1($sql)
+    {
+        $rs = mysql_query($sql);
+        $rs_num = mysql_num_rows($rs);
+        $rows = array();
+        for ($i = 0; $i < $rs_num; $i++) {
+            $rows[] = mysql_fetch_array($rs);
+        }
+        return $rows;
+    }
+
+    function _rec_select1($tbname, $where = "", $limit = 0, $fields = "*", $order = '')
+    {
+        $sql = $this->sql_select($tbname, $where, $limit, $fields, $orde);
+        return $this->_rec_query1($sql);
+    }
+
+    function verison()
+    {
+        //return mysql_get_server_info($this->connection_id);
+        return $this->db->verison();
+    }
+}
