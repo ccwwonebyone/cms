@@ -91,8 +91,8 @@ abstract class act
 
     function render($tpl = null)
     {
-        $content = $this->view->fetch($tpl);
 
+        $content = $this->view->fetch($tpl);
         if(!in_array(get_class($this),array('ballot_act'))) {
             $res = preg_match('/Powered by <a href="https:\/\/www.cmseasy.cn" title="CmsEasy企业网站系统" target="_blank">CmsEasy<\/a>/is', $content);
             //$content=$this->view->show($content,true);
@@ -100,7 +100,6 @@ abstract class act
                 $content .= 'Powered by <a href="https://www.cmseasy.cn" title="CmsEasy企业网站系统" target="_blank">CmsEasy</a>';
             }
         }
-
         echo $content;
         if ($this->cache_path) {
             $path = $this->cache_path;

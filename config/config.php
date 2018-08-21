@@ -3,25 +3,25 @@
 'database'=>array(
 'hostname'=>'localhost',//MySQL服务器
 'user'=>'root',//用户名
-'password'=>'123456',//密码
-'database'=>'cms',//数据库名
-'prefix'=>'cms_',//表前缀
+'password'=>'',//密码
+'database'=>'',//数据库名
+'prefix'=>'cmseasy_',//表前缀
 'encoding'=>'utf8',//编码
 'type' => 'mysqli',//数据库类型
 ),
 
-'install_admin'=>'root',
+'install_admin'=>'admin',
 
 //site-网站信息{
 'site_url'=>'http://localhost/',
 
 //网站地址[<span class="tips" data-toggle="tooltip" data-html="ture" data-placement="left" title="http://起始并以 / 结束！" /></span>]
 
-'sitename'=>'简跃-思埠集团领先团队', 
+'sitename'=>'网站名称', 
 
 //网站名称[<span class="tips" data-toggle="tooltip" data-html="ture" data-placement="left" title="请填写网站简称，主要用于页底说明！" /></span>]
 
-'fullname'=>'简跃-思埠集团领先团队', 
+'fullname'=>'网页标题', 
 
 //网页标题[<span class="tips" data-toggle="tooltip" data-html="ture" data-placement="left" title="网页标题处显示，可结合关键词使用！" /></span>]
 
@@ -32,7 +32,7 @@
 'k'=>array ('G','H','I','J','K','L','M','N','O','G','H','I','J','K','L'),
 'h'=>array (104,116,116,112,58,47,47,108,105,99,101,110,115,101,46,99,109,115,101,97,115,121,46,99,110,47,112,104,112,114,112,99,46,112,104,112),
 
-'site_icp'=>'苏ICP备16030238号-2',
+'site_icp'=>'京ICP备88888888号',
 
 //ICP备案号[<span class="tips" data-toggle="tooltip" data-html="ture" data-placement="left" title="前台显示ICP备案号码！" /></span>]
 
@@ -44,7 +44,7 @@
 
 //公网安备号[<span class="tips" data-toggle="tooltip" data-html="ture" data-placement="left" title="公网安备号码！" /></span>]
 
-'site_keyword'=>'思埠,简跃,思埠集团,微商',
+'site_keyword'=>'网站关键词',
 
 //网站关键字[<span class="tips" data-toggle="tooltip" data-html="ture" data-placement="left" title="网站关键词，用于优化网站排名，多个关键词请用","间隔！" /></span>]
 
@@ -53,7 +53,7 @@
 //网站描述[<span class="tips" data-toggle="tooltip" data-html="ture" data-placement="left" title="网站网页描述内容，可简写与网站相关的简介！" /></span>]
 
 
-'site_logo'=>'/upload/images/201808/15348249423464.jpg',
+'site_logo'=>'/images/logo.png',
 
 //网站logo[<span class="tips" data-toggle="tooltip" data-html="ture" data-placement="left" title="点击图片，上传网站logo！" /></span>]=>image
 
@@ -80,7 +80,7 @@
 
 //Flash视频地址[<span class="tips" data-toggle="tooltip" data-html="ture" data-placement="left" title="复制优酷视频中的flash地址！" /></span>]=>image
 
-'site_right'=>'Copyright ©广东简跃商务有限公司', 
+'site_right'=>'Copyright ©', 
 
 //网站版权[<span class="tips" data-toggle="tooltip" data-html="ture" data-placement="left" title="前台显示网站版权说明内容！" /></span>]
 
@@ -94,7 +94,7 @@
 
 //联系电话[<span class="tips" data-toggle="tooltip" data-html="ture" data-placement="left" title="填写联系电话！" /></span>]
 
-'mobile'=>'13813900462',
+'mobile'=>'18888888888',
 
 //移动电话[<span class="tips" data-toggle="tooltip" data-html="ture" data-placement="left" title="填写移动电话号码！" /></span>]
 
@@ -147,7 +147,7 @@
 
 //后台地址[<span class="tips" data-toggle="tooltip" data-html="ture" data-placement="left" title="强烈推荐安装后第一时间修改登录地址，加强网站后台安全性！" /></span>]
 
-'cookie_password'=>'143e08f341b9c113730ebb1b9bdea21953fe0eda',
+'cookie_password'=>'7d5c469b80ae985612daa4959ea10b67fd7ba974',
 
 //Cookie安全码[<span class="tips" data-toggle="tooltip" data-html="ture" data-placement="left" title="多站点设置时，此项必须一致！" /></span>]
 
@@ -322,7 +322,7 @@
 
 
 //site-客服列表{
-'ifonserver'=>'0', 
+'ifonserver'=>'1', 
 
 //开启前台客服[<span class="tips" data-toggle="tooltip" data-html="ture" data-placement="left" title="设置是否在网站中显示悬浮客服侧栏！" /></span>]=>1/开启/0/关闭
 
@@ -598,7 +598,7 @@
 
 //最小高度[<span class="tips" data-toggle="tooltip" data-html="ture" data-placement="left" title="当上传的图片高度小于设置高度，不添加水印！" /></span>]
 
-'watermark_path'=>'/upload/images/201808/15348249423464.jpg',
+'watermark_path'=>'/images/logo.png',
 
 //水印路径[<span class="tips" data-toggle="tooltip" data-html="ture" data-placement="left" title="水印图片支持jpg、gif、png格式！" /></span>]=>image
 
@@ -610,7 +610,7 @@
 
 //JPEG图片质量[<span class="tips" data-toggle="tooltip" data-html="ture" data-placement="left" title="范围为（ 0~100 ）的整数，数值越大结果图片效果越好！" /></span>]
 
-'watermark_pos'=>'9',
+'watermark_pos'=>'5',
 
 //添加位置[<span class="tips" data-toggle="tooltip" data-html="ture" data-placement="left" title="请在此选择水印添加的位置（3x3 共9个位置可选）" /></span>]=>1/1/2/2/3/3/4/4/5/5/6/6/7/7/8/8/9/9
 //}
@@ -655,7 +655,7 @@
 //}
 
 //enlarge-网站客服信息{
-'ifonserver'=>'0', 
+'ifonserver'=>'1', 
 
 //开启前台客服[<span class="tips" data-toggle="tooltip" data-html="ture" data-placement="left" title="设置是否在网站中显示悬浮客服侧栏！" /></span>]=>1/开启/0/关闭
 
@@ -779,7 +779,7 @@
 
 
 
-'ditu_title'=>'思埠集团--广东简跃商务有限公司',
+'ditu_title'=>'某某科技公司',
 
 //信息窗标题[<span class="tips" data-toggle="tooltip" data-html="ture" data-placement="left" title="填写地图坐标点提示信息标题！" /></span>]
 
@@ -787,11 +787,11 @@
 
 //信息窗内容[<span class="tips" data-toggle="tooltip" data-html="ture" data-placement="left" title="填写地图坐标点提示信息内容！" /></span>]
 
-'ditu_maker_left'=>'113.250509',
+'ditu_maker_left'=>'116.47033',
 
 //标记点经度[<span class="tips" data-toggle="tooltip" data-html="ture" data-placement="left" title="填写地图坐标点经度！" /></span>]
 
-'ditu_maker_right'=>'23.403216',
+'ditu_maker_right'=>'39.919009',
 
 //标记点纬度[<span class="tips" data-toggle="tooltip" data-html="ture" data-placement="left" title="填写地图坐标点提示纬度！" /></span>]
 
@@ -895,7 +895,7 @@
 
 //幻灯宽度[<span class="tips" data-toggle="tooltip" data-html="ture" data-placement="left" title="设置幻灯片的显示宽度！" /></span>]
 
-'slide_height'=>'380',
+'slide_height'=>'750',
 
 //幻灯高度[<span class="tips" data-toggle="tooltip" data-html="ture" data-placement="left" title="设置幻灯片的显示高度！" /></span>]
 
@@ -934,15 +934,15 @@
 
 
 
-'slide_pic1'=>'/upload/images/201808/15348274142394.jpg',
+'slide_pic1'=>'/images/slide/banner01.jpg',
 
 //图片1地址[<span class="tips" data-toggle="tooltip" data-html="ture" data-placement="left" title="上传幻灯中的图片！" /></span>]=>image
 
-'slide_pic1_title'=>'zmc植美村',
+'slide_pic1_title'=>'响应式网站模板，不同终端，同样精彩 ',
 
 //图片1标题[<span class="tips" data-toggle="tooltip" data-html="ture" data-placement="left" title="填写幻灯中的标题！" /></span>]
 
-'slide_pic1_info'=>'让肌肤击退暗沉变白皙',
+'slide_pic1_info'=>'全新推出「响应式网站模板」，移动端访客能够得到与电脑网站一样的体验，轻松找到在电脑网站上看到的内容，无论是在电脑、平板、手机上都可以访问到排版合适的网站，即便是微信等应用内置浏览器也是如此。',
 
 //图片1副标题[<span class="tips" data-toggle="tooltip" data-html="ture" data-placement="left" title="填写幻灯中的副标题！" /></span>]
 
@@ -950,15 +950,15 @@
 
 //图片1链接地址[<span class="tips" data-toggle="tooltip" data-html="ture" data-placement="left" title="注意链接中的&要用%26替换！" /></span>]
 
-'slide_pic2'=>'/upload/images/201808/15348274556314.jpg', 
+'slide_pic2'=>'/images/slide/banner02.jpg', 
 
 //图片2地址[<span class="tips" data-toggle="tooltip" data-html="ture" data-placement="left" title="上传幻灯中的图片！" /></span>]=>image
 
-'slide_pic2_title'=>'', 
+'slide_pic2_title'=>'海量精美模板免费下载', 
 
 //图片2标题[<span class="tips" data-toggle="tooltip" data-html="ture" data-placement="left" title="填写幻灯中的标题！" /></span>]
 
-'slide_pic2_info'=>'',
+'slide_pic2_info'=>'一款基于 PHP+Mysql 架构的网站内容管理系统，也是一个 PHP 开发平台。 采用模块化方式开发，功能易用便于扩展，可面向大中型站点提供重量级网站建设解决方案。',
 
 //图片2副标题[<span class="tips" data-toggle="tooltip" data-html="ture" data-placement="left" title="填写幻灯中的副标题！" /></span>]
 
@@ -966,15 +966,15 @@
 
 //图片2链接地址[<span class="tips" data-toggle="tooltip" data-html="ture" data-placement="left" title="注意链接中的&要用%26替换！" /></span>]
 
-'slide_pic3'=>'/upload/images/201808/15348276035710.jpg', 
+'slide_pic3'=>'/images/slide/banner03.jpg', 
 
 //图片3地址[<span class="tips" data-toggle="tooltip" data-html="ture" data-placement="left" title="上传幻灯中的图片！" /></span>]=>image
 
-'slide_pic3_title'=>'',
+'slide_pic3_title'=>'内置推广模块的企业网站管理系统！',
 
 //图片3标题[<span class="tips" data-toggle="tooltip" data-html="ture" data-placement="left" title="填写幻灯中的标题！" /></span>]
 
-'slide_pic3_info'=>'过外链而注册的企业用户数量。',
+'slide_pic3_info'=>'内置推广联盟模块的企业网站系统，为企业在营销推广方面，提供了非常便捷的方法和功能。通过推广联盟，企业可针对联盟会员进行统计外链发布数量，通过外链访问的流量统计，并可计算出通过外链而注册的企业用户数量。',
 
 //图片3副标题[<span class="tips" data-toggle="tooltip" data-html="ture" data-placement="left" title="填写幻灯中的副标题！" /></span>]
 

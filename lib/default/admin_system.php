@@ -4,23 +4,16 @@ if (!defined('ROOT'))
 
 class admin_system
 {
-
     static function _pcompile_($source)
     {
         //var_dump($source);exit;
 
         include(ROOT . '/lib/admin/template_.php');
 
-        //$md5_file_check = md5_file(ROOT . '/lib/default/admin_system.php');
-        /*echo $md5_file_check."<br>";
-        echo $check_code['admin_system_admin']."<br>";
-        echo 6;
-        exit;*/
-        //if ($md5_file_check != $check_code['admin_system_admin']) {
-
-            //exit(phpox_decode('system'));
-
-        //} else { //文件自校验部分
+        /*$md5_file_check = md5_file(ROOT . '/lib/default/admin_system.php');
+        if ($md5_file_check != $check_code['admin_system_admin']) {
+            exit(phpox_decode('system'));
+        } else { //文件自校验部分*/
             $tsource = $source;
 
             $pass = false;
@@ -56,7 +49,7 @@ class admin_system
                         }
                     }
                 }
-           // }
+            }
             //var_dump($pass);exit;
             $source = $tsource;
             $soft_type = null;
@@ -87,6 +80,6 @@ class admin_system
             $source = preg_replace("/\{loop\s+(\S+)\s+(\S+)\s+(\S+)\}/", "<?php if(is_array(\\1))\r\n\tforeach(\\1 as \\2 => \\3) { ?>", $source);
             $source = preg_replace("/\{\/loop\}/", "<?php } ?>", $source);
             return $source;
-        }//文件自校验部分结束，以上代码为通过验证后的部分
+        // }//文件自校验部分结束，以上代码为通过验证后的部分
     }
 }

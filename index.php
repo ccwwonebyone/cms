@@ -101,18 +101,14 @@ if($debug){
     @ini_set("display_errors","On");
     error_reporting(E_ALL & ~(E_NOTICE | E_STRICT | E_DEPRECATED));
 }
-/*echo 1;
-exit;*/
-// try{
+try{
     $front = new front();
     $front->dispatch();
-
-/*}catch(HttpErrorException $e){
+}catch(HttpErrorException $e){
     if(config::get('custom404') && $e->statusCode == 404){
         header('location: /404.php');
     }else{
         exit($e->statusCode.':'.$e->getMessage());
     }
-}*/
-
+}
 stats::getbot();

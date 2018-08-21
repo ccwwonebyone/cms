@@ -24,6 +24,10 @@ pre, code { font-family: monospace; font-size: 1.1em; }
 input {  }
 textarea {  line-height: 22px; padding: 0px 10px; }
 
+input[type="button"], input[type="submit"], input[type="reset"] {
+-webkit-appearance: none;
+}
+
 html {
   background:#152944 url(../images/login-bg.jpg) left top no-repeat;background-attachment: fixed; 
   min-height: 100%;

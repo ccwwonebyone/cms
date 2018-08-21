@@ -353,7 +353,7 @@
 
 }
 
-#bootstrap-touch-slider,.banner {margin-top:62px;}
+#bootstrap-touch-slider {margin-top:62px;}
 
 
 @media (max-width: 1280px) {
@@ -361,11 +361,11 @@
 .slide-text p {line-height:180%;font-size:1.0em;}
 }
 @media (max-width: 768px) {
-#bootstrap-touch-slider,.banner {margin-top:118px;}
+#bootstrap-touch-slider {margin-top:118px;}
 .slide-text h1,
 .slide-text p,
 .slide-text > a.btn-default, .slide-text > a.btn-primary {display:none;}
 }
 @media (max-width: 468px) {
-#bootstrap-touch-slider,.banner {margin-top:62px;}
+#bootstrap-touch-slider {margin-top:62px;}
 }

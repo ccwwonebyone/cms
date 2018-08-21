@@ -1,6 +1,8 @@
 @charset "utf-8";
 
-
+input[type="button"], input[type="submit"], input[type="reset"] {
+-webkit-appearance: none;
+}
 
 .diyihang{height:;background:#244588 url(../images/base/about_bg.jpg) left top;}
 .diyihang_title{margin:0 10px;padding:100px 0 0 ;height:110px;}

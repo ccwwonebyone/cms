@@ -8,7 +8,6 @@ final class view
 
     function __construct(act $act)
     {
-
         $this->_var = new stdClass();
         if (isset($act->style))
             $this->_style = $act->style;
@@ -193,7 +192,6 @@ final class view
 
     function fetch($tpl = null)
     {
-
         if($tpl && !in_array(fileext($tpl),array('html','php'))){
             exit('模版文件错误!');
         }
@@ -338,14 +336,11 @@ final class view
                 $file = TEMPLATE . '/' . $this->_style . '/' . $tpl;
             }
         }
-
         //var_dump($this->_style);
         if (!file_exists($file)) {
             echo $file;exit("模板不存在");
         }
-
         $tFile = preg_replace('/([\w-]+)\.(\w+)$/', '#$1.$2', preg_replace('/\.html?$/ix', '.php', $tpl));
-
         $cacheFile = ROOT . '/cache/template/' . $this->_style . '/' . $tFile;
         tool::mkdir(dirname($cacheFile));
         $tmp = explode('.', $file);
@@ -356,13 +351,11 @@ final class view
         }
 
         if (!file_exists($cacheFile) || filemtime($cacheFile) < filemtime($file) || front::$admin && !session::get('passinfo')) {
-
             $source = $this->compile(file_get_contents($file));
             file_put_contents($cacheFile, $source);
         } else {
             $source = file_get_contents($cacheFile);
         }
-
         $content = $this->_eval($source, $cacheFile);
 
         if (front::$admin)
@@ -386,7 +379,6 @@ final class view
             if ($rp)
                 $content=str_replace(trim($rp),config::get('filter_x'),$content);
         }*/
-
         return $this->show($content);
     }
 
@@ -414,7 +406,6 @@ final class view
 
     function compile($source)
     {
-
         $source = admin_system::_pcompile_($source);
         if (front::$act == 'visual') {
             $source = preg_replace('/(\{tag_([^}]+)\})/se', " '<span class=tagedit tagid='.templatetag::id('$2').'>$1</span>' ", $source);
